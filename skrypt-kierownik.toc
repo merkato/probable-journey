@@ -1,0 +1,107 @@
+\babel@toc {polish}{}
+\contentsline {part}{I\hspace {1em}Kierownik poci\IeC {\k a}gu - wymagania}{3}{part.1}
+\contentsline {chapter}{Stanowiska zwi\IeC {\k a}zane z bezpiecze\IeC {\'n}stwem ruchu}{4}{chapter*.1}
+\contentsline {chapter}{Instrukcje obowi\IeC {\k a}zuj\IeC {\k a}ce}{6}{chapter*.2}
+\contentsline {part}{II\hspace {1em}Ruch poci\IeC {\k a}g\IeC {\'o}w}{7}{part.2}
+\contentsline {chapter}{Zasady prowadzenia ruchu poci\IeC {\k a}g\IeC {\'o}w}{8}{chapter*.3}
+\contentsline {section}{Og\IeC {\'o}lne poj\IeC {\k e}cia}{8}{section*.4}
+\contentsline {section}{Budowa toru i rozjazdu}{10}{section*.7}
+\contentsline {section}{Przygotowanie poci\IeC {\k a}gu do drogi}{13}{section*.9}
+\contentsline {chapter}{Regulaminy techniczne posterunk\IeC {\'o}w i odcink\IeC {\'o}w zdalnego prowadzenia ruchu}{14}{chapter*.10}
+\contentsline {chapter}{Rodzaje urz\IeC {\k a}dze\IeC {\'n} sterowania ruchem kolejowym i \IeC {\l }\IeC {\k a}czno\IeC {\'s}ci}{15}{chapter*.11}
+\contentsline {chapter}{Sygnalizacja kolejowa}{17}{chapter*.12}
+\contentsline {section}{Wska\IeC {\'z}niki}{17}{section*.13}
+\contentsline {subsection}{W1 - wska\IeC {\'z}nik usytuowania}{18}{subsection*.15}
+\contentsline {subsection}{W3 - wska\IeC {\'z}nik uniewa\IeC {\.z}nienia + W15 wska\IeC {\'z}nik zmiany lokalizacji}{18}{subsection*.16}
+\contentsline {subsection}{W4 - wska\IeC {\'z}nik zatrzymania}{19}{subsection*.18}
+\contentsline {subsection}{W32 - wska\IeC {\'z}nik czo\IeC {\l }a poci\IeC {\k a}gu}{19}{subsection*.19}
+\contentsline {subsection}{W16 - wska\IeC {\'z}nik przystanku osobowego}{19}{subsection*.20}
+\contentsline {subsection}{W5 - wska\IeC {\'z}nik przetaczania}{19}{subsection*.21}
+\contentsline {subsection}{W6, W6a, W6b, W7 - wska\IeC {\'z}niki ostrzegania}{19}{subsection*.22}
+\contentsline {subsection}{W8 - wska\IeC {\'z}nik ograniczenia pr\IeC {\k e}dko\IeC {\'s}ci + W9 - wska\IeC {\'z}nik odcinka ograniczonej pr\IeC {\k e}dko\IeC {\'s}ci}{20}{subsection*.23}
+\contentsline {subsection}{W14 - wska\IeC {\'z}niki odcinka ograniczonej pr\IeC {\k e}dko\IeC {\'s}ci}{20}{subsection*.24}
+\contentsline {subsection}{W11 - wska\IeC {\'z}niki uprzedzaj\IeC {\k a}ce}{21}{subsection*.25}
+\contentsline {subsection}{W17 - wska\IeC {\'z}nik ukresu}{21}{subsection*.26}
+\contentsline {subsection}{W18 - wska\IeC {\'z}nik samoczynnej blokady liniowej}{21}{subsection*.27}
+\contentsline {subsection}{W19 - wska\IeC {\'z}nik uprzedzaj\IeC {\k a}cy o braku drogi hamowania + W20 - wska\IeC {\'z}nik braku drogi hamowania}{21}{subsection*.28}
+\contentsline {subsection}{W21 - wska\IeC {\'z}niki zmiany pr\IeC {\k e}dko\IeC {\'s}ci}{22}{subsection*.29}
+\contentsline {subsection}{W23 - wska\IeC {\'z}nik odcinka izolowanego}{22}{subsection*.30}
+\contentsline {subsection}{W24 - wska\IeC {\'z}nik kierunku przeciwnego}{22}{subsection*.31}
+\contentsline {subsection}{W25 - wska\IeC {\'z}nik ogrzewania}{22}{subsection*.32}
+\contentsline {subsection}{W2, W26, W26b - wska\IeC {\'z}niki kierunku jazdy poci\IeC {\k a}gu}{23}{subsection*.33}
+\contentsline {subsection}{W27a - wska\IeC {\'z}nik zmiany pr\IeC {\k e}dko\IeC {\'s}ci}{23}{subsection*.34}
+\contentsline {subsection}{W28 - wska\IeC {\'z}nik kana\IeC {\l }u radiowego}{23}{subsection*.35}
+\contentsline {subsection}{W29 - wska\IeC {\'z}nik nawi\IeC {\k a}zania \IeC {\l }\IeC {\k a}czno\IeC {\'s}ci}{23}{subsection*.36}
+\contentsline {subsection}{W31 - wska\IeC {\'z}nik kasowania}{23}{subsection*.37}
+\contentsline {section}{Sygnalizatory}{24}{section*.38}
+\contentsline {section}{Sygna\IeC {\l }y}{24}{section*.40}
+\contentsline {subsection}{Tarcze DO i D1}{24}{subsection*.41}
+\contentsline {chapter}{Przygotowanie drogi przebiegu dla jazd poci\IeC {\k a}gowych i manewrowych}{25}{chapter*.42}
+\contentsline {chapter}{Prowadzenie dokumentacji techniczno-ruchowej}{26}{chapter*.43}
+\contentsline {chapter}{Rozkazy pisemne i ostrze\IeC {\.z}enia dla dru\IeC {\.z}yn poci\IeC {\k a}gowych}{27}{chapter*.44}
+\contentsline {chapter}{Wewn\IeC {\k e}trzny rozk\IeC {\l }ad jazdy}{29}{chapter*.45}
+\contentsline {section}{Elementy rozk\IeC {\l }adu jazdy}{29}{section*.46}
+\contentsline {section}{Numeracja poci\IeC {\k a}g\IeC {\'o}w}{31}{section*.51}
+\contentsline {chapter}{Nadz\IeC {\'o}r nad prowadzeniem i regulowaniem ruchu poci\IeC {\k a}g\IeC {\'o}w w sytuacjach nadzwyczajnych}{33}{chapter*.53}
+\contentsline {chapter}{Organizacja akcji ratunkowej w razie zdarze\IeC {\'n} kolejowych i kl\IeC {\k e}sk \IeC {\.z}ywio\IeC {\l }owych}{34}{chapter*.54}
+\contentsline {section}{Podstawowe poj\IeC {\k e}cia}{34}{section*.55}
+\contentsline {section}{Post\IeC {\k e}powanie przy zdarzeniu}{35}{section*.56}
+\contentsline {section}{Po\IeC {\.z}ar}{35}{section*.57}
+\contentsline {section}{Wykolejenie}{36}{section*.58}
+\contentsline {chapter}{Obowi\IeC {\k a}zki manewrowego oraz nadzoruj\IeC {\k a}cego i kieruj\IeC {\k a}cego manewrami}{38}{chapter*.59}
+\contentsline {chapter}{Sposoby wykonywania manewr\IeC {\'o}w}{40}{chapter*.60}
+\contentsline {chapter}{Sygna\IeC {\l }y podawane przy manewrach}{42}{chapter*.61}
+\contentsline {section}{Tarcze manewrowe \IeC {\'s}wietlne i kszta\IeC {\l }towe}{42}{section*.62}
+\contentsline {section}{Semafory p\IeC {\'o}\IeC {\l }samoczynne lub tarcze zaporowe}{42}{section*.63}
+\contentsline {section}{Sygna\IeC {\l }y r\IeC {\k e}czne i d\IeC {\'z}wi\IeC {\k e}kowe}{42}{section*.64}
+\contentsline {subsection}{Rm1 Do mnie}{42}{subsection*.65}
+\contentsline {subsection}{Rm2 Odemnie}{42}{subsection*.66}
+\contentsline {subsection}{Rm3 Zwolni\IeC {\'c}}{43}{subsection*.67}
+\contentsline {subsection}{Rm6 Docisn\IeC {\k a}\IeC {\'c}}{43}{subsection*.68}
+\contentsline {subsection}{Rm4 St\IeC {\'o}j}{43}{subsection*.69}
+\contentsline {chapter}{Pr\IeC {\k e}dko\IeC {\'s}ci jazd manewrowych i poci\IeC {\k a}gowych}{44}{chapter*.70}
+\contentsline {chapter}{Manewry po torach g\IeC {\l }\IeC {\'o}wnych oraz przez przejazdy i przej\IeC {\'s}cia}{45}{chapter*.72}
+\contentsline {part}{III\hspace {1em}Tabor}{46}{part.3}
+\contentsline {chapter}{Og\IeC {\'o}lne zasady przewozu przesy\IeC {\l }ek nadzwyczajnych}{47}{chapter*.73}
+\contentsline {chapter}{Og\IeC {\'o}lne zasady przewozu przesy\IeC {\l }ek niebezpiecznych}{49}{chapter*.74}
+\contentsline {chapter}{Budowa taboru pasa\IeC {\.z}erskiego}{51}{chapter*.75}
+\contentsline {section}{W\IeC {\'o}zek}{51}{section*.76}
+\contentsline {section}{Urz\IeC {\k a}dzenia poci\IeC {\k a}gowo-zderzne}{55}{section*.78}
+\contentsline {section}{Odbierak pradu}{56}{section*.79}
+\contentsline {section}{Warunki techniczne jakim powinien odpowiada\IeC {\'c} tabor w sk\IeC {\l }adzie poci\IeC {\k a}gu}{57}{section*.80}
+\contentsline {subsection}{Oznakowanie i symbole na taborze}{59}{subsection*.81}
+\contentsline {section}{Wy\IeC {\l }\IeC {\k a}czanie taboru z eksploatacji}{60}{section*.82}
+\contentsline {chapter}{Ogl\IeC {\k e}dziny techniczne poci\IeC {\k a}gu pasa\IeC {\.z}erskiego}{63}{chapter*.83}
+\contentsline {chapter}{Rodzaje hamulc\IeC {\'o}w}{65}{chapter*.84}
+\contentsline {chapter}{Obs\IeC {\l }uga urz\IeC {\k a}dze\IeC {\'n} wagonowych}{67}{chapter*.86}
+\contentsline {section}{Toalety}{68}{section*.88}
+\contentsline {section}{Podno\IeC {\'s}nik dla os\IeC {\'o}b niepe\IeC {\l }nosprawnych}{70}{section*.93}
+\contentsline {section}{Drzwi}{71}{section*.96}
+\contentsline {section}{\IeC {\'S}wiat\IeC {\l }a ko\IeC {\'n}ca poci\IeC {\k a}gu}{73}{section*.99}
+\contentsline {section}{Podsumowanie}{75}{section*.102}
+\contentsline {chapter}{Wykonywanie szczeg\IeC {\'o}\IeC {\l }owej i uproszczonej pr\IeC {\'o}by hamulca}{76}{chapter*.103}
+\contentsline {section}{Sygna\IeC {\l }y podawane przy pr\IeC {\'o}bie hamulca}{79}{section*.105}
+\contentsline {chapter}{Obliczanie rzeczywistej oraz wymaganej masy hamuj\IeC {\k a}cej}{81}{chapter*.106}
+\contentsline {chapter}{Sprz\IeC {\k e}ganie i rozprz\IeC {\k e}ganie taboru}{84}{chapter*.108}
+\contentsline {chapter}{Zabezpieczenie taboru przed zbiegni\IeC {\k e}ciem}{86}{chapter*.109}
+\contentsline {part}{IV\hspace {1em}Organizacja i bezpiecze\IeC {\'n}stwo pracy}{87}{part.4}
+\contentsline {chapter}{Prawa i obowi\IeC {\k a}zki kierownika poci\IeC {\k a}gu wynikaj\IeC {\k a}ce z regulaminu pracy}{88}{chapter*.110}
+\contentsline {chapter}{Obowi\IeC {\k a}zki kierownika poci\IeC {\k a}gu z jedno- i wieloosobow\IeC {\k a} obsad\IeC {\k a} konduktorsk\IeC {\k a}}{89}{chapter*.111}
+\contentsline {section}{Obsada poci\IeC {\k a}gu}{90}{section*.112}
+\contentsline {section}{Znajomo\IeC {\'s}\IeC {\'c} linii kolejowych}{91}{section*.113}
+\contentsline {section}{Przyj\IeC {\k e}cie poci\IeC {\k a}gu na stacji pocz\IeC {\k a}tkowej}{91}{section*.114}
+\contentsline {chapter}{Prowadzenie dokumentacji poci\IeC {\k a}gowej}{94}{chapter*.115}
+\contentsline {section}{\IeC {\'S}wiadectwo sprawno\IeC {\'s}ci technicznej pojazdu kolejowego}{94}{section*.116}
+\contentsline {section}{Karta pr\IeC {\'o}by hamulca i urz\IeC {\k a}dze\IeC {\'n} pneumatycznych}{94}{section*.117}
+\contentsline {section}{Wykaz pojazd\IeC {\'o}w kolejowych w sk\IeC {\l }adzie poci\IeC {\k a}gu}{96}{section*.118}
+\contentsline {section}{Ksi\IeC {\k a}\IeC {\.z}ka pok\IeC {\l }adowa wagonu}{96}{section*.119}
+\contentsline {section}{Ksi\IeC {\k a}\IeC {\.z}ka pok\IeC {\l }adowa pojazdu z nap\IeC {\k e}dem}{97}{section*.120}
+\contentsline {chapter}{U\IeC {\.z}ytkowanie urz\IeC {\k a}dze\IeC {\'n} radio\IeC {\l }\IeC {\k a}czno\IeC {\'s}ci poci\IeC {\k a}gowej}{98}{chapter*.121}
+\contentsline {chapter}{Podawanie i odbieranie sygna\IeC {\l }\IeC {\'o}w kolejowych w zakresie dru\IeC {\.z}yny poci\IeC {\k a}gowej}{101}{chapter*.122}
+\contentsline {chapter}{Post\IeC {\k e}powanie w razie zagro\IeC {\.z}enia bezpiecze\IeC {\'n}stwa podr\IeC {\'o}\IeC {\.z}nych}{103}{chapter*.123}
+\contentsline {chapter}{Post\IeC {\k e}powanie w razie zagro\IeC {\.z}enia bezpiecze\IeC {\'n}stwa ruchu kolejowego}{104}{chapter*.124}
+\contentsline {section}{Cofanie, dzielenie i zabieranie cz\IeC {\k e}\IeC {\'s}ciami sk\IeC {\l }adu poci\IeC {\k a}gu ze szlaku}{104}{section*.125}
+\contentsline {section}{Rozerwanie poci\IeC {\k a}gu na szlaku i zbiegni\IeC {\k e}cie wagon\IeC {\'o}w}{105}{section*.126}
+\contentsline {chapter}{Wykonanie zahamowania poci\IeC {\k a}gu w kabinie maszynisty}{106}{chapter*.127}
+\contentsline {chapter}{Od\IeC {\l }\IeC {\k a}czanie urz\IeC {\k a}dze\IeC {\'n} energetycznych pojazdu w nag\IeC {\l }ych przypadkach}{107}{chapter*.128}
+\contentsfinish 
