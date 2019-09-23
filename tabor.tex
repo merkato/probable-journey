@@ -859,7 +859,26 @@ gdzie P\textsubscript{r} to Procent rzeczywisty masy hamującej, M\textsubscript
 	\caption{Masy hamujące pojedyńczych wózków EZT - na zdjęciu opisy na pudle 34WEa, liczone od strony członu A od lewej strony}
 \end{marginfigure}
 
-\begin{tcolorbox}[colback=black!5!white,colframe=white!55!black,title=Pytania testowe]
+\section{Dostosowywanie prędkości do dostępnej masy hamującej rzeczywistej}
+
+W przypadku wymiany taboru na inny typ lub wyłączenia części hamulców w wagonach, masa hamująca rzeczywista pociągu może zmniejszyć się w taki sposób, że będzie niższa od wymaganej na danym szlaku. Należy wtedy ponownie wyliczyć parametry pociągu - prędkość maksymalną i wymaganą masę hamującą. 
+W pierwszej kolejności z Dodatku I do WRJ w tablicy 3 "Wykaz pochyleń (spadków) miarodajnych w 0/00 do obliczania masy hamującej w pociągach na odcinkach linii" należy wyszukać odpowiedni odcinek linii kolejowej, oraz obowiązującą na nim w danym kierunku (parzystym lub nieparzystym) długość drogi hamowania wyrażoną w metrach, oraz pochylenie spadek miarodajny w danym kierunku.
+\begin{figure}
+	\includegraphics[width=12cm]{skryptkierownik-img/tabela-d1-warunki.jpg}
+	\caption{Tablica 3 Dodatku 1 do w.r.j. - w kolumnie 2 i 3 znajdują się drogi hamowania, w kolumnie 4 i 5 pochylenia miarodajne dla kierunków nieparzystego i parzystego}
+\end{figure}
+Następnie w Dodatku I do Instrukcji Ir-1 odnajdujemy odpowiednią tablicę dla drogi hamowania. Przykładowo dla linii kolejowej 194 Pietrowice Wielkie - Kietrz wynosi ona 500 m, a więc będziemy korzystali z tablicy A. W pierwszej kolumnie takiej tablicy znajdują się pochylenia miarodajne wyrażone w promilach. Odszukujemy wiersz z odpowiednią wartością pochylenia, pamiętając od zaokrąglaniu wartości do najbliższych pełnych jednostek "w górę". W naszym przykładzie pochylenie miarodajne w kierunku parzystym wynosi 14,8. A więc będziemy korzystali z wiersza z pochyleniem 16 promili.
+Ostatnią operacją którą musimy wykonać jest odszukanie w tym wierszu odpowiedniej pozycji z masą hamującą wymaganą o wartości najbliższej mniejszej lub równej dostępnej masie hamującej rzeczywistej. Użyjmy przykładowej wartości 84 procent Mhr. Dla hamulców szybko działających istnieje wartość 83. W tej kolumnie u góry odnajdujemy właściwą prędkość maksymalną (w przykładzie 65 km/h).
+\begin{figure}
+	\includegraphics[width=13cm]{skryptkierownik-img/tablica-ir1.jpg}
+	\caption{Fragment tablicy z procentami wymaganymi. W przykładzie droga hamowania 500m, pochylenie 14.8 promila i 84 procent Mhr. Odszukana prędkość to 65 km/h}
+\end{figure}
+Po wyszukaniu potrzebnych informacji możemy przystąpić do sporządzania karty próby hamulca. W polach masy hamującej wymaganej i procentu tejże wpisujemy pierwotne wartości wynikające z rozkładu jazdy, zaś w nawiasie wpisujemy masę hamującą rzeczywistą oraz procent wymagany wynikający z takiej masy. Na odwrocie karty próby obowiązkowo musimy zamieścić w sposób widoczny dla maszynisty pociągu informację o zmniejszonej prędkości dopuszczalnej.
+\begin{figure}
+	\includegraphics[width=13cm]{skryptkierownik-img/karta-proby-wylaczony-hamulec.jpg}
+	\caption{Karta próby hamulca ze zmniejszoną prędkością po wyłączeniu hamulca w jednym wagonie}
+\end{figure}
+\begin{tcolorbox}[colback=black!5!white,colframe=white!55!black,title=Sprawdźmy się]
 	\begin{enumerate}
 		\item Jeżeli rzeczywista masa hamująca pociągu jest mniejsza od wymaganej należy:
 		\begin{enumerate}
