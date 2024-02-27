@@ -273,3 +273,5 @@ TSWLatexianTemp*
 *.lpz
 *.sty
 *.cls
+*.toc
+*.toc
