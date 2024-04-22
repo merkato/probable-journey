@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="200mm"
+   height="180mm"
+   viewBox="0 0 200 180"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="symbol-uic-545-wkladki-kompozytowe.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="200mm"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="0.59033857"
+     inkscape:cx="880.00349"
+     inkscape:cy="288.81731"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g18"
+       transform="translate(49.748994,-2.2409457)">
+      <circle
+         style="opacity:1;fill:none;stroke:#ffff00;stroke-width:9.99982;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+         id="path6237"
+         cx="49.999996"
+         cy="49.999996"
+         r="40.000088" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:58.5206px;line-height:1.25;font-family:Ie102;-inkscape-font-specification:Ie102;fill:#ffff00;stroke-width:1.82876"
+         x="29.533358"
+         y="74.882034"
+         id="text8835"
+         transform="scale(1.0252814,0.97534199)"><tspan
+           sodipodi:role="line"
+           id="tspan8833"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ie102;-inkscape-font-specification:Ie102;fill:#ffff00;stroke-width:1.82876"
+           x="29.533358"
+           y="74.882034">K</tspan></text>
+    </g>
+    <g
+       id="g23"
+       transform="translate(-4.7625002,0.52916667)">
+      <circle
+         style="fill:none;stroke:#ffff00;stroke-width:9.99982;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+         id="path6237-3"
+         cx="54.198959"
+         cy="130.42303"
+         r="40.000088" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:58.5206px;line-height:1.25;font-family:Ie102;-inkscape-font-specification:Ie102;fill:#ffff00;stroke-width:1.82876"
+         x="33.62875"
+         y="157.33829"
+         id="text8835-9"
+         transform="scale(1.0252814,0.97534199)"><tspan
+           sodipodi:role="line"
+           id="tspan8833-9"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ie102;-inkscape-font-specification:Ie102;fill:#ffff00;stroke-width:1.82876"
+           x="33.62875"
+           y="157.33829">L</tspan></text>
+    </g>
+    <g
+       id="g28"
+       transform="translate(-1.5875)">
+      <circle
+         style="fill:none;stroke:#ffff00;stroke-width:9.99982;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+         id="path6237-0"
+         cx="154.0961"
+         cy="131.40039"
+         r="40.000088" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:47.7819px;line-height:1.25;font-family:Ie102;-inkscape-font-specification:Ie102;fill:#ffff00;stroke-width:1.49318"
+         x="136.96992"
+         y="142.93614"
+         id="text8835-5"
+         transform="scale(0.93015391,1.0750909)"><tspan
+           sodipodi:role="line"
+           id="tspan8833-3"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ie102;-inkscape-font-specification:Ie102;fill:#ffff00;stroke-width:1.49318"
+           x="136.96992"
+           y="142.93614">LL</tspan></text>
+    </g>
+  </g>
+</svg>

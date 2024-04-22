@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="160mm"
+   height="100mm"
+   viewBox="0 0 160 100"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="symbol-uic-545-hamulec-bezp558.svg"
+   inkscape:export-filename="D:\probable-journey\skryptkierownik-img\symbol-uic-545-hamulec-bezp558.png"
+   inkscape:export-xdpi="156.21001"
+   inkscape:export-ydpi="156.21001"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="160mm"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="0.83777763"
+     inkscape:cx="59.084891"
+     inkscape:cy="264.38997"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g2405"
+       transform="matrix(0.86264321,0,0,0.86264321,69.003957,4.2538161)">
+      <rect
+         style="fill:none;stroke:#ffff00;stroke-width:7;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect211"
+         width="50"
+         height="36"
+         x="25.329821"
+         y="30.306311"
+         rx="14"
+         ry="14" />
+      <path
+         style="fill:#ffff00;stroke:#ffff00;stroke-width:5.68251;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 49.923362,26.795646 v -7"
+         id="path1141" />
+      <path
+         style="fill:none;stroke:#ffff00;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 35.055542,13.027398 0.157912,6.790037 14.709909,-0.02179 15.213627,0.02179 2e-6,-6.790037"
+         id="path1406"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:61.5387px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffff00;stroke:#ffff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="25.79376"
+       y="45.450249"
+       id="text14642"
+       transform="scale(0.88642297,1.1281296)"><tspan
+         sodipodi:role="line"
+         id="tspan14640"
+         style="fill:#ffff00;stroke:#ffff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="25.79376"
+         y="45.450249">ep</tspan></text>
+    <path
+       style="fill:none;stroke:#ffff00;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 12.000998,4.7302521 c 0,0 0.631633,43.7195649 0.631631,63.1631429 -10e-7,18.948943 22.032227,26.212707 35.687174,26.212707 29.686676,0 58.620887,0 77.059027,0 10.78151,0 26.21271,-8.842841 26.21271,-27.791784 0,-18.948944 0,-61.5840659 0,-61.5840659"
+       id="path1687"
+       sodipodi:nodetypes="cssszc" />
+  </g>
+</svg>
