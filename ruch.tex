@@ -203,8 +203,8 @@ Prostokątna biała tablica z czarnym obramowaniem, a na niej dwa czarne kąty, 
 semafora odstępowego blokady samoczynnej na szlaku przed semaforem wjazdowym. Wskaźnik W1 stawiany jest bezpośrednio przed tarczą ostrzegawczą kształtową lub świetlną. Informuje, że TO podaje sygnał, jakiego należy spodziewać się na semaforze, do którego się ona odnosi. Dlatego też wskaźnika W1 nie stawia się przed TO nieruchomą.
 
 	\begin{figure}
-		\includegraphics[width=0.45\textwidth]{skryptkierownik-img/skryptkierownik-img004.jpg}
-		\caption{Wskaźnik W1}
+		\includegraphics[width=0.45\textwidth]{skryptkierownik-img/wskaznik-w1.jpg}
+		\caption{Wskaźnik W1 do tarczy ToP}
 	\end{figure}
 
 \subsection{W3 - wskaźnik unieważnienia + W15 wskaźnik zmiany lokalizacji}
@@ -251,7 +251,7 @@ najdogodniejsza obsługa podróżnych.
 Wskaźnik W 16 {\textquotedbl}Wskaźnik przystanku osobowego{\textquotedbl} oznacza, że za wskaźnikiem w odległości drogi hamowania znajduje się przystanek osobowy.
 \end{tcolorbox} Wskaźnik W 16 ustawia się skośnie do toru przed przystankami osobowymi, na których nie ma semaforów, z prawej strony toru, do którego się odnosi, w odległości drogi hamowania pociągów obowiązującej na danym szlaku, liczonej od wskaźnika W 4, ustawionego na tym przystanku.
 	\begin{figure}
-		\includegraphics[width=0.45\textwidth]{skryptkierownik-img/skryptkierownik-img008.jpg}
+		\includegraphics[width=0.45\textwidth]{skryptkierownik-img/wskaznik-w16.jpg}
 		\caption{Wskaźnik W16 przed p.o. Katowice Piotrowice}
 	\end{figure}
 
@@ -307,8 +307,13 @@ Prostokątna pomarańczowa tablica z czarnym obramowaniem, a na niej z jednej st
 \subsection{W11 - wskaźniki uprzedzające}
 Wskaźniki W11a i W11b w zależności od miejsca usytuowania wskaźnika oznaczają, że za wskaźnikiem znajduje się:
 \begin{figure}
-	\includegraphics[width=0.45\textwidth]{skryptkierownik-img/wskazniki-w11.jpg}
-	\caption{Wskaźnik W11a (dla odległości 300m od sygnalizatora, z lewej), wskaźnik W11p (z prawej)} 
+	\includegraphics[width=0.3\textwidth]{skryptkierownik-img/wskaznik-w11a.png}
+	\caption{Wskaźnik W11a}
+	\label{fig:wskaznikw11a} 
+\end{figure}
+\begin{figure}
+	\includegraphics[width=0.45\textwidth]{skryptkierownik-img/wskaznik-w11p.jpg}
+	\caption{Wskaźnik W11p, u dołu widoczny czujnik koła do SSP} 
 \end{figure}
 a) tarcza ostrzegawcza semafora wjazdowego lub odstępowego albo semafor, którego obrazy sygnałowe mogą nie być widoczne w sposób ciągły z wymaganej odległości (wskaźnik W11a). Wskaźnik ustawia się w co 100m
 
@@ -429,21 +434,37 @@ Tarcze manewrowe, powtarzacze umieszczone są na maszcie koloru szarego, zaś ta
 
 	\begin{figure}
 		\includegraphics[width=0.45\textwidth]{skryptkierownik-img/sygnalizatory.png}
-		\caption{Sygnalizator semafora półsamoczynnego (podg Most Wisła), Sygnalizator samoczynnej blokady liniowej (szlak Pszczyna - Most Wisła), Tarcza ostrzegawcza semafora st. Cz-Dziedzice Południowe, Tarcza przejazdowa ToP na szlaku Bielsko-Biała Leszczyny - Wilkowice-Bystra}
+		\caption{Sygnalizatory tarczy ostrzegawczej, "powtarzacza", semafora półsamoczynnego, semafora SBL i tarczy ostrzegawczej przejazdowej (ToP)}
+		\label{fig:sygnalizatory}
 	\end{figure}
-
+	
 \section{Sygnały}
 \subsection{Wskazania semaforów półsamoczynnych i samoczynnych}
-Sygnalizatory semaforów półsamoczynnych wyposażone są w wiele (3-6)komór sygnałowych oraz dodatkowo mogą być wyposażone w tzw. pas świetlny poniżej komór. Odczyt wskazań semafora zaczynamy zawsze od dołu, dzieląc go umownie na części - górną złożoną z dwóch trzech komór (wskazującą stan następnęgo semafora), oraz dolną z pozostałymi i pasem.
+Sygnalizatory semaforów półsamoczynnych wyposażone są w wiele (3-6)komór sygnałowych oraz dodatkowo mogą być wyposażone w tzw. pas świetlny poniżej komór. Odczyt wskazań semafora zaczynamy zawsze od dołu, dzieląc go umownie na części - dolną z komorami pomarańczową, czerwoną, światła białego i pasem, oraz górną złożoną z zależnie od warunków miejscowych z jednej, dwóch lub trzech komór. Dolna część semafora zawiera nakazy, górna informacje dotyczące stanu następnych sygnalizatorów.
 
-Stanem zasadniczym semaforów półsamoczynnych jest sygnał \textbf{S1 - Stój} - jedno czerwone światło w górnej części semafora. 
+Stanem zasadniczym semaforów półsamoczynnych jest sygnał \textbf{S1 - Stój} - jedno czerwone światło w dolnej części semafora. 
 Jeśli dolna część semafora jest ciemna, to pominięcie semafora i przejazd przez okręg zwrotnicowy przez niego ochraniany następuje z maksymalną dopuszczalną prędkością (szlakową). 
-Jeśli w dolnej części wyświetlane jest światło pomarańczowe wjazd z prędkością do 40 km/h, jeśli poniżej oświetlony jest pas świetlny koloru pomarańczowego - do 60 km/h, zaś jeśli pas jest koloru zielonego - do 100 km/h.
-Jeśli w górnej części wyświetlane jest jedno światło pomarańczowe następny semafor wskazuje sygnał Stój, jeśli wyświetlane jest światło zielone - następny semafor zezwala na jazdę z maksymalną dozwoloną prędkością.
+Jeśli w dolnej części wyświetlane jest:
+\begin{itemize}
+	\item światło pomarańczowe - wjazd z prędkością do 40 km/h
+	\item jeśli poniżej oświetlony jest pas świetlny koloru pomarańczowego - do 60 km/h
+	\item jeśli pas jest koloru zielonego - do 100 km/h.
+\end{itemize}
+
+Jeśli w górnej części wyświetlane jest jedno światło pomarańczowe następny semafor wskazuje sygnał Stój, jeśli wyświetlane jest światło zielone - następny semafor zezwala na jazdę z maksymalną dozwoloną prędkością. Zielone migające światło informuje o prędkości przy następnym sygnalizatorze najwyżej 100 km/h, zaś pomarańczowe migające najwyżej 40 lub 60 km/h.
+
+Semafor samoczynny (SBL) przy aktywnym kierunku blokady zasadniczo wyświetla sygnał zezwalający S2 "Wolna droga", zaś w kierunku przeciwnym komory semafora są wygaszone.
+
+\subsection{Wskazania ToP}
+	Tarcza ostrzegawcza przejazdowa w stanie zasadniczym jest wygaszona, uruchamiana jest w momencie najechania taboru nad czujnikiem osi, wyświetlając sygnały Osp1 (jazda z prędkością do 20km/h) lub Osp2 informujące o sprawności urządzeń sygnalizacyjnych.
+\begin{figure}
+	\includegraphics[width=0.45\textwidth]{skryptkierownik-img/tarcza-top.jpg}
+	\caption{Wygaszona tarcza przejazdowa ToP, szlak Żywiec - Węgierska Górka, u dołu widoczny wskaźnik W1}
+\end{figure}
 
 \subsection{Tarcze DO i D1}
 
-Tarczę zatrzymania D1 „Stój” ustawia się po prawej stronie toru szlakowego, w odległości 50m przed przeszkodą. W torach stacyjnych tarczę nalezy ustawić w osi toru, 100 m przed przeszkodą. Odległość ta może zostanie skrócona jeśli nie pozwalają warunki miejscowe. W przypadku zamknięcia toru szlakowego pomiędzy posterunkami zapowiadawczymi, nalezy oprocz osygnalizowania przeszkody na miejscu, wystawić tarczę D1 bezpośrednio za ostatnim rozjadem w stacji w kierunku szlaku. Maszyny torowe i pojazdy specjalistyczne osłania się ustawiając tarczę D1 w odległości 3m od maszyny w osi toru.
+Tarczę zatrzymania D1 „Stój” ustawia się po prawej stronie toru szlakowego, w odległości 50m przed przeszkodą. W torach stacyjnych tarczę nalezy ustawić w osi toru, 100 m przed przeszkodą. Odległość ta może zostanie skrócona jeśli nie pozwalają warunki miejscowe. W przypadku zamknięcia toru szlakowego pomiędzy posterunkami zapowiadawczymi, należy oprócz osygnalizowania przeszkody na miejscu, wystawić tarczę D1 bezpośrednio za ostatnim rozjadem w stacji w kierunku szlaku. Maszyny torowe i pojazdy specjalistyczne osłania się ustawiając tarczę D1 w odległości 3m od maszyny w osi toru.
 \ \ Tarczę DO należy ustawić w odległości drogi hamowania zwiększonej o 200m od tarczy D1. W stacjach tarczy DO nie stosuje się.
 	\begin{figure}
 	\includegraphics[width=0.45\textwidth]{skryptkierownik-img/skryptkierownik-img023.jpg}
@@ -877,47 +898,46 @@ Sygnał ''Stój'' podajemy wykonując okrężny ruch wyprostowaną reką, chorą
 
 \chapter{Prędkości jazd manewrowych i pociągowych}
 \begin{table}
-\begin{tabular}{|c|c|}
-\hline
-Opis &
-Prędkość dopuszczalna\\\hline
-Jazda pociągu na tor zamknięty - bez przeszkody, po otrzymaniu tej informacji na rozkazie pisemnym S &
-z prędkością rozkładową\\\hline
+\rowcolors{2}{gray!25}{white}
+\begin{tabular}{|p{0.39\textwidth}|p{0.08\textwidth}|}
+\rowcolor{lightblue}\hline
+Opis & Prędkość dopuszczalna\\
+Jazda pociągu na tor zamknięty - bez przeszkody, po otrzymaniu tej informacji na rozkazie pisemnym S & z prędkością rozkładową\\
 Jazda manewrowa po torze wolnym (bez rozjazdów), po omówieniu pracy manewrowej &
-40 km/h\\\hline
+40 km/h\\
 Wyjazd na sygnał zastępczy na szlak z półsamoczynną blokadą liniową (do granicy posterunku) &
-40 km/h\\\hline
+40 km/h\\
 Odjazd pociągu z krawędzi przyperonowej, gdy nie widać wskazań semafora &
-40 km/h\\\hline
+40 km/h\\
 Cofanie pociągu ze szlaku po uzgodnieniu z dyżurnym ruchu &
-30 km/h\\\hline
+30 km/h\\
 Jazda pociągu na tor zamknięty - zajęty (z przeszkodą) &
-30 km/h\\\hline
+30 km/h\\
 \textbf{Zasadnicza prędkość~manewrowa} &
-25 km/h\\\hline
+25 km/h\\
 Przez niezabezpieczone przejazdy i przejścia &
-20 km/h\\\hline
+20 km/h\\
 Na torze zamkniętym, na 500m przed przeszkodą &
-20 km/h\\\hline
+20 km/h\\
 Wyjazd na sygnał zastępczy na szlak z samoczynną blokadą liniową (do następnego semafora) &
-20 km/h\\\hline
+20 km/h\\
 Wjazd do stacji na tor zakończony kozłem oporowym, lub niedostępny w części &
-20 km/h\\\hline
+20 km/h\\
 Manewry na tor częściowo zajęty &
-20 km/h\\\hline
+20 km/h\\
 Jazdy składu manewrowego pojazdami kolejowymi naprzód po torze głównym o spadku ponad 2,5\textperthousand, a pojazd trakcyjny nie mógł być umieszczony od strony spadku &
-15 km/h\\\hline
+15 km/h\\
 Z podróżnymi, z towarami niebezpiecznymi, z przesyłką nadzwyczajną &
-10 km/h\\\hline
+10 km/h\\
 Dojeżdżanie odsprzęgów staczanych z górki do stojącego taboru &
-5,4 km/h\\\hline
+5,4 km/h\\
 Nieuzgodnione cofanie pociągu ze szlaku poprzedzone w drodze hamowania przez pracownika drużyny &
-5 km/h\\\hline
+5 km/h\\
 Na sygnał „ pchać z umiarkowaną szybkością”, przy rozprzęganiu drążkiem, przy przetaczaniu wagonów oznaczonych nalepką ostrzegawczą 8 lub 15 wg RID oraz cystern z pasem koloru pomarańczowego, jeśli pracownik manewrowy porusza się przedskładem &
-5 km/h\\\hline
+5 km/h\\
 Na sygnał „pchać powoli”, przy dojeżdżaniu lokomotywy do stojącego taboru, przy przetaczaniu za pomocą urządzeń
 mechanicznych &
-3 km/h\\\hline
+3 km/h\\
 Przy dojeżdżaniu do stojących pojazdów kolejowych &
 3 km/h\\\hline
 \end{tabular}

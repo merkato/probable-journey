@@ -19,11 +19,11 @@
 \contentsline {subsection}{\numberline {6.1.5}W16 - wskaźnik przystanku osobowego}{11}{subsection.6.1.5}%
 \contentsline {subsection}{\numberline {6.1.6}W5 - wskaźnik przetaczania}{12}{subsection.6.1.6}%
 \contentsline {subsection}{\numberline {6.1.7}W6, W6a, W6b, W7 - wskaźniki ostrzegania}{13}{subsection.6.1.7}%
-\contentsline {subsection}{\numberline {6.1.8}W8 - wskaźnik ograniczenia prędkości + W9 - wskaźnik odcinka ograniczonej prędkości}{14}{subsection.6.1.8}%
-\contentsline {subsection}{\numberline {6.1.9}W14 - wskaźniki odcinka ograniczonej prędkości}{15}{subsection.6.1.9}%
-\contentsline {subsection}{\numberline {6.1.10}W11 - wskaźniki uprzedzające}{15}{subsection.6.1.10}%
+\contentsline {subsection}{\numberline {6.1.8}W8 - wskaźnik ograniczenia prędkości + W9 - wskaźnik odcinka ograniczonej prędkości}{13}{subsection.6.1.8}%
+\contentsline {subsection}{\numberline {6.1.9}W14 - wskaźniki odcinka ograniczonej prędkości}{14}{subsection.6.1.9}%
+\contentsline {subsection}{\numberline {6.1.10}W11 - wskaźniki uprzedzające}{14}{subsection.6.1.10}%
 \contentsline {subsection}{\numberline {6.1.11}W17 - wskaźnik ukresu}{16}{subsection.6.1.11}%
-\contentsline {subsection}{\numberline {6.1.12}W18 - wskaźnik samoczynnej blokady liniowej}{16}{subsection.6.1.12}%
+\contentsline {subsection}{\numberline {6.1.12}W18 - wskaźnik samoczynnej blokady liniowej}{17}{subsection.6.1.12}%
 \contentsline {subsection}{\numberline {6.1.13}W19 - wskaźnik uprzedzający o braku drogi hamowania + W20 - wskaźnik braku drogi hamowania}{17}{subsection.6.1.13}%
 \contentsline {subsection}{\numberline {6.1.14}W21 - wskaźniki zmiany prędkości}{18}{subsection.6.1.14}%
 \contentsline {subsection}{\numberline {6.1.15}W23 - wskaźnik odcinka izolowanego}{18}{subsection.6.1.15}%
@@ -32,73 +32,74 @@
 \contentsline {subsection}{\numberline {6.1.18}W2, W26, W26b - wskaźniki kierunku jazdy pociągu}{19}{subsection.6.1.18}%
 \contentsline {subsection}{\numberline {6.1.19}W27a - wskaźnik zmiany prędkości}{19}{subsection.6.1.19}%
 \contentsline {subsection}{\numberline {6.1.20}W28 - wskaźnik kanału radiowego i W29 - wskaźnik nawiązania łączności}{19}{subsection.6.1.20}%
-\contentsline {subsection}{\numberline {6.1.21}W31 - wskaźnik kasowania}{19}{subsection.6.1.21}%
+\contentsline {subsection}{\numberline {6.1.21}W31 - wskaźnik kasowania}{20}{subsection.6.1.21}%
 \contentsline {section}{\numberline {6.2}Sygnalizatory}{20}{section.6.2}%
 \contentsline {section}{\numberline {6.3}Sygnały}{20}{section.6.3}%
 \contentsline {subsection}{\numberline {6.3.1}Wskazania semaforów półsamoczynnych i samoczynnych}{20}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Tarcze DO i D1}{20}{subsection.6.3.2}%
-\contentsline {chapter}{7.~Przygotowanie drogi przebiegu dla jazd pociągowych i manewrowych}{22}{figure.caption.23}%
-\contentsline {chapter}{8.~Prowadzenie dokumentacji techniczno-ruchowej}{23}{figure.caption.23}%
-\contentsline {chapter}{9.~Rozkazy pisemne i ostrzeżenia dla drużyn pociągowych}{24}{figure.caption.23}%
-\contentsline {chapter}{10.~Wewnętrzny rozkład jazdy}{26}{figure.caption.24}%
-\contentsline {section}{\numberline {10.1}Elementy rozkładu jazdy}{26}{section.10.1}%
-\contentsline {section}{\numberline {10.2}Numeracja pociągów}{27}{section.10.2}%
-\contentsline {chapter}{11.~Nadzór nad prowadzeniem i regulowaniem ruchu pociągów w sytuacjach nadzwyczajnych}{29}{figure.caption.30}%
-\contentsline {chapter}{12.~Organizacja akcji ratunkowej w razie zdarzeń kolejowych i klęsk żywiołowych}{30}{Item.62}%
-\contentsline {section}{\numberline {12.1}Podstawowe pojęcia}{30}{section.12.1}%
-\contentsline {section}{\numberline {12.2}Postępowanie przy zdarzeniu}{30}{section.12.2}%
-\contentsline {section}{\numberline {12.3}Pożar}{31}{section.12.3}%
-\contentsline {section}{\numberline {12.4}Wykolejenie}{31}{section.12.4}%
-\contentsline {chapter}{13.~Obowiązki manewrowego oraz nadzorującego i kierującego manewrami}{32}{section.12.4}%
-\contentsline {chapter}{14.~Sposoby wykonywania manewrów}{34}{Item.77}%
-\contentsline {chapter}{15.~Sygnały podawane przy manewrach}{36}{figure.caption.34}%
-\contentsline {section}{\numberline {15.1}Tarcze manewrowe świetlne i kształtowe}{36}{section.15.1}%
-\contentsline {section}{\numberline {15.2}Semafory półsamoczynne lub tarcze zaporowe}{36}{section.15.2}%
-\contentsline {section}{\numberline {15.3}Sygnały ręczne i dźwiękowe}{37}{section.15.3}%
-\contentsline {chapter}{16.~Prędkości jazd manewrowych i pociągowych}{38}{section.15.3}%
-\contentsline {chapter}{17.~Manewry po torach głównych oraz przez przejazdy i przejścia}{39}{table.caption.36}%
-\contentsline {part}{II\hspace {1em}Tabor}{40}{part.2}%
-\contentsline {chapter}{18.~Ogólne zasady przewozu przesyłek nadzwyczajnych}{41}{part.2}%
-\contentsline {chapter}{19.~Ogólne zasady przewozu przesyłek niebezpiecznych}{43}{Item.96}%
-\contentsline {chapter}{20.~Budowa taboru pasażerskiego}{45}{figure.caption.39}%
-\contentsline {section}{\numberline {20.1}Wózek}{45}{section.20.1}%
-\contentsline {section}{\numberline {20.2}Urządzenia pociągowo-zderzne}{48}{section.20.2}%
-\contentsline {section}{\numberline {20.3}Odbierak pradu}{49}{section.20.3}%
-\contentsline {section}{\numberline {20.4}Warunki techniczne jakim powinien odpowiadać tabor w składzie pociągu}{50}{section.20.4}%
-\contentsline {subsection}{\numberline {20.4.1}Oznakowanie i symbole na taborze}{52}{subsection.20.4.1}%
-\contentsline {section}{\numberline {20.5}Wyłączanie taboru z eksploatacji}{52}{section.20.5}%
-\contentsline {chapter}{21.~Oględziny techniczne pociągu pasażerskiego}{55}{Item.111}%
-\contentsline {chapter}{22.~Rodzaje hamulców}{56}{Item.111}%
-\contentsline {chapter}{23.~Obsługa urządzeń wagonowych}{59}{table.caption.49}%
-\contentsline {section}{\numberline {23.1}Toalety}{59}{section.23.1}%
-\contentsline {section}{\numberline {23.2}Podnośnik dla osób niepełnosprawnych}{60}{section.23.2}%
-\contentsline {section}{\numberline {23.3}Drzwi}{64}{section.23.3}%
-\contentsline {section}{\numberline {23.4}Światła końca pociągu}{67}{section.23.4}%
-\contentsline {chapter}{24.~Wykonywanie szczegółowej i uproszczonej próby hamulca}{70}{figure.caption.68}%
-\contentsline {section}{\numberline {24.1}Sygnały podawane przy próbie hamulca}{74}{section.24.1}%
-\contentsline {chapter}{25.~Obliczanie rzeczywistej oraz wymaganej masy hamującej}{75}{section.24.1}%
-\contentsline {section}{\numberline {25.1}Dostosowywanie prędkości do dostępnej masy hamującej rzeczywistej}{76}{section.25.1}%
-\contentsline {chapter}{26.~Sprzęganie i rozprzęganie taboru}{78}{figure.caption.79}%
-\contentsline {chapter}{27.~Zabezpieczenie taboru przed zbiegnięciem}{79}{Item.120}%
-\contentsline {part}{III\hspace {1em}Organizacja i bezpieczeństwo pracy}{80}{part.3}%
-\contentsline {chapter}{28.~Prawa i obowiązki kierownika pociągu wynikające z regulaminu pracy}{81}{part.3}%
-\contentsline {chapter}{29.~Obowiązki kierownika pociągu z jedno- i wieloosobową obsadą konduktorską}{82}{part.3}%
-\contentsline {section}{\numberline {29.1}Obsada pociągu}{83}{section.29.1}%
-\contentsline {section}{\numberline {29.2}Znajomość typu pojazdu kolejowego}{83}{section.29.2}%
-\contentsline {section}{\numberline {29.3}Znajomość linii kolejowych}{83}{section.29.3}%
-\contentsline {subsection}{\numberline {29.3.1}Dokumentowanie znajomości odcinków linii}{83}{subsection.29.3.1}%
-\contentsline {section}{\numberline {29.4}Przyjęcie pociągu na stacji początkowej}{84}{section.29.4}%
-\contentsline {chapter}{30.~Prowadzenie dokumentacji pociągowej}{85}{section.29.4}%
-\contentsline {section}{\numberline {30.1}Dopuszczenie do użytkowania lub przywrócenie do eksploatacji}{85}{section.30.1}%
-\contentsline {section}{\numberline {30.2}Karta próby hamulca i urządzeń pneumatycznych}{85}{section.30.2}%
-\contentsline {section}{\numberline {30.3}Wykaz pojazdów kolejowych w składzie pociągu}{86}{section.30.3}%
-\contentsline {section}{\numberline {30.4}Książka pokładowa wagonu}{86}{section.30.4}%
-\contentsline {section}{\numberline {30.5}Książka pokładowa pojazdu z napędem}{87}{section.30.5}%
-\contentsline {chapter}{31.~Użytkowanie urządzeń radiołączności pociągowej}{88}{section.30.5}%
-\contentsline {chapter}{32.~Podawanie i odbieranie sygnałów kolejowych w zakresie drużyny pociągowej}{90}{Item.159}%
-\contentsline {chapter}{33.~Postępowanie w razie zagrożenia bezpieczeństwa podróżnych}{91}{Item.159}%
-\contentsline {chapter}{34.~Postępowanie w razie zagrożenia bezpieczeństwa ruchu kolejowego}{92}{Item.162}%
-\contentsline {section}{\numberline {34.1}Cofanie, dzielenie i zabieranie częściami składu pociągu ze szlaku}{92}{section.34.1}%
-\contentsline {section}{\numberline {34.2}Rozerwanie pociągu na szlaku i zbiegnięcie wagonów}{92}{section.34.2}%
-\contentsline {chapter}{35.~Wykonanie zahamowania pociągu w kabinie maszynisty}{94}{section.34.2}%
-\contentsline {chapter}{36.~Odłączanie urządzeń energetycznych pojazdu w nagłych przypadkach}{95}{figure.caption.81}%
+\contentsline {subsection}{\numberline {6.3.2}Wskazania ToP}{21}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Tarcze DO i D1}{21}{subsection.6.3.3}%
+\contentsline {chapter}{7.~Przygotowanie drogi przebiegu dla jazd pociągowych i manewrowych}{23}{figure.caption.25}%
+\contentsline {chapter}{8.~Prowadzenie dokumentacji techniczno-ruchowej}{24}{figure.caption.25}%
+\contentsline {chapter}{9.~Rozkazy pisemne i ostrzeżenia dla drużyn pociągowych}{25}{figure.caption.25}%
+\contentsline {chapter}{10.~Wewnętrzny rozkład jazdy}{27}{figure.caption.26}%
+\contentsline {section}{\numberline {10.1}Elementy rozkładu jazdy}{27}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Numeracja pociągów}{28}{section.10.2}%
+\contentsline {chapter}{11.~Nadzór nad prowadzeniem i regulowaniem ruchu pociągów w sytuacjach nadzwyczajnych}{30}{figure.caption.32}%
+\contentsline {chapter}{12.~Organizacja akcji ratunkowej w razie zdarzeń kolejowych i klęsk żywiołowych}{31}{Item.62}%
+\contentsline {section}{\numberline {12.1}Podstawowe pojęcia}{31}{section.12.1}%
+\contentsline {section}{\numberline {12.2}Postępowanie przy zdarzeniu}{31}{section.12.2}%
+\contentsline {section}{\numberline {12.3}Pożar}{32}{section.12.3}%
+\contentsline {section}{\numberline {12.4}Wykolejenie}{32}{section.12.4}%
+\contentsline {chapter}{13.~Obowiązki manewrowego oraz nadzorującego i kierującego manewrami}{33}{section.12.4}%
+\contentsline {chapter}{14.~Sposoby wykonywania manewrów}{35}{Item.77}%
+\contentsline {chapter}{15.~Sygnały podawane przy manewrach}{37}{figure.caption.36}%
+\contentsline {section}{\numberline {15.1}Tarcze manewrowe świetlne i kształtowe}{37}{section.15.1}%
+\contentsline {section}{\numberline {15.2}Semafory półsamoczynne lub tarcze zaporowe}{37}{section.15.2}%
+\contentsline {section}{\numberline {15.3}Sygnały ręczne i dźwiękowe}{38}{section.15.3}%
+\contentsline {chapter}{16.~Prędkości jazd manewrowych i pociągowych}{39}{section.15.3}%
+\contentsline {chapter}{17.~Manewry po torach głównych oraz przez przejazdy i przejścia}{40}{table.caption.38}%
+\contentsline {part}{II\hspace {1em}Tabor}{41}{part.2}%
+\contentsline {chapter}{18.~Ogólne zasady przewozu przesyłek nadzwyczajnych}{42}{part.2}%
+\contentsline {chapter}{19.~Ogólne zasady przewozu przesyłek niebezpiecznych}{44}{Item.96}%
+\contentsline {chapter}{20.~Budowa taboru pasażerskiego}{46}{figure.caption.41}%
+\contentsline {section}{\numberline {20.1}Wózek}{46}{section.20.1}%
+\contentsline {section}{\numberline {20.2}Urządzenia pociągowo-zderzne}{49}{section.20.2}%
+\contentsline {section}{\numberline {20.3}Odbierak pradu}{50}{section.20.3}%
+\contentsline {section}{\numberline {20.4}Warunki techniczne jakim powinien odpowiadać tabor w składzie pociągu}{52}{section.20.4}%
+\contentsline {subsection}{\numberline {20.4.1}Oznakowanie i symbole na taborze}{53}{subsection.20.4.1}%
+\contentsline {section}{\numberline {20.5}Wyłączanie taboru z eksploatacji}{54}{section.20.5}%
+\contentsline {chapter}{21.~Oględziny techniczne pociągu pasażerskiego}{56}{Item.111}%
+\contentsline {chapter}{22.~Rodzaje hamulców}{57}{Item.111}%
+\contentsline {chapter}{23.~Obsługa urządzeń wagonowych}{60}{table.caption.51}%
+\contentsline {section}{\numberline {23.1}Toalety}{60}{section.23.1}%
+\contentsline {section}{\numberline {23.2}Podnośnik dla osób niepełnosprawnych}{61}{section.23.2}%
+\contentsline {section}{\numberline {23.3}Drzwi}{65}{section.23.3}%
+\contentsline {section}{\numberline {23.4}Światła końca pociągu}{68}{section.23.4}%
+\contentsline {chapter}{24.~Wykonywanie szczegółowej i uproszczonej próby hamulca}{71}{figure.caption.70}%
+\contentsline {section}{\numberline {24.1}Sygnały podawane przy próbie hamulca}{75}{section.24.1}%
+\contentsline {chapter}{25.~Obliczanie rzeczywistej oraz wymaganej masy hamującej}{76}{section.24.1}%
+\contentsline {section}{\numberline {25.1}Dostosowywanie prędkości do dostępnej masy hamującej rzeczywistej}{77}{section.25.1}%
+\contentsline {chapter}{26.~Sprzęganie i rozprzęganie taboru}{79}{figure.caption.81}%
+\contentsline {chapter}{27.~Zabezpieczenie taboru przed zbiegnięciem}{80}{Item.120}%
+\contentsline {part}{III\hspace {1em}Organizacja i bezpieczeństwo pracy}{81}{part.3}%
+\contentsline {chapter}{28.~Prawa i obowiązki kierownika pociągu wynikające z regulaminu pracy}{82}{part.3}%
+\contentsline {chapter}{29.~Obowiązki kierownika pociągu z jedno- i wieloosobową obsadą konduktorską}{83}{part.3}%
+\contentsline {section}{\numberline {29.1}Obsada pociągu}{84}{section.29.1}%
+\contentsline {section}{\numberline {29.2}Znajomość typu pojazdu kolejowego}{84}{section.29.2}%
+\contentsline {section}{\numberline {29.3}Znajomość linii kolejowych}{84}{section.29.3}%
+\contentsline {subsection}{\numberline {29.3.1}Dokumentowanie znajomości odcinków linii}{84}{subsection.29.3.1}%
+\contentsline {section}{\numberline {29.4}Przyjęcie pociągu na stacji początkowej}{85}{section.29.4}%
+\contentsline {chapter}{30.~Prowadzenie dokumentacji pociągowej}{86}{section.29.4}%
+\contentsline {section}{\numberline {30.1}Dopuszczenie do użytkowania lub przywrócenie do eksploatacji}{86}{section.30.1}%
+\contentsline {section}{\numberline {30.2}Karta próby hamulca i urządzeń pneumatycznych}{86}{section.30.2}%
+\contentsline {section}{\numberline {30.3}Wykaz pojazdów kolejowych w składzie pociągu}{87}{section.30.3}%
+\contentsline {section}{\numberline {30.4}Książka pokładowa wagonu}{87}{section.30.4}%
+\contentsline {section}{\numberline {30.5}Książka pokładowa pojazdu z napędem}{88}{section.30.5}%
+\contentsline {chapter}{31.~Użytkowanie urządzeń radiołączności pociągowej}{89}{section.30.5}%
+\contentsline {chapter}{32.~Podawanie i odbieranie sygnałów kolejowych w zakresie drużyny pociągowej}{91}{Item.159}%
+\contentsline {chapter}{33.~Postępowanie w razie zagrożenia bezpieczeństwa podróżnych}{92}{Item.159}%
+\contentsline {chapter}{34.~Postępowanie w razie zagrożenia bezpieczeństwa ruchu kolejowego}{93}{Item.162}%
+\contentsline {section}{\numberline {34.1}Cofanie, dzielenie i zabieranie częściami składu pociągu ze szlaku}{93}{section.34.1}%
+\contentsline {section}{\numberline {34.2}Rozerwanie pociągu na szlaku i zbiegnięcie wagonów}{93}{section.34.2}%
+\contentsline {chapter}{35.~Wykonanie zahamowania pociągu w kabinie maszynisty}{95}{section.34.2}%
+\contentsline {chapter}{36.~Odłączanie urządzeń energetycznych pojazdu w nagłych przypadkach}{96}{figure.caption.83}%
