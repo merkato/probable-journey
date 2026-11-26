@@ -18,6 +18,12 @@
 \usepackage{color}
 \usepackage{tcolorbox}
 \tcbuselibrary{skins}
+\usepackage{tikz}
+% Wydanie robocze: \roboczatrue pokazuje ramki z materiałami do przygotowania,
+% \roboczafalse ukrywa je w wersji do druku.
+\newif\ifrobocza
+\roboczatrue
+\newcommand{\material}[1]{\ifrobocza\begin{tcolorbox}[colback=blue!4!white,colframe=blue!60!black,fonttitle=\bfseries\small,fontupper=\small,title=Do przygotowania]#1\end{tcolorbox}\fi}
 \usepackage{array}
 \usepackage{supertabular}
 \usepackage{hhline}
