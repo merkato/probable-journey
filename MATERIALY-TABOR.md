@@ -11,7 +11,7 @@ Ramki wyłącza się przed drukiem: w `skrypt-kierownik.tex` trzeba zmienić `\r
 |---|---|---|---|
 | 1 | Przesyłki nadzwyczajne (2–26) | 1. Ogólne zasady przewozu przesyłek nadzwyczajnych | **zrobione** |
 | 2 | Przesyłki niebezpieczne (27–43) | 2. Ogólne zasady przewozu przesyłek niebezpiecznych | **zrobione** |
-| 3 | Pojazdy kolejowe i budowa taboru (44–63) | 3. Budowa taboru pasażerskiego | do zrobienia |
+| 3 | Pojazdy kolejowe i budowa taboru (44–63) | 3. Budowa taboru pasażerskiego | **zrobione** |
 | 4 | Warunki techniczne taboru (64–73) | 3.x Warunki techniczne… → osobny rozdział | do zrobienia |
 | 5 | Oznakowanie i symbole na taborze (74–91) | nowy rozdział (dziś jest to podrozdział + tabele w „Rodzajach hamulców”) | do zrobienia |
 | 6 | Wyłączanie taboru z eksploatacji (92–98) | 3.x Wyłączanie… → osobny rozdział | do zrobienia |
@@ -50,12 +50,13 @@ Ramki wyłącza się przed drukiem: w `skrypt-kierownik.tex` trzeba zmienić `\r
 - [ ] **Procedura dla drużyny pociągu pasażerskiego** przy zdarzeniu z TN w pobliżu (powiadomienie, ewakuacja, kierunek wiatru). Na sl. 43 jest tylko opis toru odstawczego.
 - [ ] Opcjonalnie: własne zdjęcie wagonu z tablicą pomarańczową i nalepkami (zdjęcie na sl. 28 pochodzi z kursu ADR).
 
-### 3. Budowa taboru pasażerskiego (sl. 44–63)
-- [ ] **Pisemna zgoda producenta** na rendery wózka (sl. 51–55). W notatkach jest „za zgodą producenta”; potrzebna kopia zgody lub jej zakres (druk, PDF publiczny).
-- [ ] **Zgoda Dellner** na ilustrację sprzęgu typu 10 (sl. 62) albo własny rysunek lub zdjęcie sprzęgu Scharfenberga w KŚ.
-- [ ] Pliki źródłowe w pełnej rozdzielczości: schemat klasyfikacji pojazdów kolejowych (sl. 44), „Budowa typowego wagonu pasażerskiego – widok rozstrzelony” (sl. 49), sprzęg śrubowy (sl. 61), pantograf z opisem (sl. 63).
-- [ ] Zdjęcia: pojazd pomocniczy, pojazd szynowo-drogowy, EZT na wózkach klasycznych i na wózkach Jakobsa (sl. 47–48, 56–59). Trzeba ustalić, które są własne.
-- [ ] Decyzja, czy zostawiamy obecny, obszerny opis rodzajów sprężyn i prowadzenia zestawów (z podręcznika), czy go skracamy do poziomu prezentacji.
+### 3. Budowa taboru pasażerskiego (zrobione – zostały braki)
+- [ ] **Kopia zgody producenta** na rendery wózka (sl. 51–55) – zakres (druk, PDF) i nazwa producenta do podpisu rysunków.
+- [ ] **Sprzęg samoczynny**: zgoda Dellner na ilustrację typu 10 (sl. 62) albo własny rysunek/zdjęcie z opisem elementów. W podręczniku jest na razie zdjęcie 31WEbc ze slajdu 60.
+- [ ] **Rysunek budowy wagonu** (sl. 49) bez zniekształconego logo i barw PKP Intercity – wersja KŚ lub neutralna.
+- [ ] Zdjęcia **pojazdu pomocniczego** i **szynowo-drogowego** (sl. 47–48 to zdjęcia producentów, m.in. Elkol).
+- [ ] Potwierdzenie autorstwa: schematy EZT na wózkach klasycznych / Jakobsa (sl. 56, 58), zdjęcia wózka Jakobsa i czoła 31WEbc (sl. 59–60), model sprzęgu śrubowego (sl. 61).
+- [ ] Opcjonalnie: lepsze zdjęcie pantografu z opisem (zdjęcie ze sl. 63 ma tylko 400 × 180 px).
 
 ### 4. Warunki techniczne taboru (sl. 64–73)
 - [ ] Zdjęcia: zamek skrzydła drzwi, napęd z ryglem, sterownik drzwi nad wejściem (sl. 67–69), z informacją o typie pojazdu.
@@ -115,6 +116,7 @@ Ramki wyłącza się przed drukiem: w `skrypt-kierownik.tex` trzeba zmienić `\r
 
 ## Ilustracje przeniesione z prezentacji do `skryptkierownik-img/`
 - `skrajnie-porownanie.jpg` (sl. 4) i `skrajnia-taboru-peron.jpg` (sl. 5) – trzeba potwierdzić autorstwo i prawo do wykorzystania.
+- Blok 3: `wozek-widok-rozstrzelony.jpg`, `wozek-rama-wahacze.jpg`, `zestaw-kolowy-widok-rozbity.jpg`, `usprezynowanie-widok-rozbity.jpg` (sl. 51–55, rendery za zgodą producenta), `sprzeg-srubowy-model.jpg` (sl. 61), `ezt-wozki-klasyczne-schemat.jpg`, `ezt-wozki-jakobsa-schemat.jpg` (sl. 56, 58), `wozek-jakobsa-zdjecie.jpg` (sl. 59), `sprzeg-samoczynny-31webc.jpg` (sl. 60).
 - `rozklad-przesylka-nadzwyczajna.png` (sl. 20) – wycinek rozkładu jazdy.
 - `przesylka-nadzwyczajna-karta-r266.png` (sl. 25) – wzór oznaczeń.
 - `rid-nalepki.png` (sl. 36) – piktogramy UN z Wikimedia Commons (domena publiczna).
