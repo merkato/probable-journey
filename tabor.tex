@@ -351,7 +351,7 @@ Oprócz nalepek klas niebezpieczeństwa na wagonach stosuje się nalepki manewro
 \end{figure}
 
 \begin{table}
-	\caption{Przykładowe barwy pasów na cysternach kolei 1520 mm}
+	\caption{Przykładowe barwy pasów na cysternach kolei 1520 mm. Pasy 30 cm: Ir-16 (od 14.12.2025) § 9 ust. 5 pkt 2, za SMGS zał. 2, pkt 5.3.5.1}
 	\label{tab:pasy1520}
 	\small
 	\begin{tabular}{|>{\raggedright\arraybackslash}m{0.17\columnwidth}|>{\raggedright\arraybackslash}m{0.39\columnwidth}|>{\raggedright\arraybackslash}m{0.28\columnwidth}|}
@@ -1611,91 +1611,154 @@ W celu nawiązania łączności między pracownikami wykonującymi próbę hamul
 W przypadku złej widoczności spowodowanej warunkami atmosferycznymi lub innymi (np. łuk toru), przy dokonywaniu prób hamulców w miejscach realizowanych budów, stacjach nie posiadających stałych urządzeń sygnalizacyjnych obsługa pociągu, powinna współdziałać w przekazywaniu sygnałów ręcznych. \textbf{Dopuszcza się} potwierdzanie podawanych sygnałów przez radiotelefon przenośny i przewoźny (K-5 § 11 ust. 9).
 
 \chapter{Obliczanie rzeczywistej oraz wymaganej masy hamującej}
-Za miarę skuteczności hamulców pociągu przyjmuje się wyrażony w procentach stosunek masy hamującej pociągu do masy pociągu (tzw. masy ogólnej),
-nazywany procentem masy hamującej. Rozróżniamy:
+Skuteczność hamulców pojazdu określa się za pomocą wyrażonej w tonach \textbf{masy hamującej}. Każdy pojazd ma ją wypisaną na ścianach bocznych (jedną lub więcej wartości dla hamulca zespolonego, osobno dla hamulca ręcznego lub sprężynowego). Za miarę skuteczności hamulców pociągu przyjmuje się wyrażony w procentach stosunek masy hamującej pociągu do masy pociągu (tzw. masy ogólnej), nazywany procentem masy hamującej. Rozróżniamy:
 \begin{enumerate}
-	\item procent wymaganej masy hamującej, oznaczany P\textsubscript{w} , podawany dla każdego pociągu w rozkładzie jazdy,
-	\item procent rzeczywistej masy hamującej, oznaczany P\textsubscript{r} , wynikający z rzeczywistej masy hamującej i masy ogólnej zestawionego pociągu.
+	\item procent wymaganej masy hamującej, oznaczany P\textsubscript{w}, podawany dla każdego pociągu w rozkładzie jazdy,
+	\item procent rzeczywistej masy hamującej, oznaczany P\textsubscript{r}, wynikający z rzeczywistej masy hamującej i masy ogólnej zestawionego pociągu.
 \end{enumerate}
 
-\textbf{Procent wymagany masy hamującej} odczytujemy z wewnętrznego rozkładu jazdy pociągu. Znajduje się on w ostatniej kolumnie, w mianowniku, oznaczony symbolem \%. 
+\textbf{Masę ogólną pociągu, rzeczywistą masę hamującą i procent rzeczywistej masy hamującej oblicza kierownik pociągu}\footnote{K-6 § 11 ust. 9; tak samo K-2 § 13 ust. 9 i K-5 § 17 ust. 9.}. W pociągu bez drużyny konduktorskiej robi to inny pracownik wyznaczony do przygotowania pociągu „w drogę”.
+
+\textbf{Procent wymagany masy hamującej} odczytujemy z wewnętrznego rozkładu jazdy pociągu. Znajduje się on w ostatniej kolumnie, w mianowniku, oznaczony symbolem \%. Jest to skuteczność hamulców potrzebna do zatrzymania pociągu na drodze hamowania obowiązującej na danej linii.
 \begin{figure}
 	\includegraphics[width=0.45\textwidth]{skryptkierownik-img/skryptkierownik-img065.png}
 	\caption{Informacja o \% wymaganej masy hamującej w w.r.j.}
 	\label{fig:pw}
 \end{figure}
 
-Następnie możemy wyliczyć \textbf{Masę hamującą wymaganą} z następującego wzoru:
-\[  M_{w}=\frac{M_{o}*P_{w}}{100} \label{wzr:mhw}  \]
-\footnote{Instrukcja K-2, Rozdział VIII, \S.28, ust.4, p.5}
-Masę hamującą wymaganą po wyliczeniu zaookrąglamy w górę, do pełnej liczby.
+Następnie możemy wyliczyć \textbf{masę hamującą wymaganą} z następującego wzoru\footnote{Ir-1 § 21 ust. 2; K-6 § 11 ust. 4.}:
+\[  M_{hw}=\frac{M_{o} \cdot P_{w}}{100} \label{wzr:mhw}  \]
+Masę hamującą wymaganą po wyliczeniu zaokrąglamy w górę, do pełnych ton.
 
-Masa ogólna pociągu/składu (M\textsubscript{o}) to \textbf{suma mas pojazdów} kolejowych w składzie pociągu, wraz z ładunkiem. Masę składu w stanie ładownym, jeśli nie jest wskazane na pudle wagonu, należy obliczyć na podstawie masy służbowej składu (masy składu przygotowanego do drogi, z nawodowanymi toaletami, napełnionymi piasecznicami, etc.) dodając po \textbf{5 t} na wagon, zaś masę w stanie próżnym odczytujemy z pudła pojazdu (oznaczone jako \textbf{masa służbowa}). W jednym składzie pociągu mogą znajdować się zarówno pojazdy (wagon lub EZT) dostępne dla podróżnych (ładowne), jak i niedostępne dla podróżnych (próżne).
+\section{Masa ogólna pociągu}
 
-\textbf{Masa hamująca rzeczywista} elektrycznego zespołu trakcyjnego, lokomotywy lub wagonu jest wskazywana na pudle. Należy brać pod uwagę największe wartości dla hamulca \textbf{pneumatycznego} (jeśli urządzenie Rapid jest sprawne, to z nim). Rzeczywistą masę hamującą pociągu M\textsubscript{ hr} stanowi suma (w tonach) mas hamujących, poszczególnych pojazdów z czynnymi hamulcami, za wyjątkiem czynnych lokomotyw, z zastrzeżeniem informacji w ramce poniżej. Należy zwrócić uwagę na rozróżnienie mas hamujących w stanie próżnym i ładownym.
+Masa ogólna pociągu (M\textsubscript{o}) to \textbf{suma mas brutto} (z ładunkiem) wszystkich pojazdów kolejowych w składzie pociągu – zarówno z czynnymi, jak i z nieczynnymi hamulcami\footnote{Ir-1 § 19 ust. 1; K-6 § 11 ust. 5.}. Masę pojazdów ustala się następująco\footnote{K-6 § 11 ust. 6 pkt 2.}:
+\begin{itemize}
+	\item jeżeli na nadwoziu jest tabelka z masą własną, średnią masą brutto i liczbą miejsc – dla pojazdu dostępnego dla podróżnych przyjmuje się podaną w niej \textbf{średnią masę brutto},
+	\item jeżeli takiej tabelki nie ma – do masy służbowej (masy pojazdu przygotowanego do drogi, z nawodowanymi toaletami, napełnionymi piasecznicami itp.) dodaje się po \textbf{5 t} na każdy wagon (człon) dostępny dla podróżnych,
+	\item pojazd niedostępny dla podróżnych (próżny) liczy się według masy służbowej z pudła.
+\end{itemize}
+W jednym składzie mogą się znajdować zarówno pojazdy dostępne dla podróżnych (ładowne), jak i niedostępne (próżne).
+
+\textbf{W składzie wagonowym} masa ogólna pociągu zależy od tego, czy wlicza się do niej czynną lokomotywę. Zasadniczo jest to suma mas wagonów, bez czynnego pojazdu z napędem – z wyjątkami podanymi w ramce.
 
 \begin{tcolorbox}[colback=red!5!white,colframe=red!75!black,title=Uwaga!]
 	W pociągach
 	\begin{enumerate}
 		\item których rozkładowa prędkość jest większa od 120 km/h albo
 		\item w których masa składu pociągu jest mniejsza niż 200 t albo
-		\item w których pojazd z napędem znajduje się na końcu pociągu, a maszynista prowadzi pociąg z kabiny w wagonie sterowniczym,
+		\item w których pojazd z napędem znajduje się na końcu pociągu, a maszynista prowadzi pociąg z kabiny w wagonie sterowniczym, albo
+		\item wykonujących międzynarodowe przewozy kolejowe\footnote{Ir-1 § 19 ust. 1 pkt 2.},
 	\end{enumerate}
 	wlicza się:
 	\begin{itemize}
 		\item masę hamującą czynnych pojazdów z napędem do rzeczywistej masy hamującej pociągu M\textsubscript{hr} oraz,
-		\item masę czynnych pojazdów z napędem do masy ogólnej pociągu M\textsubscript{O} ,przy czym jeśli pojazd z napędem ma wypisaną masę własną i masę służbową należy w obliczeniach uwzględniać masę służbową tego pojazdu.
+		\item masę czynnych pojazdów z napędem do masy ogólnej pociągu M\textsubscript{O}, przy czym jeśli pojazd z napędem ma wypisaną masę własną i masę służbową należy w obliczeniach uwzględniać masę służbową tego pojazdu.
 	\end{itemize}
 	\label{def:masa}
 \end{tcolorbox}
 
-Gdy znamy masę ogólną składu, oraz masę hamującą rzeczywistą możemy wyliczyć \textbf{Procent rzeczywisty masy hamującej} składu z następującego wzoru: 
-\footnote{Instrukcja K-2, Rozdział VIII, \S.28, ust.5}
-\[  P_{r}=\frac{M_{hr}*100}{M_{os}}   \label{def:pr} \] 
-gdzie P\textsubscript{r} to Procent rzeczywisty masy hamującej, M\textsubscript{hr} to Masa hamująca rzeczywista w tonach, zaś M\textsubscript{os} to masa ogólna składu. Wartość procentu rzeczywistego masy hamującej po wyliczeniu zaookrąglamy w dół.
+\textbf{W zespołach trakcyjnych} (EZT, SZT) i wagonach silnikowych masa ogólna składu pociągu równa się masie ogólnej pociągu – wlicza się całą masę zespołu\footnote{Ir-1 § 19 ust. 2; K-6 § 11 ust. 5.}. W pociągu z kilku zespołów jest to suma mas wszystkich zespołów.
 
-\textbf{Procent rzeczywistej masy hamującej} składu powinien być równy lub większy niż procent wymagany masy hamującej.
-\[  P_{r} \ge P_{w}   \] 
+\section{Rzeczywista masa hamująca}
 
-\begin{tcolorbox}[colback=green!15!white,colframe=green!75!black,title=Zmiana M\textsubscript{hr} po wyłączeniu hamulca zespołu trakcyjnego - wariant 1]
-	W przypadku wyłączenia hamulca w \textbf{jednym} wagonie/członie zespołu trakcyjnego masa hamująca rzeczywista składu musi być zmniejszona. W tym celu odczytujemy masę hamującą rzeczywistą całego zespołu (z pudła) a następnie:
-	\begin{itemize}
-		\item W składzie EZT złożonego z dwóch lub trzech wagonów masa hamująca rzeczywista składu zmniejsza się o połowę ($ \frac{1}{2}*M_{hr} $).
-		\item W składzie złożonym z czterech lub więcej wagonów stosujemy wzór $ \frac{2}{3}*M_{hr} $ 
-	\end{itemize}
-	Jeśli hamulce w conajmniej dwóch wagonach zespołu trakcyjnego są niesprawne lub wyłączone - \textbf{pociąg nie może być wyprawiony w drogę}	
-\end{tcolorbox}
+\textbf{Masa hamująca rzeczywista} elektrycznego zespołu trakcyjnego, lokomotywy lub wagonu jest wskazana na pudle. Rzeczywistą masę hamującą pociągu M\textsubscript{hr} stanowi suma (w tonach) mas hamujących wszystkich pojazdów z \textbf{czynnymi} hamulcami – czyli sprawnymi i włączonymi do przewodu głównego\footnote{Ir-1 § 20; K-6 § 11 ust. 5.}. W składzie wagonowym nie wlicza się czynnej lokomotywy, z zastrzeżeniem ramki powyżej. Rzeczywistą masę hamującą określa się po próbie hamulca, z uwzględnieniem wyłączonych hamulców i zmiany nastawienia (np. z R na P, z ep na O-P).
 
-\begin{tcolorbox}[colback=yellow!15!white,colframe=green!75!black,title=Zmiana M\textsubscript{hr} po wyłączeniu hamulca zespołu trakcyjnego - wariant 2]
-	Jeśli wewnętrzne regulacje przewoźnika dopuszczają wyłączenie hamulca na pojedyńczych wózkach, oraz na pudle pojazdu lub w instrukcji znajdują się masy hamujące rzeczywiste poszczególnych wózków, to M\textsubscript{hr} składu jest równa sumie mas hamujących rzeczywistych wózków z czynnym hamulcem.
-	\\ Inaczej mówiąc jest to masa hamująca rzeczywista całego EZT minus masa hamująca wózka z wyłączonym hamulcem.
-	\[ M{hr} = M_{hrEZT} - M_{hrw1}  \] gdzie M\textsubscript{hrw1} to masa hamująca rzeczywista wózka z wyłączonym hamulcem.
+Masę hamującą poszczególnych pojazdów przyjmuje się następująco\footnote{K-6 § 11 ust. 6.}:
+\begin{itemize}
+	\item pojazd z samoczynną regulacją siły hamowania (zależnie od załadowania): \textbf{dostępny dla podróżnych} – wartość „ładowny”, niezależnie od tego, ilu jest podróżnych; \textbf{niedostępny} – wartość „próżny”,
+	\item pojazd z hamulcem o jednym nastawieniu – wartość z nadwozia,
+	\item EZT z kilkoma wartościami dla różnych rodzajów hamulca – wartość dla nastawienia, z jakim pojazd jest eksploatowany (jeśli urządzenie Rapid jest sprawne, to z nim),
+	\item pojazd z \textbf{hamulcem elektrodynamicznym} sterowanym łącznie z hamulcem zespolonym tym samym zaworem (manipulatorem) maszynisty, który można włączać i wyłączać – wartość dla nastawienia \textbf{R}.
+\end{itemize}
+
+Gdy znamy masę ogólną oraz rzeczywistą masę hamującą, możemy wyliczyć \textbf{procent rzeczywisty masy hamującej}\footnote{K-6 § 11 ust. 4 pkt 3; K-2 § 13 ust. 4 pkt 3.}:
+\[  P_{r}=\frac{M_{hr} \cdot 100}{M_{o}}   \label{def:pr} \]
+gdzie P\textsubscript{r} to procent rzeczywisty masy hamującej, M\textsubscript{hr} to masa hamująca rzeczywista w tonach, a M\textsubscript{o} to masa ogólna pociągu. Wartość procentu rzeczywistego masy hamującej po wyliczeniu zaokrąglamy w dół.
+
+\textbf{Procent rzeczywistej masy hamującej} pociągu powinien być równy lub większy niż procent wymagany masy hamującej:
+\[  P_{r} \ge P_{w}   \]
+
+\section{Wyłączony hamulec w zespole trakcyjnym}
+
+Po wyłączeniu hamulca w części zespołu trakcyjnego masę hamującą rzeczywistą trzeba zmniejszyć. Kolejność postępowania wynika z K-6 § 11 ust. 6 pkt 5: najpierw korzysta się z mas hamujących wózków lub członów podanych na pudle albo w dokumentacji pojazdu, a dopiero gdy ich brak – z uproszczonych ułamków.
+
+\begin{tcolorbox}[colback=green!15!white,colframe=green!75!black,title=Sposób 1 – masy hamujące wózków lub członów podane na pudle]
+	Jeśli na pudle pojazdu lub w jego dokumentacji (DTR) podano masy hamujące rzeczywiste poszczególnych wózków (członów), to M\textsubscript{hr} składu jest równa sumie mas hamujących wózków z czynnym hamulcem.
+	\\ Inaczej mówiąc jest to masa hamująca rzeczywista całego EZT minus masa hamująca wózka z wyłączonym hamulcem:
+	\[ M_{hr} = M_{hrEZT} - M_{hrw1}  \] gdzie M\textsubscript{hrw1} to masa hamująca rzeczywista wózka z wyłączonym hamulcem.
 \end{tcolorbox}
 \begin{figure}
 	\includegraphics[width=0.45\textwidth]{skryptkierownik-img/mhr-wozki.jpg}
-	\caption{Masy hamujące pojedyńczych wózków EZT - na zdjęciu opisy na pudle 34WEa, liczone od strony członu A od lewej strony}
+	\caption{Masy hamujące pojedynczych wózków EZT – na zdjęciu opisy na pudle 34WEa, liczone od strony członu A od lewej strony}
 \end{figure}
+
+\begin{tcolorbox}[colback=yellow!15!white,colframe=green!75!black,title=Sposób 2 – brak mas wózków lub członów na pudle]
+	Jeżeli zespół trakcyjny nie ma wypisanych mas hamujących poszczególnych członów lub wózków, przyjmuje się, że po wyłączeniu hamulca w \textbf{jednym} wagonie pozostaje:
+	\begin{itemize}
+		\item w zespole dwu- lub trzywagonowym – połowa wypisanej masy hamującej zespołu ($ \frac{1}{2} \cdot M_{hr} $),
+		\item w zespole cztero- lub więcej wagonowym – dwie trzecie wypisanej masy hamującej zespołu ($ \frac{2}{3} \cdot M_{hr} $).
+	\end{itemize}
+	Jeśli hamulce w co najmniej dwóch wagonach zespołu trakcyjnego są niesprawne lub wyłączone – \textbf{pociąg nie może być wyprawiony w drogę}.
+\end{tcolorbox}
+
+Jeżeli człony zespołu trakcyjnego są połączone \textbf{wspólnymi wózkami}, pociąg z częściowo uszkodzonym hamulcem zespolonym może pozostać w eksploatacji do końca danego obiegu, z prędkością nie większą, niż pozwala na to rzeczywista masa hamująca\footnote{K-6 § 11 ust. 10.}.
 
 \section{Dostosowywanie prędkości do dostępnej masy hamującej rzeczywistej}
 
-W przypadku wymiany taboru na inny typ lub wyłączenia części hamulców w wagonach, masa hamująca rzeczywista pociągu może zmniejszyć się w taki sposób, że będzie niższa od wymaganej na danym szlaku. Należy wtedy ponownie wyliczyć parametry pociągu - prędkość maksymalną i wymaganą masę hamującą. 
-W pierwszej kolejności z Dodatku I do WRJ w tablicy 3 "Wykaz pochyleń (spadków) miarodajnych w 0/00 do obliczania masy hamującej w pociągach na odcinkach linii" należy wyszukać odpowiedni odcinek linii kolejowej, oraz obowiązującą na nim w danym kierunku (parzystym lub nieparzystym) długość drogi hamowania wyrażoną w metrach, oraz pochylenie spadek miarodajny w danym kierunku.
+W przypadku wymiany taboru na inny typ lub wyłączenia części hamulców masa hamująca rzeczywista pociągu może się zmniejszyć tak, że procent rzeczywisty będzie niższy od wymaganego. Pociąg może wtedy zostać wyprawiony z \textbf{prędkością zmniejszoną} odpowiednio do jego procentu rzeczywistej masy hamującej. Dopuszczalną prędkość określa osoba wykonująca próbę hamulca\footnote{K-6 § 11 ust. 7.}, a na zmniejszenie prędkości zezwala dyspozytor liniowy zarządcy infrastruktury\footnote{Ir-1 § 21 ust. 10.}.
+
+\textbf{Tablice hamowania.} Procent wymaganej masy hamującej zależy od drogi hamowania, sposobu hamowania, prędkości i pochylenia miarodajnego. Podają go tablice hamowania w Dodatku 1 do Instrukcji Ir-1\footnote{Ir-1 § 21 ust. 3–4 (stan na 01.07.2026). Te same wartości zawiera K-6, załącznik nr 5, oraz K-5, załącznik nr 11.}:
+\begin{itemize}
+	\item \textbf{tablica A} – droga hamowania 400 m,
+	\item \textbf{tablica B} – droga hamowania 700 m,
+	\item \textbf{tablica C} – droga hamowania 1000 m,
+	\item \textbf{tablica D} – droga hamowania 1300 m.
+\end{itemize}
+Każda tablica ma osobne wiersze dla hamulców zespolonych \textbf{szybko działających (S)} – nastawienia P, R, R+Mg – i \textbf{wolno działających (W)} – nastawienie G. W Ir-1 oznacza się je odpowiednio I i II. Pochylenia miarodajne podane są co 1\textperthousand{} (od 0 do 45\textperthousand). Tablice służą tylko do odczytania procentu dla danej prędkości – sposób obliczania mas i procentów się nie zmienia.
+
+\textbf{Krok 1 – warunki na linii.} Z Dodatku 1 do SRJ (WRJ), z tablicy 3 „Wykaz pochyleń (spadków) miarodajnych w \textperthousand{} do obliczania masy hamującej w pociągach na odcinkach linii” odczytujemy dla odcinka linii i kierunku jazdy (parzystego lub nieparzystego) \textbf{drogę hamowania} w metrach oraz \textbf{pochylenie miarodajne}.
 \begin{figure}
 	\includegraphics[width=0.45\textwidth]{skryptkierownik-img/tabela-d1-warunki.jpg}
-	\caption{Tablica 3 Dodatku 1 do w.r.j. - w kolumnie 2 i 3 znajdują się drogi hamowania, w kolumnie 4 i 5 pochylenia miarodajne dla kierunków nieparzystego i parzystego}
+	\caption{Tablica 3 Dodatku 1 do w.r.j. – w kolumnie 2 i 3 znajdują się drogi hamowania, w kolumnie 4 i 5 pochylenia miarodajne dla kierunków nieparzystego i parzystego}
 \end{figure}
-Następnie w Dodatku I do Instrukcji Ir-1 odnajdujemy odpowiednią tablicę dla drogi hamowania. Przykładowo dla linii kolejowej 194 Pietrowice Wielkie - Kietrz wynosi ona 500 m, a więc będziemy korzystali z tablicy A. W pierwszej kolumnie takiej tablicy znajdują się pochylenia miarodajne wyrażone w promilach. Odszukujemy wiersz z odpowiednią wartością pochylenia, pamiętając od zaokrąglaniu wartości do najbliższych pełnych jednostek "w górę". W naszym przykładzie pochylenie miarodajne w kierunku parzystym wynosi 14,8. A więc będziemy korzystali z wiersza z pochyleniem 16 promili.
-Ostatnią operacją którą musimy wykonać jest odszukanie w tym wierszu odpowiedniej pozycji z masą hamującą wymaganą o wartości najbliższej mniejszej lub równej dostępnej masie hamującej rzeczywistej. Użyjmy przykładowej wartości 84 procent Mhr. Dla hamulców szybko działających istnieje wartość 83. W tej kolumnie u góry odnajdujemy właściwą prędkość maksymalną (w przykładzie 65 km/h).
+
+\textbf{Krok 2 – właściwa tablica i wiersz.} Na podstawie drogi hamowania wybieramy tablicę (A, B, C lub D). Pochylenie miarodajne zaokrąglamy w górę do pełnego promila i odszukujemy odpowiedni wiersz dla rodzaju hamulców pociągu (S lub W).
+
+\textbf{Krok 3 – prędkość.} W tym wierszu szukamy liczby równej procentowi rzeczywistemu masy hamującej, a jeśli takiej nie ma – najbliższej mniejszej. W nagłówku kolumny odczytujemy największą dozwoloną prędkość.
+
+\begin{tcolorbox}[colback=blue!4!white,colframe=blue!60!black,title=Przykład]
+	Droga hamowania 400 m (tablica A), pochylenie miarodajne 14,8\textperthousand{} – zaokrąglamy do \textbf{15}\textperthousand. Pociąg z hamulcami szybko działającymi (S) ma po wyłączeniu części hamulców procent rzeczywisty masy hamującej P\textsubscript{r} = \textbf{84}. W wierszu 15, S nie ma wartości 84 – najbliższa mniejsza to \textbf{73}, w kolumnie \textbf{55 km/h} (rys. \ref{fig:tablica-a-przyklad}). Pociąg może jechać z prędkością nie większą niż 55 km/h.
+\end{tcolorbox}
+
 \begin{figure}
-	\includegraphics[width=0.45\textwidth]{skryptkierownik-img/tablica-ir1.jpg}
-	\caption{Fragment tablicy z procentami wymaganymi. W przykładzie droga hamowania 500m, pochylenie 14.8 promila i 84 procent Mhr. Odszukana prędkość to 65 km/h}
+	\centering
+	\setlength{\tabcolsep}{4pt}
+	\footnotesize
+	\begin{tabular}{cc|cccccccc}
+		\hline
+		\multicolumn{2}{c|}{} & \multicolumn{8}{c}{Prędkość [km/h]} \\
+		Pochylenie [\textperthousand] & Hamulce & 30 & 35 & 40 & 45 & 50 & \cellcolor{orange!30}\textbf{55} & 60 & 65 \\
+		\hline
+		14 & S & 30 & 36 & 44 & 52 & 62 & 72 & 83 & 95 \\
+		 & W & 35 & 45 & 56 & 69 & 85 & – & – & – \\
+		\hline
+		\textbf{15} & \cellcolor{green!15}\textbf{S} & \cellcolor{green!15}32 & \cellcolor{green!15}38 & \cellcolor{green!15}46 & \cellcolor{green!15}54 & \cellcolor{green!15}63 & \cellcolor{orange!40}\textbf{73} & \cellcolor{green!15}85 & \cellcolor{green!15}96 \\
+		 & W & 37 & 47 & 58 & 72 & 87 & – & – & – \\
+		\hline
+		16 & S & 33 & 40 & 47 & 56 & 65 & 75 & 86 & 98 \\
+		 & W & 39 & 49 & 60 & 74 & 89 & – & – & – \\
+		\hline
+	\end{tabular}
+	\caption{Fragment tablicy A (droga hamowania 400 m) – procenty wymaganej masy hamującej wg Dodatku 1 do Ir-1 i K-6, zał. nr 5. Zaznaczono odczyt z przykładu: pochylenie 15\textperthousand, hamulce S, P\textsubscript{r} = 84 → 73 → 55 km/h}
+	\label{fig:tablica-a-przyklad}
 \end{figure}
-Po wyszukaniu potrzebnych informacji możemy przystąpić do sporządzania karty próby hamulca. W polach masy hamującej wymaganej i procentu tejże wpisujemy pierwotne wartości wynikające z rozkładu jazdy, zaś w nawiasie wpisujemy masę hamującą rzeczywistą oraz procent wymagany wynikający z takiej masy. Na odwrocie karty próby obowiązkowo musimy zamieścić w sposób widoczny dla maszynisty pociągu informację o zmniejszonej prędkości dopuszczalnej.
+
+\textbf{Krok 4 – karta próby hamulca i rozkaz pisemny.} W polach masy hamującej wymaganej i procentu wymaganego wpisujemy pierwotne wartości z rozkładu jazdy, a w nawiasie – masę hamującą rzeczywistą oraz procent wymagany odpowiadający tej masie. Na odwrocie karty próby obowiązkowo zamieszczamy, w sposób widoczny dla maszynisty, informację o zmniejszonej prędkości dopuszczalnej. Dyżurny ruchu wyprawiający pociąg wydaje drużynie pociągowej rozkaz pisemny z największą dozwoloną prędkością – na całą trasę albo jej część\footnote{Ir-1 § 21 ust. 11.}.
 \begin{figure}
 	\includegraphics[width=0.45\textwidth]{skryptkierownik-img/karta-proby-wylaczony-hamulec.jpg}
 	\caption{Karta próby hamulca ze zmniejszoną prędkością po wyłączeniu hamulca w jednym wagonie}
 \end{figure}
-
 
 \chapter{Sprzęganie i rozprzęganie taboru}
 \label{ch:sprzeganie}
@@ -1726,26 +1789,77 @@ Maszynista w każdym przypadku odpowiedzialny jest za należyte sprzęgnięcie o
 
 \chapter{Zabezpieczenie taboru przed zbiegnięciem}
 
-Zabezpieczenia taboru przed zbiegnięciem dokonuje się poprzez zahamowanie pojazdów kolejowych hamulcem ręcznym lub postojowym sprężynowym, a także poprzez wyłożenie płozów hamulcowych. Zabezpieczenie przy pomocy płoza należy wykonać \textbf{od strony spadku}, w sposób wskazany w regulaminie technicznym stacji.\footnote{Regulamin techniczny stacji, dz. 40}
+Pojazd pozostawiony bez obsługi musi być zabezpieczony tak, żeby nie mógł samoczynnie odjechać – nawet gdy w układzie hamulcowym zabraknie sprężonego powietrza. Zabezpieczenia taboru przed zbiegnięciem dokonuje się przez:
+\begin{itemize}
+	\item zahamowanie pojazdów \textbf{hamulcem postojowym} (sprężynowym) lub \textbf{ręcznym},
+	\item wyłożenie \textbf{płozów hamulcowych}.
+\end{itemize}
 
-Płóz hamulcowy składa się z następujących zasadniczych części:
-1) podeszwy ślizgowej z jedną lub dwoma wargami; przy podeszwie ślizgowej rozróżniamy: spód ślizgowy, wierzch podeszwy, wargi i język podeszwy,
-2) stopki,
-3) uchwytu.
+\section{Hamulec postojowy}
 
-Używane płozy powinny odpowiadać typom szyn, na których są wykładane. Na taborze Kolei Śląskich stosuje się \textbf{płóz uniwersalny (wzmocniony) typu PL3} o szerokości powierzchni ślizgowej 78 mm, malowany na kolor \textbf{pomarańczowy}. Nadaje się on do szyn typu 8, 15, 40, S42, S49, S60, UIC 60 i R65, a więc praktycznie do wszystkich torów, po których kursują pociągi Spółki.
+W zespołach trakcyjnych podstawowym zabezpieczeniem jest hamulec postojowy. Stosuje się go\footnote{K-2 § 17 ust. 7–8, § 20, § 21, § 23 ust. 1.}:
+\begin{itemize}
+	\item gdy drużyna opuszcza pojazd na postoju albo nastąpiła lub ma nastąpić przerwa w napędzie sprężarki,
+	\item podczas zmiany czoła pociągu,
+	\item gdy inne rodzaje hamulców przestały działać,
+	\item po zakończeniu jazdy – w jednej kabinie czołowej albo w tej, która znajduje się od strony spadku; maszynista przed opuszczeniem kabiny zabezpiecza pojazd hamulcem postojowym,
+	\item gdy w czasie postoju na stacji mają być wykonywane oględziny techniczne – maszynista luzuje hamulec zespolony i hamuje pociąg hamulcem postojowym w kabinie, z której prowadzony jest pociąg,
+	\item gdy maszynista oddala się od pociągu albo od składu odczepia się pojazd.
+\end{itemize}
+Po samoczynnym zatrzymaniu pociągu wskutek spadku ciśnienia w przewodzie głównym (rozerwanie pociągu, hamulec bezpieczeństwa, pęknięty sprzęg) maszynista hamuje pociąg hamulcami postojowymi i ręcznymi, a następnie razem z kierownikiem pociągu ustala przyczynę spadku ciśnienia\footnote{K-2 § 26 ust. 3.}.
 
-Dla informacji: na sieci spotyka się także starsze płozy dwuwargowe dopasowane do konkretnych typów szyn – \textbf{niebieskie} o szerokości 64 mm (szyny typu 6), \textbf{czerwone} PL1 o szerokości 73 mm (szyny S42, S49, 39, 41) oraz \textbf{żółte} PL2 o szerokości 78 mm (szyny 8, 15, 40, S60).
+\section{Płozy hamulcowe}
+
+Zabezpieczenie płozem wykonuje się \textbf{od strony spadku}, w sposób wskazany w regulaminie technicznym stacji\footnote{Regulamin techniczny stacji, dz. 40.}. Płóz wykłada się na szynę pod koło pojazdu – koło najeżdża na podeszwę i opiera się o stopkę, a pojazd, który zacząłby się toczyć, sunie po szynie razem z płozem i jest przez niego hamowany.
+
+Płóz hamulcowy składa się z (rys. \ref{fig:ploz-schemat}):
+\begin{enumerate}
+	\item \textbf{podeszwy ślizgowej} z jedną lub dwoma wargami – rozróżnia się w niej spód ślizgowy, wierzch podeszwy, wargi (obejmujące główkę szyny) i język podeszwy (cienki koniec, na który najeżdża koło),
+	\item \textbf{stopki} – podpory, o którą opiera się koło,
+	\item \textbf{uchwytu} – do przenoszenia i wykładania płozu.
+\end{enumerate}
+
+\begin{figure}
+	\centering
+	\begin{tikzpicture}[x=1cm, y=1cm, every node/.style={font=\scriptsize}, opis/.style={thin, black!60}]
+		% szyna
+		\fill[black!20] (-0.5,-0.35) rectangle (7.5,0);
+		\draw[thick] (-0.5,0) -- (7.5,0);
+		\node[below left, text=black!60] at (7.5,-0.35) {szyna (widok z boku)};
+		% koło
+		\draw[thick, fill=black!8] (3.3,1.55) circle (1.45);
+		\fill (3.3,1.55) circle (1.5pt);
+		\node at (3.3,2.2) {koło};
+		% płóz: podeszwa z językiem, stopka, uchwyt
+		\fill[orange!70] (0.6,0) -- (5.2,0) -- (5.2,0.16) -- (1.4,0.16) -- cycle;
+		\draw[thick] (0.6,0) -- (5.2,0) -- (5.2,0.16) -- (1.4,0.16) -- cycle;
+		\fill[orange!70] (4.25,0.16) -- (5.2,0.16) -- (5.2,1.05) -- (4.75,1.05) -- cycle;
+		\draw[thick] (4.25,0.16) -- (5.2,0.16) -- (5.2,1.05) -- (4.75,1.05) -- cycle;
+		\draw[very thick, black!70] (5.2,0.9) .. controls (6.3,1.1) and (6.6,0.4) .. (5.2,0.3);
+		% opisy
+		\draw[opis] (1.0,0.08) -- (0.4,0.9) node[above] {język podeszwy};
+		\draw[opis] (2.4,0.12) -- (1.5,-0.75) node[below] {podeszwa ślizgowa};
+		\draw[opis] (4.9,0.7) -- (5.4,1.9) node[above] {stopka};
+		\draw[opis] (6.2,0.75) -- (6.9,1.3) node[above] {uchwyt};
+		\draw[-latex, thick, black!70] (1.6,3.2) -- (0.4,3.2) node[left, align=center] {kierunek\\spadku};
+	\end{tikzpicture}
+	\caption{Płóz hamulcowy wyłożony pod koło – schemat, widok z boku. Koło najeżdża na podeszwę i opiera się o stopkę; płóz kładzie się od strony spadku}
+	\label{fig:ploz-schemat}
+\end{figure}
+
+\begin{tcolorbox}[colback=yellow!10!white,colframe=orange!80!black,title=Płóz PL3 – jedyny stosowany w Kolejach Śląskich]
+	Na taborze Kolei Śląskich obowiązuje \textbf{płóz uniwersalny (wzmocniony) typu PL3}, malowany na kolor \textbf{pomarańczowy}, o szerokości powierzchni ślizgowej 78 mm. Jest uniwersalny – można go wykładać na \textbf{wszystkich rodzajach szyn}. Innych typów płozów w Spółce się nie stosuje.
+\end{tcolorbox}
 
 Nie wolno wykładać płoza hamulcowego:
 \begin{itemize}
-	\item w odległości mniejszej niż 1m od złącza szynowego (styku),
+	\item w odległości mniejszej niż 1 m od złącza szynowego (styku),
 	\item w łukach na zewnętrznym toku szynowym,
 	\item na opornicy rozjazdu przed przylegającą do niej iglicą,
-	\item przed krzyżownicą rozjazdu (zasadniczo w rozjeździe nie wykładamy),
+	\item przed krzyżownicą rozjazdu (zasadniczo w rozjeździe płozów się nie wykłada),
 	\item przed przejazdami kolejowo-drogowymi.
 \end{itemize}
 \begin{figure}[h]
 	\includegraphics[width=0.45\textwidth]{skryptkierownik-img/ploz.jpg}
 	\caption{Zestawy kołowe zabezpieczone płozem}
-\end{figure} 
+\end{figure}

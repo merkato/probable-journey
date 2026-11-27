@@ -18,10 +18,10 @@ Braki (ilustracje, źródła, materiały) są prowadzone **wyłącznie w tym pli
 | 8 | Rodzaje hamulców (130–141) | Rodzaje hamulców | do zrobienia |
 | 9 | Postępowanie w sytuacjach awaryjnych (142–148) | Obsługa urządzeń wagonowych | do zrobienia |
 | 10 | Próba hamulca (149–155) | Wykonywanie szczegółowej i uproszczonej próby hamulca | do zrobienia |
-| 11 | Masa hamująca (156–161, 178–182) | Obliczanie rzeczywistej oraz wymaganej masy hamującej | do zrobienia |
+| 11 | Masa hamująca (156–161, 178–182) | Obliczanie rzeczywistej oraz wymaganej masy hamującej | **zrobione** – 2 sprawy otwarte |
 | 12 | Wypełnianie karty próby hamulca (162–177) | nowy rozdział | do zrobienia |
 | – | (brak w prezentacji) | Sprzęganie i rozprzęganie taboru | pozostaje bez zmian |
-| 13 | Zabezpieczenie taboru przed zbiegnięciem (183–185) | Zabezpieczenie taboru przed zbiegnięciem | do zrobienia |
+| 13 | Zabezpieczenie taboru przed zbiegnięciem (183–185) | Zabezpieczenie taboru przed zbiegnięciem | **zrobione** |
 
 ## Rozbieżności i wątpliwości merytoryczne do rozstrzygnięcia
 
@@ -46,7 +46,7 @@ Braki (ilustracje, źródła, materiały) są prowadzone **wyłącznie w tym pli
 - [ ] **Opis oznaczeń** na wzorze R266 (sl. 25) i źródło wzoru (Ir-10, który załącznik).
 
 ### 2. Przesyłki niebezpieczne (zrobione – zostały braki)
-- [ ] Źródło tabeli **barw pasów na cysternach 1520 mm** (sl. 41) do przypisu.
+- [x] Źródło tabeli **barw pasów na cysternach 1520 mm** – Ir-16 (od 14.12.2025) § 9 ust. 5 pkt 2 (za SMGS zał. 2, pkt 5.3.5.1), dopisane w podpisie tabeli. Uwaga: Ir-16 podaje tylko pasy 30 cm (amoniak, chlor, gazy 2F/3F/4F); wiersze z pasami 50 cm zostają w podręczniku – autor poda ich źródło (do dopisania w podpisie tabeli).
 - [ ] **Procedura dla drużyny pociągu pasażerskiego** przy zdarzeniu z TN w pobliżu (powiadomienie, ewakuacja, kierunek wiatru). Na sl. 43 jest tylko opis toru odstawczego.
 - [ ] Opcjonalnie: własne zdjęcie wagonu z tablicą pomarańczową i nalepkami (zdjęcie na sl. 28 pochodzi z kursu ADR).
 
@@ -71,7 +71,7 @@ Braki (ilustracje, źródła, materiały) są prowadzone **wyłącznie w tym pli
 ### 5. Oznakowanie i symbole na taborze (sl. 74–91)
 - [ ] Pliki źródłowe grafik `01_uklad_oznaczen` … `12_woda_wc` (PNG/SVG) – rysunki autorskie, nadają się do podręcznika bez zmian.
 - [ ] Zdjęcie tablicy oznaczeń EZT („oznaczenia_ezt_pas.jpg”, sl. 167) w pełnej rozdzielczości.
-- [ ] Potwierdzenie, że nie ma przeszkód w cytowaniu treści normy **PN-EN 15877-2:2013** w takim zakresie (prawa autorskie PKN).
+- [x] Norma **PN-EN 15877-2:2013** – KŚ mają licencję, także do celów szkoleniowych. W podręczniku cytować **tylko numer normy** (bez przytaczania jej treści i rysunków).
 
 ### 6. Wyłączanie taboru z eksploatacji (sl. 92–98)
 - [ ] Schemat „Wyłączenie i powrót do eksploatacji” (`13_wylaczanie.png`) w pełnej rozdzielczości.
@@ -82,9 +82,9 @@ Braki (ilustracje, źródła, materiały) są prowadzone **wyłącznie w tym pli
 
 ### 7. Oględziny techniczne i zestawianie pociągów (sl. 99–129)
 - [x] Nowa wersja tekstu od autora przeniesiona (warunki wykonywania oględzin wg Ir-1 § 14, podział na układy, 4 zdjęcia usterek).
-- [ ] Potwierdzić, że zdjęcia `ogledziny-znaki-kontrolne.jpg` i `ogledziny-uszkodzenie-lozyska.jpg` (wzięte ze sl. 112 i 118) to te same zdjęcia co w wersji lokalnej autora i kto jest ich autorem.
+- [x] Zdjęcia `ogledziny-znaki-kontrolne.jpg` i `ogledziny-uszkodzenie-lozyska.jpg` – te same co w wersji autora; autor: **Ryszard Grzecznik** (dopisany w `copyright.tex`, razem z dwoma wcześniejszymi). Pozostałe zdjęcia w rozdziale o oględzinach pochodzą od zespołu instruktorskiego.
 - [ ] Teksty z diagramów na sl. 100–103 – nie da się ich odczytać automatycznie, a w prezentacji są skrótowe. Potrzebne rozwinięcie: częstotliwość oględzin (raz na 24 h?), kto je wykonuje, metody (wzrok, słuch, temperatura, zapach).
-- [ ] Zdjęcia usterek (sl. 104–127): opis, co dokładnie widać na każdym zdjęciu (np. „nalep 45 mm na kole 1. osi”), i potwierdzenie, że są własne.
+- [ ] Zdjęcia usterek (sl. 104–127): opis, co dokładnie widać na każdym zdjęciu (np. „nalep 45 mm na kole 1. osi”), (autorstwo potwierdzone – zespół instruktorski, poza zdjęciami R. Grzecznika).
 - [ ] Graniczna grubość wstawki (10 mm, sl. 104) – źródło przepisu.
 - [ ] Rozwinięcie slajdu 129 „Sposoby zestawiania pociągów pasażerskich” (Ir-9): pełna lista wymogów, rola kierownika pociągu.
 
@@ -101,13 +101,15 @@ Braki (ilustracje, źródła, materiały) są prowadzone **wyłącznie w tym pli
 
 ### 10. Próba hamulca (sl. 149–155)
 - [ ] Rozstrzygnięcie rozbieżności 3.
-- [ ] Potwierdzenie wartości do dopisania: 0,48 MPa na końcu pociągu, spadek w przewodzie zasilającym ≤ 0,07 MPa w 5 min, ciśnienie w cylindrach przy próbie ep 0,10–0,15 MPa.
+- [x] Wartości potwierdzone przez autora i już w tekście: 0,48 MPa na końcu pociągu, spadek w przewodzie zasilającym ≤ 0,07 MPa w 5 min, ciśnienie w cylindrach przy próbie ep 0,10–0,15 MPa.
 - [ ] Zdjęcia manometrów (sl. 151–155) w pełnej rozdzielczości, z typem pojazdu.
 
 ### 11. Masa hamująca (sl. 156–161, 178–182)
-- [ ] Rozstrzygnięcie rozbieżności 2.
+- [x] Rozdział zaktualizowany wg Ir-1 (zm. 19, od 01.07.2026) § 19–21, K-6 (03.2026) § 11 i zał. 5, K-2 (05.2025) § 13: źródła w przypisach (zamiast „K-2 rozdz. VIII § 28”), tablice A–D (400/700/1000/1300 m, S/W, co 1‰), nowy przykład (tablica A, 15‰, Pr 84 → 55 km/h) i własna tabela-wycinek zamiast skanu starej tablicy, kto liczy (KP), masa brutto, ładowny/próżny, ED → R, kolejność sposobów przy wyłączonym hamulcu, wspólne wózki, zezwolenie dyspozytora i rozkaz pisemny (Ir-1 § 21 ust. 10–11). Do ramki o masie ogólnej dopisany pociąg międzynarodowy (Ir-1 § 19 ust. 1 pkt 2).
+- [x] **Zasada „hamulec wyłączony w co najmniej dwóch wagonach – pociąg nie może być wyprawiony”** – zostaje; według autora ma źródło (inne niż Ir-1, K-2, K-5, K-6). Warto dopisać przypis, gdy źródło zostanie wskazane.
+- [ ] **Droga hamowania 500 m** – tablica 3 Dodatku 1 do SRJ (rysunek) podaje dla linii 194 drogę 500 m, a Ir-1 ma tablice tylko dla 400/700/1000/1300 m. Do wyjaśnienia, którą tablicę stosować (i czy skan tablicy 3 jest aktualny).
 - [ ] Zdjęcie pudła z rozbiciem masy hamującej na wózki („R MAX: 231 t (56+60+59+56)”, sl. 179) – typ pojazdu.
-- [ ] Aktualne fragmenty **Dodatku 1 do SRJ/WRJ** (tablica 3) i **Dodatku I do Ir-1** (sl. 180–181). Trzeba sprawdzić, czy dotychczasowe skany są nadal aktualne.
+- [ ] Aktualny fragment **Dodatku 1 do SRJ/WRJ** (tablica 3, sl. 180). Skan Dodatku I do Ir-1 (sl. 181) zastąpiony własną tabelą.
 
 ### 12. Wypełnianie karty próby hamulca – nowy rozdział (sl. 162–177)
 - [ ] **Pusty wzór karty** (załącznik nr 2 do K-6) w wysokiej rozdzielczości, obie strony.
@@ -116,8 +118,8 @@ Braki (ilustracje, źródła, materiały) są prowadzone **wyłącznie w tym pli
 - [ ] Przykład 2 (EN57KM-3002): uzupełnienie pól mas (8–13) i numerów członów (20–21). Na sl. 176 są puste („do uzupełnienia”).
 
 ### 13. Zabezpieczenie przed zbiegnięciem (sl. 183–185)
-- [ ] Rozstrzygnięcie rozbieżności 7 (typy płozów).
-- [ ] Zdjęcie płozu PL3 z opisem części (podeszwa, wargi, język, stopka, uchwyt) – sl. 184.
+- [x] Rozdział przepisany: hamulec postojowy wg K-2 (§ 17, 20, 21, 23, 26 ust. 3), płozy – budowa, ramka „PL3 – jedyny stosowany w KŚ, uniwersalny do wszystkich rodzajów szyn”, zakazy wykładania; usunięte opisy innych typów płozów (PL1, PL2, niebieski 64 mm). Własny schemat TikZ płozu pod kołem z opisem części (zamiast grafiki ze sl. 184 w stylu AI).
+- [ ] Opcjonalnie: zdjęcie płozu PL3 z bliska (podeszwa, wargi, język, stopka, uchwyt).
 
 ## Ilustracje przeniesione z prezentacji do `skryptkierownik-img/`
 - `skrajnie-porownanie.jpg` (sl. 4) i `skrajnia-taboru-peron.jpg` (sl. 5) – trzeba potwierdzić autorstwo i prawo do wykorzystania.
