@@ -278,3 +278,7 @@ TSWLatexianTemp*
 
 # Klasa dokumentu podręcznika
 !podrecznik.cls
+
+# Wynikowe PDF-y podręcznika – publikowane jako GitHub Releases, nie w repozytorium
+skrypt-kierownik.pdf
+skrypt-kierownik.compressed.pdf
