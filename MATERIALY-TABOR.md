@@ -78,6 +78,8 @@ Ramki wyłącza się przed drukiem: w `skrypt-kierownik.tex` trzeba zmienić `\r
 - [ ] Wzory nalepek „Drzwi nieczynne” i „WC nieczynne”.
 
 ### 7. Oględziny techniczne i zestawianie pociągów (sl. 99–129)
+- [x] Nowa wersja tekstu od autora przeniesiona (warunki wykonywania oględzin wg Ir-1 § 14, podział na układy, 4 zdjęcia usterek).
+- [ ] Potwierdzić, że zdjęcia `ogledziny-znaki-kontrolne.jpg` i `ogledziny-uszkodzenie-lozyska.jpg` (wzięte ze sl. 112 i 118) to te same zdjęcia co w wersji lokalnej autora i kto jest ich autorem.
 - [ ] Teksty z diagramów na sl. 100–103 – nie da się ich odczytać automatycznie, a w prezentacji są skrótowe. Potrzebne rozwinięcie: częstotliwość oględzin (raz na 24 h?), kto je wykonuje, metody (wzrok, słuch, temperatura, zapach).
 - [ ] Zdjęcia usterek (sl. 104–127): opis, co dokładnie widać na każdym zdjęciu (np. „nalep 45 mm na kole 1. osi”), i potwierdzenie, że są własne.
 - [ ] Graniczna grubość wstawki (10 mm, sl. 104) – źródło przepisu.
