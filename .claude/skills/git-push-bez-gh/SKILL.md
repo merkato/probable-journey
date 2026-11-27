@@ -1,6 +1,6 @@
 ---
 name: git-push-bez-gh
-description: Commit, push and prepare a pull request for this repository without the GitHub CLI (gh) and without SSH keys – pushes over HTTPS with Git Credential Manager and gives a compare link for the PR. Use when the user asks to commit, push ("wypchnij", "zatwierdź", "wyślij na GitHuba"), sync with GitHub, or open a PR, and gh is not installed or SSH fails ("Host key verification failed", "Permission denied (publickey)").
+description: Commit, push and prepare a pull request for this repository without the GitHub CLI (gh) and without SSH keys – pushes over HTTPS with Git Credential Manager and gives a compare link for the PR; also rebuilds and compresses the handbook PDF (pdflatex + MiKTeX Ghostscript). Use when the user asks to rebuild the PDF ("przebuduj PDF"), or when the user asks to commit, push ("wypchnij", "zatwierdź", "wyślij na GitHuba"), sync with GitHub, or open a PR, and gh is not installed or SSH fails ("Host key verification failed", "Permission denied (publickey)").
 ---
 
 # Commit i push bez GitHub CLI
@@ -27,6 +27,29 @@ git log --oneline -5
 - Nie dodawaj plików z sekretami (`.env`, `credentials*`, `.claude/settings.local.json`) ani plików tymczasowych LaTeX-a (`*.aux`, `*.log`, `*.toc` – są w `.gitignore`).
 - Zmiany samego trybu pliku (diff `old mode / new mode`, np. `optpdf.sh`) zostaw poza commitem, chyba że użytkownik chce je zatwierdzić.
 - Duże pliki binarne: GitHub odrzuca pliki > 100 MB i ostrzega powyżej 50 MB. Sprawdź rozmiar PDF-ów przed dodaniem (`ls -l *.pdf`). Plik powyżej 100 MB nie przejdzie – zgłoś to użytkownikowi.
+
+## 2a. Przebudowa PDF podręcznika (gdy zmieniono pliki .tex)
+
+PDF-y są w repozytorium, więc po zmianach w tekście warto je przebudować przed commitem. Nie ma osobnego Ghostscripta (`gs`), a `optpdf.sh` w tym środowisku nie działa – użyj MiKTeX-a:
+
+```sh
+# pełny PDF – dwa przebiegi (spis treści, odsyłacze)
+for i in 1 2; do pdflatex -shell-escape -interaction=nonstopmode -halt-on-error skrypt-kierownik.tex > /dev/null 2>&1 || echo "błąd w przebiegu $i"; done
+grep -c '^!' skrypt-kierownik.log          # 0 = bez błędów
+
+# wersja skompresowana – Ghostscript z MiKTeX, ustawienie /ebook
+MGS="$(dirname "$(which pdflatex)")/mgs.exe"
+MSYS_NO_PATHCONV=1 MSYS2_ARG_CONV_EXCL='*' "$MGS" -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 \
+  -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH \
+  -sOutputFile=skrypt-kierownik.compressed.pdf skrypt-kierownik.pdf
+ls -l skrypt-kierownik*.pdf
+```
+
+- `MSYS_NO_PATHCONV=1` jest konieczne: bez niego Git Bash zamienia `/ebook` na ścieżkę Windows i Ghostscript odrzuca opcję.
+- Budowanie trwa kilka minut – daj limit czasu ok. 600000 ms.
+- Jeśli `pdflatex` zgłosi błąd, pokaż użytkownikowi linie zaczynające się od `!` z `skrypt-kierownik.log` i nie commituj PDF-ów.
+- Do commita dodaj `skrypt-kierownik.pdf`, `skrypt-kierownik.compressed.pdf` i `skrypt-kierownik.toc` (śledzony w repozytorium); pozostałe pliki pomocnicze są w `.gitignore`.
+- Wersja skompresowana ma zwykle ok. 6–7 MB; pełny PDF ok. 60–65 MB (powyżej 50 MB GitHub tylko ostrzega).
 
 ## 3. Commit
 
