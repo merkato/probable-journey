@@ -1,6 +1,6 @@
 ---
 name: git-push-bez-gh
-description: Commit, push and prepare a pull request for this repository without the GitHub CLI (gh) and without SSH keys – pushes over HTTPS with Git Credential Manager and gives a compare link for the PR; also rebuilds and compresses the handbook PDF (pdflatex + MiKTeX Ghostscript) and prepares a GitHub Release with the PDFs (PDFs are never committed). Use when the user asks to rebuild the PDF ("przebuduj PDF"), make a release ("wydanie", "release"), or when the user asks to commit, push ("wypchnij", "zatwierdź", "wyślij na GitHuba"), sync with GitHub, or open a PR, and gh is not installed or SSH fails ("Host key verification failed", "Permission denied (publickey)").
+description: Commit, push and prepare a pull request for this repository without the GitHub CLI (gh) and without SSH keys – pushes over HTTPS with Git Credential Manager and gives a compare link for the PR; on explicit request only, also rebuilds and compresses the handbook PDF (pdflatex + MiKTeX Ghostscript) and prepares a GitHub Release with the PDFs (PDFs are never committed, and never built during a plain commit/push). Use when the user asks to rebuild the PDF ("przebuduj PDF"), make a release ("wydanie", "release"), or when the user asks to commit, push ("wypchnij", "zatwierdź", "wyślij na GitHuba"), sync with GitHub, or open a PR, and gh is not installed or SSH fails ("Host key verification failed", "Permission denied (publickey)").
 ---
 
 # Commit i push bez GitHub CLI
@@ -29,9 +29,9 @@ git log --oneline -5
 - **Wynikowych PDF-ów podręcznika (`skrypt-kierownik.pdf`, `skrypt-kierownik.compressed.pdf`) nigdy nie commituj** – są w `.gitignore` i publikuje się je jako GitHub Release (punkt 2b). Nie commituj też `skrypt-kierownik.toc`. `titlepage.pdf` to źródło okładki i zostaje w repozytorium.
 - Inne duże pliki binarne (np. zdjęcia): GitHub odrzuca pliki > 100 MB i ostrzega powyżej 50 MB – sprawdź rozmiar przed dodaniem.
 
-## 2a. Przebudowa PDF podręcznika
+## 2a. Przebudowa PDF podręcznika (tylko na żądanie)
 
-PDF buduje się lokalnie – do sprawdzenia składu i do Release'u – ale **nie trafia do commita**. Nie ma osobnego Ghostscripta (`gs`), a `optpdf.sh` w tym środowisku nie działa – użyj MiKTeX-a:
+**PDF buduj wyłącznie wtedy, gdy użytkownik o to poprosi** (np. „przebuduj PDF”, „zrób wydanie”). Zwykły commit i push nigdy nie uruchamiają budowania PDF ani Release'u – nie proponuj ich też z własnej inicjatywy po zmianach w plikach `.tex`. Zbudowany PDF **nie trafia do commita**. Nie ma osobnego Ghostscripta (`gs`), a `optpdf.sh` w tym środowisku nie działa – użyj MiKTeX-a:
 
 ```sh
 # pełny PDF – dwa przebiegi (spis treści, odsyłacze)
@@ -51,9 +51,9 @@ ls -l skrypt-kierownik*.pdf
 - Jeśli `pdflatex` zgłosi błąd, pokaż użytkownikowi linie zaczynające się od `!` z `skrypt-kierownik.log` i nie publikuj Release'u.
 - Wersja skompresowana ma zwykle ok. 6–7 MB, pełny PDF ok. 60–65 MB (limit pliku w Release to 2 GB).
 
-## 2b. Release z PDF-ami
+## 2b. Release z PDF-ami (tylko na żądanie)
 
-Release robi się **tylko na wyraźne polecenie użytkownika** – to publikacja na GitHubie. Bez `gh` i bez tokenu Release tworzy użytkownik w przeglądarce; Claude przygotowuje wszystko do tego momentu.
+Release robi się **tylko na wyraźne polecenie użytkownika** – nigdy automatycznie przy commicie, pushu ani scaleniu PR – to publikacja na GitHubie. Bez `gh` i bez tokenu Release tworzy użytkownik w przeglądarce; Claude przygotowuje wszystko do tego momentu.
 
 1. Zbuduj i skompresuj PDF (punkt 2a) z tego commita, który ma być wydany – zwykle z `master` po scaleniu PR. Drzewo robocze ma być czyste w plikach `.tex` (`git status`).
 2. Nazwa tagu z metryczki `additional/metadata.tex`: `\revision{1.3.01}` → tag `v1.3.01` (przy kolejnym wydaniu tej samej wersji dodaj sufiks, np. `v1.3.01-2`). Sprawdź, czy tag nie istnieje: `git ls-remote --tags https://github.com/OWNER/REPO.git`.
