@@ -1687,10 +1687,14 @@ Po wyłączeniu hamulca w części zespołu trakcyjnego masę hamującą rzeczyw
 	Jeśli na pudle pojazdu lub w jego dokumentacji (DTR) podano masy hamujące rzeczywiste poszczególnych wózków (członów), to M\textsubscript{hr} składu jest równa sumie mas hamujących wózków z czynnym hamulcem.
 	\\ Inaczej mówiąc jest to masa hamująca rzeczywista całego EZT minus masa hamująca wózka z wyłączonym hamulcem:
 	\[ M_{hr} = M_{hrEZT} - M_{hrw1}  \] gdzie M\textsubscript{hrw1} to masa hamująca rzeczywista wózka z wyłączonym hamulcem.
+
+	\textbf{Przykład:} na pudle 21WEag (rys. \ref{fig:mhr-wozki}) podano „R MAX: 231 t (56 t + 60 t + 59 t + 56 t)”. Po wyłączeniu hamulca drugiego wózka (60 t):
+	\[ M_{hr} = 231 - 60 = 171 \text{ t} \]
 \end{tcolorbox}
 \begin{figure}
 	\includegraphics[width=0.45\textwidth]{skryptkierownik-img/mhr-wozki.jpg}
-	\caption{Masy hamujące pojedynczych wózków EZT – na zdjęciu opisy na pudle 34WEa, liczone od strony członu A od lewej strony}
+	\caption{Masy hamujące pojedynczych wózków EZT – na zdjęciu opisy na pudle 21WEag: masa hamująca całego zespołu w nastawieniu R (231 t) i rozbicie na kolejne wózki, liczone od strony członu A od lewej strony}
+	\label{fig:mhr-wozki}
 \end{figure}
 
 \begin{tcolorbox}[colback=yellow!15!white,colframe=green!75!black,title=Sposób 2 – brak mas wózków lub członów na pudle]
@@ -1717,48 +1721,294 @@ W przypadku wymiany taboru na inny typ lub wyłączenia części hamulców masa 
 \end{itemize}
 Każda tablica ma osobne wiersze dla hamulców zespolonych \textbf{szybko działających (S)} – nastawienia P, R, R+Mg – i \textbf{wolno działających (W)} – nastawienie G. W Ir-1 oznacza się je odpowiednio I i II. Pochylenia miarodajne podane są co 1\textperthousand{} (od 0 do 45\textperthousand). Tablice służą tylko do odczytania procentu dla danej prędkości – sposób obliczania mas i procentów się nie zmienia.
 
-\textbf{Krok 1 – warunki na linii.} Z Dodatku 1 do SRJ (WRJ), z tablicy 3 „Wykaz pochyleń (spadków) miarodajnych w \textperthousand{} do obliczania masy hamującej w pociągach na odcinkach linii” odczytujemy dla odcinka linii i kierunku jazdy (parzystego lub nieparzystego) \textbf{drogę hamowania} w metrach oraz \textbf{pochylenie miarodajne}.
+\textbf{Krok 1 – warunki na linii.} Z Dodatku 1 do SRJ (WRJ), z tablicy 3 „Wykaz pochyleń (spadków) miarodajnych w \textperthousand{} do obliczania masy hamującej w pociągach na odcinkach linii” odczytujemy dla odcinka linii i kierunku jazdy (parzystego lub nieparzystego) \textbf{drogę hamowania} w metrach oraz \textbf{pochylenie miarodajne} (rys. \ref{fig:tablica3}).
 \begin{figure}
-	\includegraphics[width=0.45\textwidth]{skryptkierownik-img/tabela-d1-warunki.jpg}
-	\caption{Tablica 3 Dodatku 1 do w.r.j. – w kolumnie 2 i 3 znajdują się drogi hamowania, w kolumnie 4 i 5 pochylenia miarodajne dla kierunków nieparzystego i parzystego}
+	\centering
+	\setlength{\tabcolsep}{5pt}
+	\footnotesize
+	\begin{tabular}{l|cc|cc}
+		\hline
+		 & \multicolumn{2}{c|}{Droga hamowania [m]} & \multicolumn{2}{c}{Pochylenie miarodajne [\textperthousand]} \\
+		Odcinek linii & nieparzysty & parzysty & nieparzysty & parzysty \\
+		\hline
+		\multicolumn{5}{c}{\textbf{Linia nr 194: Pietrowice Wielkie – Kietrz}} \\
+		\hline
+		Pietrowice Wlk. – Kietrz & 400 & \cellcolor{green!15}\textbf{400} & 10,7 & \cellcolor{green!15}\textbf{14,8} \\
+		\hline
+	\end{tabular}
+	\caption{Fragment tablicy 3 Dodatku 1 do SRJ (odwzorowanie, dane do przykładu): droga hamowania i pochylenie miarodajne dla obu kierunków jazdy. Zaznaczono wartości dla kierunku parzystego}
+	\label{fig:tablica3}
 \end{figure}
 
 \textbf{Krok 2 – właściwa tablica i wiersz.} Na podstawie drogi hamowania wybieramy tablicę (A, B, C lub D). Pochylenie miarodajne zaokrąglamy w górę do pełnego promila i odszukujemy odpowiedni wiersz dla rodzaju hamulców pociągu (S lub W).
 
 \textbf{Krok 3 – prędkość.} W tym wierszu szukamy liczby równej procentowi rzeczywistemu masy hamującej, a jeśli takiej nie ma – najbliższej mniejszej. W nagłówku kolumny odczytujemy największą dozwoloną prędkość.
 
-\begin{tcolorbox}[colback=blue!4!white,colframe=blue!60!black,title=Przykład]
-	Droga hamowania 400 m (tablica A), pochylenie miarodajne 14,8\textperthousand{} – zaokrąglamy do \textbf{15}\textperthousand. Pociąg z hamulcami szybko działającymi (S) ma po wyłączeniu części hamulców procent rzeczywisty masy hamującej P\textsubscript{r} = \textbf{84}. W wierszu 15, S nie ma wartości 84 – najbliższa mniejsza to \textbf{73}, w kolumnie \textbf{55 km/h} (rys. \ref{fig:tablica-a-przyklad}). Pociąg może jechać z prędkością nie większą niż 55 km/h.
+\textbf{Krok 4 – karta próby hamulca i rozkaz pisemny.} W polach masy hamującej wymaganej (poz. 10) i procentu wymaganego (poz. 12) wpisujemy pierwotne wartości z rozkładu jazdy, a w nawiasie – masę hamującą rzeczywistą oraz procent wymagany odpowiadający zmniejszonej prędkości. Na odwrocie karty próby obowiązkowo zamieszczamy, w sposób widoczny dla maszynisty, informację o zmniejszonej prędkości dopuszczalnej. Dyżurny ruchu wyprawiający pociąg wydaje drużynie pociągowej rozkaz pisemny z największą dozwoloną prędkością – na całą trasę albo jej część\footnote{Ir-1 § 21 ust. 11.}.
+
+\begin{tcolorbox}[colback=blue!4!white,colframe=blue!60!black,title=Przykład – wyłączony hamulec wózka w 21WEag na linii 194]
+	\textbf{Dane.} Pociąg prowadzony EZT 21WEag jedzie z Pietrowic Wielkich do Kietrza (kierunek parzysty). Z rozkładu jazdy: prędkość 75 km/h, hamulce szybko działające (nastawienie R), \textbf{P\textsubscript{w} = 122\%}. Masa ogólna pociągu (przykładowo, z tabeli na pudle) \textbf{M\textsubscript{o} = 150 t}. Masa hamująca rzeczywista całego zespołu \textbf{231 t} (rys. \ref{fig:mhr-wozki}).
+
+	\textbf{1. Pociąg sprawny.}
+	\[ P_r = \frac{231 \cdot 100}{150} = 154 \ge 122 \qquad M_{hw} = \frac{150 \cdot 122}{100} = 183 \text{ t} \le 231 \text{ t} \]
+	Hamulce są wystarczające – pociąg jedzie z prędkością rozkładową.
+
+	\textbf{2. Wyłączenie hamulca drugiego wózka (60 t).}
+	\[ M_{hr} = 231 - 60 = 171 \text{ t} \qquad P_r = \frac{171 \cdot 100}{150} = 114 < 122 \]
+	Procent rzeczywisty jest za mały – prędkość trzeba zmniejszyć.
+
+	\textbf{3. Odczyt z tablicy.} Droga hamowania 400 m – \textbf{tablica A}; pochylenie 14,8\textperthousand{} zaokrąglamy w górę do \textbf{15}\textperthousand; hamulce \textbf{S}. W wierszu 15, S nie ma wartości 114 – najbliższa mniejsza to \textbf{109}, w kolumnie \textbf{70 km/h} (rys. \ref{fig:tablica-a-przyklad}).
+
+	\textbf{4. Wynik.} Pociąg może jechać z prędkością nie większą niż \textbf{70 km/h}. Wpisy w karcie próby hamulca pokazuje rys. \ref{fig:karta-zmniejszona}.
 \end{tcolorbox}
 
 \begin{figure}
 	\centering
 	\setlength{\tabcolsep}{4pt}
 	\footnotesize
-	\begin{tabular}{cc|cccccccc}
+	\begin{tabular}{cc|ccccccc}
 		\hline
-		\multicolumn{2}{c|}{} & \multicolumn{8}{c}{Prędkość [km/h]} \\
-		Pochylenie [\textperthousand] & Hamulce & 30 & 35 & 40 & 45 & 50 & \cellcolor{orange!30}\textbf{55} & 60 & 65 \\
+		\multicolumn{2}{c|}{} & \multicolumn{7}{c}{Prędkość [km/h]} \\
+		Pochylenie [\textperthousand] & Hamulce & 50 & 55 & 60 & 65 & \cellcolor{orange!30}\textbf{70} & 75 & 80 \\
 		\hline
-		14 & S & 30 & 36 & 44 & 52 & 62 & 72 & 83 & 95 \\
-		 & W & 35 & 45 & 56 & 69 & 85 & – & – & – \\
+		14 & S & 62 & 72 & 83 & 95 & 108 & 121 & 135 \\
+		 & W & 85 & – & – & – & – & – & – \\
 		\hline
-		\textbf{15} & \cellcolor{green!15}\textbf{S} & \cellcolor{green!15}32 & \cellcolor{green!15}38 & \cellcolor{green!15}46 & \cellcolor{green!15}54 & \cellcolor{green!15}63 & \cellcolor{orange!40}\textbf{73} & \cellcolor{green!15}85 & \cellcolor{green!15}96 \\
-		 & W & 37 & 47 & 58 & 72 & 87 & – & – & – \\
+		\textbf{15} & \cellcolor{green!15}\textbf{S} & \cellcolor{green!15}63 & \cellcolor{green!15}73 & \cellcolor{green!15}85 & \cellcolor{green!15}96 & \cellcolor{orange!40}\textbf{109} & \cellcolor{green!15}122 & \cellcolor{green!15}136 \\
+		 & W & 87 & – & – & – & – & – & – \\
 		\hline
-		16 & S & 33 & 40 & 47 & 56 & 65 & 75 & 86 & 98 \\
-		 & W & 39 & 49 & 60 & 74 & 89 & – & – & – \\
+		16 & S & 65 & 75 & 86 & 98 & 110 & 124 & 137 \\
+		 & W & 89 & – & – & – & – & – & – \\
 		\hline
 	\end{tabular}
-	\caption{Fragment tablicy A (droga hamowania 400 m) – procenty wymaganej masy hamującej wg Dodatku 1 do Ir-1 i K-6, zał. nr 5. Zaznaczono odczyt z przykładu: pochylenie 15\textperthousand, hamulce S, P\textsubscript{r} = 84 → 73 → 55 km/h}
+	\caption{Fragment tablicy A (droga hamowania 400 m) – procenty wymaganej masy hamującej wg Dodatku 1 do Ir-1 i K-6, zał. nr 5. Zaznaczono odczyt z przykładu: pochylenie 15\textperthousand, hamulce S, P\textsubscript{r} = 114 → 109 → 70 km/h. Rozkładowe 75 km/h odpowiada 122\%}
 	\label{fig:tablica-a-przyklad}
 \end{figure}
 
-\textbf{Krok 4 – karta próby hamulca i rozkaz pisemny.} W polach masy hamującej wymaganej i procentu wymaganego wpisujemy pierwotne wartości z rozkładu jazdy, a w nawiasie – masę hamującą rzeczywistą oraz procent wymagany odpowiadający tej masie. Na odwrocie karty próby obowiązkowo zamieszczamy, w sposób widoczny dla maszynisty, informację o zmniejszonej prędkości dopuszczalnej. Dyżurny ruchu wyprawiający pociąg wydaje drużynie pociągowej rozkaz pisemny z największą dozwoloną prędkością – na całą trasę albo jej część\footnote{Ir-1 § 21 ust. 11.}.
 \begin{figure}
-	\includegraphics[width=0.45\textwidth]{skryptkierownik-img/karta-proby-wylaczony-hamulec.jpg}
-	\caption{Karta próby hamulca ze zmniejszoną prędkością po wyłączeniu hamulca w jednym wagonie}
+	\centering
+	\footnotesize
+	\setlength{\tabcolsep}{4pt}
+	\renewcommand{\arraystretch}{1.15}
+	\begin{tabular}{|l|c|c|c|c|}
+		\hline
+		\multicolumn{3}{|l|}{\textbf{Dane o pociągu}} & poz. & \textbf{kolumna 1} \\
+		\hline
+		masa & ogólna składu & M\textsubscript{os} [t] & 8 & 150 \\ \cline{2-5}
+		 & ogólna pociągu & M\textsubscript{o} [t] & 9 & 150 \\ \hline
+		masa hamująca & wymagana & M\textsubscript{hw} [t] & 10 & \cellcolor{orange!25}\textbf{183 (171)} \\ \cline{2-5}
+		 & rzeczywista & M\textsubscript{hr} [t] & 11 & 171 \\ \hline
+		procent masy hamującej & wymaganej & P\textsubscript{w} [\%] & 12 & \cellcolor{orange!25}\textbf{122 (109)} \\ \cline{2-5}
+		 & rzeczywistej & P\textsubscript{r} [\%] & 13 & 114 \\ \hline
+	\end{tabular}
+
+	\vspace{2mm}
+	\begin{tabular}{|p{0.62\linewidth}|}
+		\hline
+		\textbf{Strona 2 – Pojazdy z nieczynnym hamulcem:} numer pojazdu 21WEag (EVN), w uwagach: hamulec wyłączony na 2. wózku \\
+		\hline
+		\cellcolor{red!15}\centering\textbf{Prędkość maksymalna zmniejszona do 70 km/h} \tabularnewline
+		\hline
+	\end{tabular}
+	\caption{Wpisy w karcie próby hamulca dla przykładu z 21WEag: w poz. 10 i 12 wartości z rozkładu, w nawiasie – masa hamująca rzeczywista i procent wymagany dla zmniejszonej prędkości; na stronie 2 – wyraźna informacja o zmniejszonej prędkości}
+	\label{fig:karta-zmniejszona}
 \end{figure}
+
+\chapter{Wypełnianie karty próby hamulca}
+\label{ch:karta}
+
+\textbf{Karta próby hamulca i urządzeń pneumatycznych pociągu} potwierdza, że hamulce pociągu i urządzenia zasilane sprężonym powietrzem działają prawidłowo, oraz zawiera obliczenia mas i procentów masy hamującej. Maszynista może uruchomić pociąg tylko wtedy, gdy ma ważną kartę próby hamulca. Wzór karty określa załącznik nr 2 do K-6, a zasady jej wypełniania – K-6 § 10.
+
+\section{Zasady ogólne}
+
+\begin{itemize}
+	\item Kartę sporządza się \textbf{w dwóch egzemplarzach} po skończonej próbie. \textbf{Oryginał} otrzymuje maszynista, \textbf{kopia} zostaje u wykonującego próbę. Karta z drukarki ma nadruk „ORYGINAŁ” i „KOPIA”.
+	\item Kartę wypełnia się \textbf{długopisem lub atramentem}. Za prawidłowe wypełnienie odpowiada pracownik, który ją wypełnia.
+	\item Karta jest przez całą drogę pociągu \textbf{w kabinie maszynisty}, z której prowadzony jest pociąg. Po zakończeniu jazdy maszynista dołącza ją do dokumentów pociągowych.
+	\item \textbf{Kolejne próby} (szczegółowe lub uproszczone) odnotowuje się w kolejnych kolumnach (2, 3, 4). Przy próbie na stacji pośredniej wystawia się nową kartę albo robi wpisy na dotychczasowej – wtedy u prowadzącego próbę zostaje kopia wpisów.
+	\item Gdy wszystkie kolumny są zapełnione, zakłada się \textbf{kolejny egzemplarz} i numeruje karty w okienku w prawym górnym rogu strony 1 („1”, „2”, …). Jeśli na egzemplarzu nr 2 lub dalszym pierwsza próba jest uproszczona, przekreśla się nadrukowane „S” i wpisuje „U”.
+	\item Wykonujący próbę potwierdza też działanie urządzeń zależnych od sprężonego powietrza – drzwi wejściowych z blokadą i uzależnieniem od zatrzymania pociągu, drzwi przejść, WC itp. – wpisując „tak” lub „nie”.
+\end{itemize}
+
+\section{Kto wypełnia poszczególne pozycje}
+
+\begin{table}[h]
+	\centering
+	\footnotesize
+	\renewcommand{\arraystretch}{1.15}
+	\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+		\toprule
+		\textbf{Poz.} & \textbf{Treść} & \textbf{Kto wypełnia i na jakiej podstawie} \\
+		\midrule
+		nagłówek & nazwa stacji, data, imię, nazwisko i podpis wystawiającego & przeprowadzający próbę \\
+		1 & rodzaj próby: S – szczegółowa, U – uproszczona & przeprowadzający próbę \\
+		2, 3, 4 & numer pociągu, miejsce próby, data i godzina \textbf{zakończenia} próby & przeprowadzający próbę – z dokumentów pociągowych i rozkładu jazdy \\
+		5, 6, 7 & z jakiego pojazdu trakcyjnego (pociągowego lub innego) albo urządzenia stacjonarnego wykonano próbę & \textbf{kierownik pociągu} – na podstawie zgłoszenia wykonującego próbę (numer inwentarzowy pojazdu lub stanowiska) \\
+		8, 9 & masa ogólna składu M\textsubscript{os} i pociągu M\textsubscript{o} & przeprowadzający próbę – z dokumentów pociągowych \\
+		10 & masa hamująca wymagana M\textsubscript{hw} & \textbf{kierownik pociągu} – obliczenie \\
+		11 & masa hamująca rzeczywista M\textsubscript{hr} & przeprowadzający próbę – z dokumentów pociągowych \\
+		12 & procent wymaganej masy hamującej P\textsubscript{w} & \textbf{kierownik pociągu} – z rozkładu jazdy \\
+		13 & procent rzeczywistej masy hamującej P\textsubscript{r} & przeprowadzający próbę – obliczenie \\
+		14, 15 & ciśnienie w przewodzie głównym i zasilającym [MPa] & wykonujący próbę – po próbie szczegółowej \\
+		16–19 & sprawność: hamulec ED, sterowanie hamulcem ep, zamykanie drzwi, inne urządzenia – „tak” lub „nie” & wykonujący próbę \\
+		20, 21, 22 & numery dwóch pierwszych i dwóch ostatnich pojazdów; pojazd z nieczynnym hamulcem na końcu & \textbf{kierownik pociągu} – na podstawie zgłoszenia wykonującego próbę \\
+		\bottomrule
+	\end{tabularx}
+	\caption{Wypełnianie strony 1 karty przy próbie szczegółowej (K-6 § 10 ust. 16 pkt 1). Obliczenia mas i procentów (poz. 9–13) zawsze należą do kierownika pociągu (K-6 § 11 ust. 9)}
+	\label{tab:karta-kto}
+\end{table}
+
+W praktyce kierownik pociągu wypełnia lub sprawdza całą część „Dane o pociągu” (poz. 8–13), bo to on oblicza masę ogólną, masy hamujące i procenty (zob. rozdz. „Obliczanie rzeczywistej oraz wymaganej masy hamującej”).
+
+\textbf{Strona 2 – „Informacje o układzie hamulcowym w składzie pociągu”} wypełnia kierownik pociągu lub przeprowadzający próbę. Kratki 1–20 odpowiadają kolejnym pojazdom w składzie. Stosuje się symbole:
+\begin{itemize}
+	\item \textbf{]} – koniec pociągu,
+	\item \textbf{5} – pojazd z wyłączonym hamulcem zespolonym,
+	\item \textbf{O} – pojazd z czynnym hamulcem ręcznym (postojowym); przy odjeździe ze stacji pośredniej kółkiem zakreśla się strzałkę kierunku jazdy i wpisuje nazwę stacji,
+	\item \textbf{N} – nieczynne urządzenia zamykania drzwi w pojeździe do przewozu osób.
+\end{itemize}
+W rubryce „Pojazdy z nieczynnym hamulcem” wpisuje się numer inwentarzowy (EVN) takiego pojazdu.
+
+\textbf{Podpisy} u dołu strony 2: rubryka 1 – przeprowadzający próbę (maszynista, rewident lub kierownik pociągu), rubryka 2 – \textbf{kierownik pociągu}, rubryka 3 – maszynista. Kierownik pociągu podpisuje kartę także wtedy, gdy próbę prowadził inny pracownik – potwierdza w ten sposób ważność próby i prawidłowe wypełnienie karty\footnote{K-6 § 10 ust. 17.}.
+
+\section{Przykład: pociąg 94709 prowadzony EZT 31WEbc}
+
+Kierownik pociągu przygotowuje kartę dla pociągu ROJ 94709 Katowice – Zwardoń, prowadzonego zespołem 31WEbc-018. Na stacji początkowej wykonuje się \textbf{próbę szczegółową}; prowadzi ją kierownik pociągu przy współudziale maszynisty.
+
+\textbf{Krok 1 – dane z rozkładu jazdy} (rys. \ref{fig:karta-rozklad}): prędkość maksymalna 120 km/h, \textbf{procent wymagany masy hamującej 113\%}, nastawienie hamulca R. Liczba 175 w kolumnie „Obc.lok / Dł.poc.” to obciążenie przyjęte w rozkładzie, a 76 – długość pociągu w metrach.
+
+\begin{figure}[h]
+	\centering
+	\footnotesize
+	\setlength{\tabcolsep}{5pt}
+	\begin{tabular}{|l|c|c|}
+		\hline
+		\multicolumn{3}{|l|}{\textbf{ROJ 94709} Relacja Katowice – Zwardoń} \\
+		\hline
+		 & Obc.lok / Dł.poc. & V\textsubscript{max} / \% / Rodz.h \\
+		\hline
+		EN76 / 31WEbc & 175 & 120 \\
+		 & 76 & \cellcolor{orange!25}\textbf{113} \\
+		 & & R \\
+		\hline
+	\end{tabular}
+	\caption{Nagłówek wewnętrznego rozkładu jazdy pociągu 94709 (odwzorowanie): w środkowym polu prawej kolumny – procent wymaganej masy hamującej}
+	\label{fig:karta-rozklad}
+\end{figure}
+
+\textbf{Krok 2 – dane z pudła pojazdu} (rys. \ref{fig:karta-pudlo}). Z tabeli mas: masa gotowa do jazdy 145 t, masa przy normalnym obciążeniu (brutto) \textbf{175 t}, 168 miejsc. Pojazd jest dostępny dla podróżnych, więc przyjmujemy masę brutto: \textbf{M\textsubscript{os} = M\textsubscript{o} = 175 t} (w zespole trakcyjnym masa ogólna składu równa się masie ogólnej pociągu). Z tabeli mas hamujących: nastawienie R, wartość „ładowny” – \textbf{M\textsubscript{hr} = 273 t}. Wartość „próżny” (228 t) dotyczy pojazdu bez podróżnych, a 100 t to masa hamująca hamulca postojowego – jej do karty nie wpisujemy.
+
+\begin{figure}[h]
+	\centering
+	\footnotesize
+	\setlength{\tabcolsep}{5pt}
+	\begin{tabular}{|c|c|}
+		\hline
+		\multicolumn{2}{|c|}{\textbf{Tabela mas}} \\
+		\hline
+		gotowy do jazdy & normalne obciążenie \\
+		145 t & \cellcolor{orange!25}\textbf{175 t} \\
+		\hline
+		\multicolumn{2}{|c|}{168 miejsc} \\
+		\hline
+	\end{tabular}
+	\hspace{6mm}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		\multicolumn{3}{|c|}{\textbf{Masy hamujące EZT}} \\
+		\hline
+		nastawienie & ładowny & próżny \\
+		\hline
+		R & \cellcolor{orange!25}\textbf{273 t} & 228 t \\
+		\hline
+		\multicolumn{3}{|c|}{hamulec postojowy: 100 t} \\
+		\hline
+	\end{tabular}
+	\caption{Tabele na pudle 31WEbc (odwzorowanie): do karty wpisujemy masę brutto (175 t) i masę hamującą „ładowny” dla nastawienia R (273 t)}
+	\label{fig:karta-pudlo}
+\end{figure}
+
+\textbf{Krok 3 – obliczenia} (kierownik pociągu):
+\[ P_r = \frac{M_{hr} \cdot 100}{M_o} = \frac{273 \cdot 100}{175} = 156 \qquad \text{(zaokrąglenie w dół)} \]
+\[ M_{hw} = \frac{M_o \cdot P_w}{100} = \frac{175 \cdot 113}{100} = 197{,}75 \approx 198 \text{ t} \qquad \text{(zaokrąglenie w górę)} \]
+Sprawdzenie: P\textsubscript{r} = 156\% $\ge$ P\textsubscript{w} = 113\% oraz M\textsubscript{hr} = 273 t $\ge$ M\textsubscript{hw} = 198 t – pociąg może jechać z prędkością rozkładową.
+
+\textbf{Krok 4 – wynik próby.} Po próbie szczegółowej odczytujemy ciśnienia: przewód główny 0,5 MPa, przewód zasilający 1,0 MPa. Hamulec ED, sterowanie hamulcem ep, zamykanie drzwi i inne urządzenia działają – czterokrotnie „tak”. Pojazdy za czołem: człony A i C, od końca: D i B; nieczynnych hamulców nie ma, więc poz. 22 wykreślamy.
+
+\begin{figure}[p]
+	\centering
+	\footnotesize
+	\renewcommand{\arraystretch}{1.12}
+	\setlength{\tabcolsep}{3pt}
+	\begin{tabular}{|l|l|c|>{\centering\arraybackslash}p{2.6cm}|}
+		\hline
+		\multicolumn{4}{|c|}{\textbf{KARTA PRÓBY HAMULCA I URZĄDZEŃ PNEUMATYCZNYCH POCIĄGU}} \\
+		\hline
+		\multicolumn{2}{|l|}{Nazwa stacji: \textbf{Katowice}} & \multicolumn{2}{l|}{31.01.2027 \quad Jan Kowalski} \\
+		\hline
+		\multicolumn{2}{|l|}{Próba} & poz. & \textbf{1} \\
+		\hline
+		\multicolumn{2}{|l|}{Rodzaj próby} & 1 & \cellcolor{green!15}\textbf{S} \\ \hline
+		\multicolumn{2}{|l|}{Numer pociągu lub obiegu} & 2 & \cellcolor{green!15}94709 \\ \hline
+		\multicolumn{2}{|l|}{Miejsce wykonania próby} & 3 & \cellcolor{green!15}Katowice \\ \hline
+		\multicolumn{2}{|l|}{Data i godzina zakończenia próby} & 4 & \cellcolor{green!15}31.01.2027 g. 7.25 \\ \hline
+		Próbę wykonano & z pojazdu trakcyjnego pociągowego & 5 & \cellcolor{green!15}31WEbc-018 \\ \cline{2-4}
+		 & z pojazdu trakcyjnego innego & 6 & \cellcolor{green!15}– \\ \cline{2-4}
+		 & z urządzenia stacjonarnego & 7 & \cellcolor{green!15}– \\ \hline
+		Masa ogólna & składu M\textsubscript{os} [t] & 8 & \cellcolor{green!15}175 \\ \cline{2-4}
+		 & pociągu M\textsubscript{o} [t] & 9 & \cellcolor{green!15}175 \\ \hline
+		Masa hamująca & wymagana M\textsubscript{hw} [t] & 10 & \cellcolor{orange!25}\textbf{198} \\ \cline{2-4}
+		 & rzeczywista M\textsubscript{hr} [t] & 11 & \cellcolor{green!15}273 \\ \hline
+		Procent masy hamującej & wymaganej P\textsubscript{w} [\%] & 12 & \cellcolor{green!15}113 \\ \cline{2-4}
+		 & rzeczywistej P\textsubscript{r} [\%] & 13 & \cellcolor{orange!25}\textbf{156} \\ \hline
+		Ciśnienie w przewodzie & hamulca [MPa] & 14 & \cellcolor{green!15}0,5 \\ \cline{2-4}
+		 & sprężonego powietrza [MPa] & 15 & \cellcolor{green!15}1,0 \\ \hline
+		Sprawne & hamulec elektrodynamiczny & 16 & \cellcolor{green!15}tak \\ \cline{2-4}
+		 & sterowanie hamulcem el.-pneum. & 17 & \cellcolor{green!15}tak \\ \cline{2-4}
+		 & układ zamykania drzwi wejściowych & 18 & \cellcolor{green!15}tak \\ \cline{2-4}
+		 & inne urządzenia & 19 & \cellcolor{green!15}tak \\ \hline
+		Numery dwóch pojazdów & za lokomotywą (czołem) 1 / 2 & 20 & \cellcolor{green!15}31WEbc-018 A \newline 31WEbc-018 C \\ \cline{2-4}
+		 & od końca składu 2 / 1 & 21 & \cellcolor{green!15}31WEbc-018 D \newline 31WEbc-018 B \\ \hline
+		\multicolumn{2}{|l|}{Pojazd z nieczynnym hamulcem na końcu składu} & 22 & \cellcolor{green!15}– \\ \hline
+	\end{tabular}
+
+	\vspace{4mm}
+	\begin{tikzpicture}[x=0.52cm, y=0.52cm, every node/.style={font=\scriptsize}]
+		\draw (0,0) rectangle (23,3.4);
+		\node[anchor=west, font=\scriptsize\bfseries] at (0.2,2.95) {Informacje o układzie hamulcowym w składzie pociągu};
+		\node[font=\footnotesize\bfseries] at (0.7,1.9) {1};
+		\fill (1.7,1.9) -- (2.3,2.2) -- (2.3,1.6) -- cycle;
+		\draw[red!70!black, thick] (2.05,1.9) circle (0.45);
+		\node[anchor=west] at (2.8,2.1) {odjazd ze stacji początkowej: \textbf{Katowice}};
+		\foreach \i in {1,...,20} {
+			\draw (1.5+\i*1,0.6) rectangle (2.5+\i*1,1.4);
+			\node at (2+\i*1,1.0) {\tiny\i};
+		}
+		\foreach \i in {1,...,4} \draw[red!70!black, thick] (2+\i*1,1.0) circle (0.38);
+		\node[font=\large\bfseries, text=red!70!black] at (6.5,0.3) {]};
+	\end{tikzpicture}
+
+	\vspace{2mm}
+	\begin{tabular}{|l|c|}
+		\hline
+		Imię, nazwisko i podpis & \textbf{1} \\ \hline
+		prowadzącego próbę & \cellcolor{green!15}Jan Kowalski \\ \hline
+		kierownika pociągu & \cellcolor{green!15}Jan Kowalski \\ \hline
+		maszynisty & \cellcolor{green!15}(podpis maszynisty) \\ \hline
+	\end{tabular}
+	\caption{Karta próby hamulca pociągu 94709 – kolumna 1 strony 1 i fragment strony 2 (odwzorowanie wzoru z K-6, zał. nr 2). Zaznaczono obliczenia kierownika pociągu (poz. 10 i 13). Na stronie 2 zakreślono kierunek jazdy i cztery człony z czynnym hamulcem, koniec pociągu oznaczono symbolem „]”}
+	\label{fig:karta-94709}
+\end{figure}
+
+Wypełnioną kartę pokazuje rys. \ref{fig:karta-94709}. Na stronie 2 zakreślamy kółkiem lewą strzałkę (kierunek jazdy), wpisujemy stację początkową, zakreślamy kratki 1–4 (cztery człony z czynnym hamulcem) i oznaczamy koniec pociągu symbolem „]”. Kartę podpisują: kierownik pociągu jako prowadzący próbę i jako kierownik pociągu oraz maszynista.
+
+\begin{tcolorbox}[colback=yellow!10!white,colframe=orange!80!black,title=Na co zwrócić uwagę]
+	\begin{itemize}
+		\item \textbf{Próba uproszczona} na pojeździe z hamulcem tarczowym i wskaźnikami w kabinie (np. 31WEbc) wykonuje maszynista samodzielnie – podpisuje się wtedy jako prowadzący próbę, a kierownik pociągu pomaga mu wypełnić kartę i podpisuje się w rubryce kierownika. Przy próbie uproszczonej poz. 14 i 15 się wykreśla.
+		\item Na taborze z \textbf{hamulcem klockowym} (np. EN57) prowadzącym próbę jest kierownik pociągu – sprawdza wzdłuż składu docisk klocków i wysuw tłoków cylindrów. Gdy pojazd nie ma danego urządzenia (np. hamulca ED), poz. 16 \textbf{wykreśla się} – wpis „nie” oznaczałby, że urządzenie jest, ale nie działa. W EN57 hamulec ręczny jest w członach rozrządczych, więc na stronie 2 pod kratkami 1 i 3 wpisuje się „O”.
+		\item Gdy hamulec jest wyłączony i prędkość trzeba zmniejszyć, w poz. 10 i 12 w nawiasie wpisuje się wartości dla zmniejszonej prędkości, a na stronie 2 – wyraźną informację o zmniejszonej prędkości (rys. \ref{fig:karta-zmniejszona}).
+	\end{itemize}
+\end{tcolorbox}
 
 \chapter{Sprzęganie i rozprzęganie taboru}
 \label{ch:sprzeganie}

@@ -18,8 +18,8 @@ Braki (ilustracje, źródła, materiały) są prowadzone **wyłącznie w tym pli
 | 8 | Rodzaje hamulców (130–141) | Rodzaje hamulców | do zrobienia |
 | 9 | Postępowanie w sytuacjach awaryjnych (142–148) | Obsługa urządzeń wagonowych | do zrobienia |
 | 10 | Próba hamulca (149–155) | Wykonywanie szczegółowej i uproszczonej próby hamulca | do zrobienia |
-| 11 | Masa hamująca (156–161, 178–182) | Obliczanie rzeczywistej oraz wymaganej masy hamującej | **zrobione** – 2 sprawy otwarte |
-| 12 | Wypełnianie karty próby hamulca (162–177) | nowy rozdział | do zrobienia |
+| 11 | Masa hamująca (156–161, 178–182) | Obliczanie rzeczywistej oraz wymaganej masy hamującej | **zrobione** |
+| 12 | Wypełnianie karty próby hamulca (162–177) | Wypełnianie karty próby hamulca (nowy rozdział, za masą hamującą) | **zrobione** |
 | – | (brak w prezentacji) | Sprzęganie i rozprzęganie taboru | pozostaje bez zmian |
 | 13 | Zabezpieczenie taboru przed zbiegnięciem (183–185) | Zabezpieczenie taboru przed zbiegnięciem | **zrobione** |
 
@@ -107,15 +107,16 @@ Braki (ilustracje, źródła, materiały) są prowadzone **wyłącznie w tym pli
 ### 11. Masa hamująca (sl. 156–161, 178–182)
 - [x] Rozdział zaktualizowany wg Ir-1 (zm. 19, od 01.07.2026) § 19–21, K-6 (03.2026) § 11 i zał. 5, K-2 (05.2025) § 13: źródła w przypisach (zamiast „K-2 rozdz. VIII § 28”), tablice A–D (400/700/1000/1300 m, S/W, co 1‰), nowy przykład (tablica A, 15‰, Pr 84 → 55 km/h) i własna tabela-wycinek zamiast skanu starej tablicy, kto liczy (KP), masa brutto, ładowny/próżny, ED → R, kolejność sposobów przy wyłączonym hamulcu, wspólne wózki, zezwolenie dyspozytora i rozkaz pisemny (Ir-1 § 21 ust. 10–11). Do ramki o masie ogólnej dopisany pociąg międzynarodowy (Ir-1 § 19 ust. 1 pkt 2).
 - [x] **Zasada „hamulec wyłączony w co najmniej dwóch wagonach – pociąg nie może być wyprawiony”** – zostaje; według autora ma źródło (inne niż Ir-1, K-2, K-5, K-6). Warto dopisać przypis, gdy źródło zostanie wskazane.
-- [ ] **Droga hamowania 500 m** – tablica 3 Dodatku 1 do SRJ (rysunek) podaje dla linii 194 drogę 500 m, a Ir-1 ma tablice tylko dla 400/700/1000/1300 m. Do wyjaśnienia, którą tablicę stosować (i czy skan tablicy 3 jest aktualny).
-- [ ] Zdjęcie pudła z rozbiciem masy hamującej na wózki („R MAX: 231 t (56+60+59+56)”, sl. 179) – typ pojazdu.
-- [ ] Aktualny fragment **Dodatku 1 do SRJ/WRJ** (tablica 3, sl. 180). Skan Dodatku I do Ir-1 (sl. 181) zastąpiony własną tabelą.
+- [x] **Droga hamowania** – dla przykładu przyjęto 400 m (decyzja autora). Skan tablicy 3 (z 500 m) zastąpiony własnym odwzorowaniem: linia 194, 400/400 m, pochylenia 10,7/14,8‰.
+- [x] Zdjęcie pudła z rozbiciem masy hamującej na wózki – to **21WEag** (poprawiony podpis; wcześniej błędnie 34WEa).
+- [x] Nowy przykład obliczeniowy (21WEag, linia 194, kierunek parzysty, V = 75 km/h, Pw = 122%, Mo = 150 t – przykładowo): Pr = 154; po wyłączeniu wózka 60 t Mhr = 171 t, Pr = 114 → tablica A, 15‰, S → 109 → **70 km/h**; Mhw = 183 t. Tabela-wycinek tablicy A (14–16‰, 50–80 km/h) i rysunek wpisów w karcie: poz. 10 „183 (171)”, poz. 12 „122 (109)”, strona 2 – „Prędkość maksymalna zmniejszona do 70 km/h”. Stary skan karty (`karta-proby-wylaczony-hamulec.jpg`) nieużywany.
+- [ ] Do potwierdzenia: w nawiasie poz. 12 wpisujemy procent wymagany dla zmniejszonej prędkości (109), a nie procent rzeczywisty (114) – tak przyjęto zgodnie z dotychczasowym opisem w podręczniku. Masa ogólna 150 t w przykładzie jest umowna.
 
 ### 12. Wypełnianie karty próby hamulca – nowy rozdział (sl. 162–177)
-- [ ] **Pusty wzór karty** (załącznik nr 2 do K-6) w wysokiej rozdzielczości, obie strony.
-- [ ] Wycinki karty z sl. 165–177 (`karta_wiersze_*.png`, `karta_str2_poczatek.png`) w pełnej rozdzielczości.
-- [ ] Skan rozkładu jazdy pociągu 94709 (sl. 169) i zdjęcie tablicy mas 31WEbc (sl. 167–168).
-- [ ] Przykład 2 (EN57KM-3002): uzupełnienie pól mas (8–13) i numerów członów (20–21). Na sl. 176 są puste („do uzupełnienia”).
+- [x] Nowy rozdział wg K-6 (03.2026) § 10 i zał. 2: zasady ogólne, tabela „kto wypełnia którą pozycję”, symbole strony 2 (], 5, O, N), podpisy. Przykład 94709 / 31WEbc-018 z własnymi odwzorowaniami (nagłówek rozkładu, tabele z pudła, karta str. 1 kol. 1 i fragment str. 2) – zamiast wycinków i skanów ze slajdów, więc pusty wzór karty i skany nie są już potrzebne.
+- [x] Przykład 2 (EN57KM-3002) – brak danych mas; różnice (hamulec klockowy → próbę prowadzi KP, wykreślenie poz. 16, „O” w członach rozrządczych) opisane w ramce „Na co zwrócić uwagę”, bez osobnej karty.
+- [x] `obowiazki.tex`: poprawiony symbol wyłączonego hamulca „X” → „5” (K-6 § 10 ust. 16 pkt 2) i odsyłacz do nowego rozdziału.
+- [ ] Do potwierdzenia: na sl. 164 przykład 94709 ma rodzaj próby „U”, ale wzór karty ma w kolumnie 1 nadrukowane „S” (K-6 § 10 ust. 12) i dalsze slajdy opisują poz. 14–15 „po próbie szczegółowej” – w podręczniku przyjęto **S**, prowadzi KP przy współudziale maszynisty.
 
 ### 13. Zabezpieczenie przed zbiegnięciem (sl. 183–185)
 - [x] Rozdział przepisany: hamulec postojowy wg K-2 (§ 17, 20, 21, 23, 26 ust. 3), płozy – budowa, ramka „PL3 – jedyny stosowany w KŚ, uniwersalny do wszystkich rodzajów szyn”, zakazy wykładania; usunięte opisy innych typów płozów (PL1, PL2, niebieski 64 mm). Własny schemat TikZ płozu pod kołem z opisem części (zamiast grafiki ze sl. 184 w stylu AI).
