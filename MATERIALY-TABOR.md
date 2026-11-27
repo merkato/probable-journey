@@ -52,10 +52,10 @@ Ramki wyłącza się przed drukiem: w `skrypt-kierownik.tex` trzeba zmienić `\r
 
 ### 3. Budowa taboru pasażerskiego (zrobione – zostały braki)
 - [ ] **Kopia zgody producenta** na rendery wózka (sl. 51–55) – zakres (druk, PDF) i nazwa producenta do podpisu rysunków.
-- [ ] **Sprzęg samoczynny**: zgoda Dellner na ilustrację typu 10 (sl. 62) albo własny rysunek/zdjęcie z opisem elementów. W podręczniku jest na razie zdjęcie 31WEbc ze slajdu 60.
+- [x] **Sprzęg samoczynny** – zastąpiony własną ilustracją z opisem elementów (zdjęcia 27WEb i 22WEd), bez materiałów Dellner.
 - [ ] **Rysunek budowy wagonu** (sl. 49) bez zniekształconego logo i barw PKP Intercity – wersja KŚ lub neutralna.
 - [ ] Zdjęcia **pojazdu pomocniczego** i **szynowo-drogowego** (sl. 47–48 to zdjęcia producentów, m.in. Elkol).
-- [ ] Potwierdzenie autorstwa: schematy EZT na wózkach klasycznych / Jakobsa (sl. 56, 58), zdjęcia wózka Jakobsa i czoła 31WEbc (sl. 59–60), model sprzęgu śrubowego (sl. 61).
+- [ ] Potwierdzenie autorstwa: schematy EZT na wózkach klasycznych / Jakobsa (sl. 56, 58), zdjęcie wózka Jakobsa (sl. 59), model sprzęgu śrubowego (sl. 61).
 - [ ] Opcjonalnie: lepsze zdjęcie pantografu z opisem (zdjęcie ze sl. 63 ma tylko 400 × 180 px).
 
 ### 4. Warunki techniczne taboru (sl. 64–73)
@@ -116,7 +116,8 @@ Ramki wyłącza się przed drukiem: w `skrypt-kierownik.tex` trzeba zmienić `\r
 
 ## Ilustracje przeniesione z prezentacji do `skryptkierownik-img/`
 - `skrajnie-porownanie.jpg` (sl. 4) i `skrajnia-taboru-peron.jpg` (sl. 5) – trzeba potwierdzić autorstwo i prawo do wykorzystania.
-- Blok 3: `wozek-widok-rozstrzelony.jpg`, `wozek-rama-wahacze.jpg`, `zestaw-kolowy-widok-rozbity.jpg`, `usprezynowanie-widok-rozbity.jpg` (sl. 51–55, rendery za zgodą producenta), `sprzeg-srubowy-model.jpg` (sl. 61), `ezt-wozki-klasyczne-schemat.jpg`, `ezt-wozki-jakobsa-schemat.jpg` (sl. 56, 58), `wozek-jakobsa-zdjecie.jpg` (sl. 59), `sprzeg-samoczynny-31webc.jpg` (sl. 60).
+- Blok 3: `wozek-widok-rozstrzelony.jpg`, `wozek-rama-wahacze.jpg`, `zestaw-kolowy-widok-rozbity.jpg`, `usprezynowanie-widok-rozbity.jpg` (sl. 51–55, rendery za zgodą producenta), `sprzeg-srubowy-model.jpg` (sl. 61), `ezt-wozki-klasyczne-schemat.jpg`, `ezt-wozki-jakobsa-schemat.jpg` (sl. 56, 58), `wozek-jakobsa-zdjecie.jpg` (sl. 59).
+- `sprzeg-samoczynny-czolo.jpg`, `sprzeg-samoczynny-bok.jpg` – zdjęcia własne autora (27WEb-006f, 22WEd-003A), opisane numerami w LaTeX.
 - `rozklad-przesylka-nadzwyczajna.png` (sl. 20) – wycinek rozkładu jazdy.
 - `przesylka-nadzwyczajna-karta-r266.png` (sl. 25) – wzór oznaczeń.
 - `rid-nalepki.png` (sl. 36) – piktogramy UN z Wikimedia Commons (domena publiczna).

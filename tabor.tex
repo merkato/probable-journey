@@ -586,18 +586,52 @@ W przypadku konieczności sprzęgnięcia pojazdu wyposażonego w sprzęg typu Sc
 zespół sprzęgu automatycznego, a z drugiej strony zakończone są w sposób umożliwiający założenie na hak cięgłowy.
 
 \begin{figure}
-	\includegraphics[width=0.45\textwidth]{skryptkierownik-img/sprzeg-samoczynny-31webc.jpg}
-	\caption{Sprzęg samoczynny typu Scharfenberg na czole zespołu trakcyjnego 31WEbc (pokrywa czołowa otwarta)}
+	\centering
+	\newcommand{\nr}[3]{\node[circle, fill=crimson, draw=white, line width=0.6pt, text=white, inner sep=0.6pt, minimum size=4.2mm, font=\sffamily\bfseries\scriptsize] at (#1,#2) {#3};}
+	\begin{tikzpicture}
+		\node[anchor=south west, inner sep=0] (img) at (0,0) {\includegraphics[height=0.42\textheight]{skryptkierownik-img/sprzeg-samoczynny-czolo.jpg}};
+		\begin{scope}[x={(img.south east)}, y={(img.north west)}]
+			\nr{0.60}{0.70}{1}
+			\nr{0.24}{0.55}{2}
+			\nr{0.49}{0.54}{3}
+			\nr{0.37}{0.42}{4}
+			\nr{0.37}{0.66}{4}
+			\nr{0.44}{0.86}{5}
+			\nr{0.35}{0.17}{10}
+		\end{scope}
+	\end{tikzpicture}\par\smallskip
+	\begin{tikzpicture}
+		\node[anchor=south west, inner sep=0] (img) at (0,0) {\includegraphics[width=0.45\textwidth]{skryptkierownik-img/sprzeg-samoczynny-bok.jpg}};
+		\begin{scope}[x={(img.south east)}, y={(img.north west)}]
+			\nr{0.83}{0.22}{1}
+			\nr{0.71}{0.78}{5}
+			\nr{0.76}{0.66}{6}
+			\nr{0.28}{0.64}{7}
+			\nr{0.13}{0.79}{8}
+			\nr{0.41}{0.91}{8}
+			\nr{0.26}{0.45}{9}
+			\nr{0.595}{0.52}{9}
+		\end{scope}
+	\end{tikzpicture}
+	\caption{Sprzęg samoczynny typu Scharfenberg: u góry czoło głowicy (27WEb, sprzęg Schaku), u dołu widok z boku (22WEd, sprzęg Dellner). 1 – głowica sprzęgu (płyta czołowa), 2 – stożek prowadzący, 3 – lejek (gniazdo stożka), 4 – złącza pneumatyczne w czole głowicy, 5 – sprzęg elektryczny (skrzynka styków z pokrywą), 6 – trzpienie prowadzące sprzęgu elektrycznego, 7 – drąg sprzęgu z pochłaniaczem energii, 8 – kurki odcinające przewodów pneumatycznych, 9 – przewody elektryczne (w osłonie karbowanej) i pneumatyczne, 10 – dźwignia ręcznego rozprzęgania}
 	\label{fig:sprzegscharfenberg}
 \end{figure}
 
-Główne elementy sprzęgu samoczynnego to: czoło głowicy sprzęgu ze \textbf{stożkiem prowadzącym} i \textbf{zamkiem} (tarczą obrotową z ogniwem), \textbf{sprzęg elektryczny} (klawiatura) z siłownikiem, \textbf{zawory pneumatyczne} przewodu głównego i zasilającego, sterowanie sprzęgu (\textbf{zawór rozprzęgania}) oraz drąg sprzęgu z elementami pochłaniającymi energię (sekcja odwracalnego pochłaniania energii i rura deformacyjna). Przy najechaniu dwóch zespołów głowice same się centrują, zamki zatrzaskują się samoczynnie, a czoła głowic tworzą sztywne połączenie bez luzów. Jednocześnie łączą się złącza pneumatyczne i elektryczne (sterowanie, komunikacja, informacja pasażerska) – po sprzęgnięciu zespoły można prowadzić z jednej kabiny. Rozprzęganie odbywa się z kabiny: zawór rozprzęgania kieruje powietrze do cylindra, który obraca tarczę zamka. Na końcach EZT sprzęg chroni zwykle pokrywa czołowa.
+Główne elementy sprzęgu samoczynnego (rys. \ref{fig:sprzegscharfenberg}) to:
+\begin{itemize}
+	\item \textbf{głowica sprzęgu} z płytą czołową (1), na której znajduje się \textbf{stożek prowadzący} (2) i \textbf{lejek} (3) – przy najechaniu stożek jednej głowicy wchodzi w lejek drugiej i odwrotnie, a głowice same się centrują. Wewnątrz głowicy pracuje \textbf{zamek} (tarcza obrotowa z ogniwem), który zatrzaskuje się samoczynnie,
+	\item \textbf{złącza pneumatyczne} (4) w czole głowicy – łączą przewód główny i przewód zasilający; przed nimi, na przewodach pneumatycznych, znajdują się \textbf{kurki odcinające} (8),
+	\item \textbf{sprzęg elektryczny} (5) – skrzynka styków (klawiatura) nad głowicą, z pokrywą chroniącą styki; po wysunięciu \textbf{trzpienie prowadzące} (6) ustawiają ją dokładnie naprzeciw sprzęgu elektrycznego drugiego pojazdu,
+	\item \textbf{drąg sprzęgu z pochłaniaczem energii} (7) – przenosi siły ciągnące i ściskające (zamiast osobnego haka i zderzaków), a przegub pozwala głowicy wychylać się na łukach; elementy pochłaniające (sekcja odwracalna i rura deformacyjna) łagodzą uderzenia,
+	\item \textbf{dźwignia ręcznego rozprzęgania} (10) – pozwala obrócić tarczę zamka ręcznie, gdy rozprzęganie z kabiny nie działa.
+\end{itemize}
+
+Po sprzęgnięciu czoła głowic tworzą sztywne połączenie bez luzów, a złącza pneumatyczne i elektryczne (sterowanie, komunikacja, informacja pasażerska) łączą się jednocześnie – zespoły można prowadzić z jednej kabiny. Rozprzęganie odbywa się z kabiny: zawór rozprzęgania kieruje powietrze do cylindra, który obraca tarczę zamka. Nieużywany sprzęg na czole pojazdu chroni pokrywa czołowa lub pokrowiec.
 
 \begin{tcolorbox}[colback=yellow!10!white,colframe=orange!80!black,title=Dla drużyny]
 	Przed sprzęganiem i rozprzęganiem należy upewnić się, że nikt nie znajduje się między pojazdami. Po sprzęgnięciu maszynista sprawdza zamknięcie zamka (wskaźnik), wykonuje próbę ciągnięcia oraz próbę hamulca.
 \end{tcolorbox}
 
-\material{Ilustracja budowy sprzęgu samoczynnego z opisem elementów (slajd 62 – materiały producenta Dellner, sprzęg typu 10): zgoda producenta albo własny rysunek/zdjęcie z opisem.}
 
 
 \section{Odbierak prądu}
