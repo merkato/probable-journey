@@ -14,7 +14,7 @@ Ramki wyłącza się przed drukiem: w `skrypt-kierownik.tex` trzeba zmienić `\r
 | 3 | Pojazdy kolejowe i budowa taboru (44–63) | 3. Budowa taboru pasażerskiego | **zrobione** |
 | 4 | Warunki techniczne taboru (64–73) | 3.x Warunki techniczne… → osobny rozdział | do zrobienia |
 | 5 | Oznakowanie i symbole na taborze (74–91) | nowy rozdział (dziś jest to podrozdział + tabele w „Rodzajach hamulców”) | do zrobienia |
-| 6 | Wyłączanie taboru z eksploatacji (92–98) | 3.x Wyłączanie… → osobny rozdział | do zrobienia |
+| 6 | Wyłączanie taboru z eksploatacji (92–98) | 4. Utrzymanie taboru, wyłączanie i przywracanie do eksploatacji (wg K-1 09.2025 i K-5 05.2025) | **zrobione** |
 | 7 | Oględziny techniczne i zestawianie pociągów (99–129) | Oględziny techniczne pociągu pasażerskiego | do zrobienia |
 | 8 | Rodzaje hamulców (130–141) | Rodzaje hamulców | do zrobienia |
 | 9 | Postępowanie w sytuacjach awaryjnych (142–148) | Obsługa urządzeń wagonowych | do zrobienia |
@@ -26,16 +26,16 @@ Ramki wyłącza się przed drukiem: w `skrypt-kierownik.tex` trzeba zmienić `\r
 
 ## Rozbieżności i wątpliwości merytoryczne do rozstrzygnięcia
 
-1. **Hamulec ep**: podręcznik nazywa go „niezespolonym”, a prezentacja (sl. 136) „zespolonym, ale niesamoczynnym”. Prezentacja wydaje się poprawna, ale trzeba to potwierdzić.
-2. **Masa ogólna pociągu** (sl. 156 i ramka w rozdziale o masie hamującej): prezentacja podaje warunki „120 km/h lub Mos < 200 t lub pociąg międzynarodowy”, a podręcznik „> 120 km/h lub < 200 t lub pojazd z napędem na końcu (wagon sterowniczy)”. Trzeba ustalić, czy chodzi o 120 km/h czy > 120 km/h, i która lista warunków jest pełna (K-6 § 11 / Ir-1).
-3. **Próba uproszczona** (sl. 150): w prezentacji jest „po użyciu hamulca bezpieczeństwa”, czego nie ma w wyliczeniu w podręczniku. Do sprawdzenia w K-6 § 10.
-4. **Nalepy i płaskie miejsca** (sl. 70): prezentacja podaje 60 mm (Ir-1) oraz 35 mm (K-3) i jazdę do stacji najwyżej 20 km/h. Podręcznik podaje tylko 60 mm. Trzeba ustalić, która wartość obowiązuje w KŚ.
-5. **Jazda po zdarzeniu z prędkością 30 km/h**: podręcznik stosuje ją do pojazdów trakcyjnych po zdarzeniach bez wykolejenia, a według prezentacji (sl. 97) w Ir-1 dotyczy ona tylko dowiezienia wagonów wykolejonych. Potrzebny przepis wewnętrzny Spółki dla EZT.
-6. **Wyłączanie z eksploatacji**: podręcznik opiera się na „świadectwie sprawności technicznej” i pojazdach trakcyjnych. Prezentacja przechodzi na ECM i „przywrócenie do eksploatacji” (ustawa art. 23j i 24, rozp. UE 2019/779, K-11 z 06.2022). Rozdział trzeba przepisać. Wcześniej trzeba potwierdzić aktualną nazwę dokumentu stosowaną w KŚ.
-7. **Płozy hamulcowe**: w podręczniku PL2 jest „do szyn 8, 15, 40, S60”, w prezentacji „8, 15, S60, R65”. Podręcznik ma też płóz niebieski 64 mm, którego nie ma w prezentacji. Według prezentacji w KŚ stosuje się wyłącznie PL3, więc trzeba zdecydować, czy pozostałe typy zostają.
-8. **Przykład rozkładu jazdy** (sl. 20): notatka mówi o pociągu towarowym, a skan dotyczy pociągu pasażerskiego MPM 23110 „Kasztelan” (SD85). W podręczniku opisałem go neutralnie. Warto potwierdzić, co jest przesyłką (czy SD85 z przekroczoną skrajnią).
+1. ~~**Hamulec ep**~~ – **rozstrzygnięte**: zespolony, ale niesamoczynny (poprawione w rozdziale „Rodzaje hamulców”).
+2. ~~**Masa ogólna pociągu**~~ – **rozstrzygnięte**: poprawna jest wersja w podręczniku (> 120 km/h, < 200 t, wagon sterowniczy); w prezentacji jest uproszczenie. Bez zmian.
+3. ~~**Próba uproszczona**~~ – **rozstrzygnięte**: K-5 § 11 ust. 7 nie wymienia przypadku „po użyciu hamulca bezpieczeństwa” – bez zmian. **Blok 10 – rozbieżności z K-5 § 11–14 poprawione**: 12 h → 24 h, usunięte 2 przypadki próby uproszczonej spoza K-5 (sieć stała, przewód zasilający „R+Mg”) oraz „stacje wyznaczone w rozkładzie”; dopisane: ważność próby szczegółowej 24 h, kto wykonuje próbę szczegółową (rewident lub kierownik pociągu przy współudziale maszynisty), wartości ciśnień i szczelności (0,48 MPa; 0,05 MPa/5 min; 0,07 MPa/5 min; ep 0,10–0,15 MPa). Pełna przebudowa bloku 10 wg prezentacji – nadal do zrobienia.
+4. ~~**Nalepy i płaskie miejsca**~~ – **rozstrzygnięte**: obie wartości są poprawne – 60 mm wg Ir-1 oraz 35 mm i jazda do stacji ≤ 20 km/h wg K-3 (instrukcja wewnętrzna KŚ). Dopisane w warunkach technicznych.
+5. ~~**Jazda po zdarzeniu z prędkością 30 km/h**~~ – **rozstrzygnięte**: podstawą jest K-1 § 18 ust. 2 (awaria bez wykolejenia – do najbliższej stacji ≤ 30 km/h, decyzja rewidenta) oraz K-5 § 23 ust. 2 (po wykolejeniu – do punktu naprawy ≤ 30 km/h).
+6. ~~**Wyłączanie z eksploatacji**~~ – **rozstrzygnięte**: rozdział przepisany wg K-1 (wrzesień 2025) i K-5 (maj 2025): ECM, wyłączenie z użytkowania → dopuszczenie do użytkowania (zał. 3 cz. II) → przywrócenie do eksploatacji (zał. 3 cz. III). „Świadectwo sprawności technicznej” usunięte.
+7. ~~**Płozy hamulcowe**~~ – **rozstrzygnięte**: na taborze KŚ stosuje się płóz uniwersalny PL3; pozostałe typy opisane krótko „dla informacji”. Drobna niejasność: lista szyn dla PL2 (podręcznik „8, 15, 40, S60”, prezentacja „8, 15, S60, R65”) – zostawiona wersja z podręcznika.
+8. ~~**Przykład rozkładu jazdy**~~ – **rozstrzygnięte**: przesyłką nadzwyczajną jest pojazd przekraczający skrajnię taboru (poprawiony podpis rysunku).
 9. **Grafiki skrajni** (sl. 6 i 7) zawierają błędy: „wyoszenie” zamiast „wychylenie”, odwrócone wychylenie wewnętrzne i zewnętrzne, „tor toru”, puste opisy „mm”. Nie wstawiłem ich; w rozdziale 1 są ramki „Do przygotowania”.
-10. **Ikony na slajdach**: radiotelefon oznacza kierownika pociągu, chorągiewka konduktora. Do decyzji: czy w podręczniku oznaczać treści wspólne dla konduktorów (np. znakiem na marginesie)?
+10. ~~**Ikony na slajdach**~~ – **nie dotyczy**: podręcznik jest wyłącznie dla kierownika pociągu.
 
 ## Materiały do przygotowania – według rozdziałów
 
