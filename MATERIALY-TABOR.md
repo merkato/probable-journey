@@ -2,8 +2,7 @@
 
 Źródło: prezentacja, 185 slajdów. Zakres prac: wyłącznie `tabor.tex`.
 
-W wersji roboczej podręcznika braki są oznaczone niebieskimi ramkami „Do przygotowania” (makro `\material{}`).
-Ramki wyłącza się przed drukiem: w `skrypt-kierownik.tex` trzeba zmienić `\roboczatrue` na `\roboczafalse`.
+Braki (ilustracje, źródła, materiały) są prowadzone **wyłącznie w tym pliku** – w treści podręcznika nie ma już ramek „Do przygotowania”. Makro `\material{}` i przełącznik `\robocza…` w `skrypt-kierownik.tex` pozostały, ale nie są używane.
 
 ## Plan bloków i status
 
@@ -34,14 +33,15 @@ Ramki wyłącza się przed drukiem: w `skrypt-kierownik.tex` trzeba zmienić `\r
 6. ~~**Wyłączanie z eksploatacji**~~ – **rozstrzygnięte**: rozdział przepisany wg K-1 (wrzesień 2025) i K-5 (maj 2025): ECM, wyłączenie z użytkowania → dopuszczenie do użytkowania (zał. 3 cz. II) → przywrócenie do eksploatacji (zał. 3 cz. III). „Świadectwo sprawności technicznej” usunięte.
 7. ~~**Płozy hamulcowe**~~ – **rozstrzygnięte**: na taborze KŚ stosuje się płóz uniwersalny PL3; pozostałe typy opisane krótko „dla informacji”. Drobna niejasność: lista szyn dla PL2 (podręcznik „8, 15, 40, S60”, prezentacja „8, 15, S60, R65”) – zostawiona wersja z podręcznika.
 8. ~~**Przykład rozkładu jazdy**~~ – **rozstrzygnięte**: przesyłką nadzwyczajną jest pojazd przekraczający skrajnię taboru (poprawiony podpis rysunku).
-9. **Grafiki skrajni** (sl. 6 i 7) zawierają błędy: „wyoszenie” zamiast „wychylenie”, odwrócone wychylenie wewnętrzne i zewnętrzne, „tor toru”, puste opisy „mm”. Nie wstawiłem ich; w rozdziale 1 są ramki „Do przygotowania”.
+9. **Grafiki skrajni** (sl. 6 i 7) zawierają błędy: „wyoszenie” zamiast „wychylenie”, „tor toru”, puste opisy „mm” (sl. 7). **Sl. 6 – częściowo rozstrzygnięte**: zamiast grafiki jest własny rysunek TikZ (rys. „Wychylenia wagonu na łuku”). Uwaga: grafika na sl. 6 przypisuje wychylenie wewnętrzne do środka wagonu, a zewnętrzne do końców – **to jest poprawne** (pudło między czopami skrętu jest cięciwą łuku). Błędny był tekst slajdu i podręcznika („środek na zewnątrz, końce do wewnątrz”) – poprawiony w podręczniku; tekst na sl. 6 warto poprawić. Sl. 7 (skrajnia ładunkowa z wymiarami) – zastąpiona własnym rysunkiem TikZ wg Ir-10, zał. 2 i 3.
+   Ramki „Do przygotowania” usunięto z treści podręcznika (27.11.2026) – lista braków jest tylko w tym pliku.
 10. ~~**Ikony na slajdach**~~ – **nie dotyczy**: podręcznik jest wyłącznie dla kierownika pociągu.
 
 ## Materiały do przygotowania – według rozdziałów
 
 ### 1. Przesyłki nadzwyczajne (zrobione – zostały braki)
-- [ ] Poprawiony rysunek **skrajni dynamicznej** (widok z góry, wagon w łuku), bez błędów z sl. 6.
-- [ ] Rysunek **skrajni ładunkowej z wymiarami** (UIC 505-1 / Ir-10) zamiast sl. 7 z pustymi „mm”.
+- [x] Poprawiony rysunek **skrajni dynamicznej** (widok z góry, wagon w łuku) – własny rysunek TikZ w `tabor.tex`.
+- [x] Rysunek **skrajni ładunkowej z wymiarami** zamiast sl. 7 z pustymi „mm” – własny rysunek TikZ (krajowa PKP PLK i międzynarodowa) wg Ir-10 (wyd. 12.2025), zał. nr 2 i 3. UIC 505-1 dotyczy skrajni taboru (profil kinematyczny), nie ładunkowej – nie była źródłem wymiarów.
 - [ ] **Zdjęcia przesyłek nadzwyczajnych**, własne albo z pisemną zgodą autorów: ładunek ponadgabarytowy, wagon z zagłębioną podłogą, ławy pokrętne, szyny > 36 m, pojazd na własnych kołach. Zdjęcia na sl. 9–17 pochodzą z mediów (Energa, V. Vyskočil, Elkol i in.).
 - [ ] **Opis oznaczeń** na wzorze R266 (sl. 25) i źródło wzoru (Ir-10, który załącznik).
 
