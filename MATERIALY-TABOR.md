@@ -56,6 +56,7 @@ Braki (ilustracje, źródła, materiały) są prowadzone **wyłącznie w tym pli
 - [ ] **Rysunek budowy wagonu** (sl. 49) bez zniekształconego logo i barw PKP Intercity – wersja KŚ lub neutralna.
 - [ ] Zdjęcia **pojazdu pomocniczego** i **szynowo-drogowego** (sl. 47–48 to zdjęcia producentów, m.in. Elkol).
 - [ ] Potwierdzenie autorstwa: schematy EZT na wózkach klasycznych / Jakobsa (sl. 56, 58), zdjęcie wózka Jakobsa (sl. 59), model sprzęgu śrubowego (sl. 61).
+- [x] Schemat pantografu nożycowego i połówkowego z opisem części – własny rysunek TikZ (rys. „Budowa pantografu nożycowego i połówkowego”). Wikipedia (Odbierak prądu) ma tylko zdjęcia (CC BY-SA), bez schematów – posłużyła jako odniesienie do układu ramion.
 - [ ] Opcjonalnie: lepsze zdjęcie pantografu z opisem (zdjęcie ze sl. 63 ma tylko 400 × 180 px).
 
 ### 4. Warunki techniczne taboru (sl. 64–73) (zrobione – zostały braki)

@@ -710,11 +710,6 @@ Po sprzęgnięciu czoła głowic tworzą sztywne połączenie bez luzów, a zł�
 Odbieraki prądu pojazdów szynowych to aparaty służące do ruchomego połączenia stykowego sieci trakcyjnej z elektrycznym obwodem głównym pojazdu trakcyjnego. Rozróżnia się odbieraki górne, zwane również pantografami (ang. pantograph), czyli te współpracujące z siecią trakcyjną napowietrzną oraz odbieraki dolne do poboru energii z tak zwanej trzeciej szyny prądowej, która prowadzona jest równolegle do szyn toru na ich poziomie. 
 Pantografy są najpopularniejsze w kolejnictwie oraz komunikacji tramwajowej. Odbieraki dolne, używane są głównie na liniach metra oraz szybkich kolei miejskich, gdzie do infrastruktury nie mają dostępu osoby postronne. 
 
-\begin{figure}
-	\includegraphics[width=0.45\textwidth]{skryptkierownik-img/kolodbierakschem1.png}
-	\caption{Odbierak o konstrukcji ramy - nożycowej. Źródło: www.transportszynowy.pl}
-	\label{fig:pantograf1}
-\end{figure}
 
 Odbieraki prądu górne składają się z trzech głównych elementów: podstawy z napędem, ramy przegubowej i ślizgacza. 
 \begin{itemize}
@@ -723,13 +718,104 @@ Odbieraki prądu górne składają się z trzech głównych elementów: podstawy
 	\item Ruchoma \textbf{rama} przegubowa składa się z układu ramion połączonych przegubowo. Układ ten służy do regulacji pionowej wysokości ślizgacza oraz zapewnia jego docisk na skutek działania układu napędowego. 
 	
 	
-	\item \textbf{Ślizgacz} to część realizująca bezpośredni styk z przewodem jezdnym sieci trakcyjnej. Ślizgacz montowany jest do ramy przegubowej (ramion) elastycznie poprzez zastosowanie np. małego pantografu lub układu elementów sprężystych. Rozróżnia się ślizgacze pojedyncze, w których nakładki ślizgowe powiązane są ze sobą w sposób sztywny oraz ślizgacze bliźniacze w których zastosowane są dwa zestawy nakładek ślizgowych niezależnych lub powiązanych elastycznie. 
+	\item \textbf{Ślizgacz} to część realizująca bezpośredni styk z przewodem jezdnym sieci trakcyjnej. Ślizgacz montowany jest do ramy przegubowej (ramion) elastycznie poprzez zastosowanie np. małego pantografu lub układu elementów sprężystych. Rozróżnia się ślizgacze pojedyncze, w których nakładki ślizgowe powiązane są ze sobą w sposób sztywny oraz ślizgacze bliźniacze w których zastosowane są dwa zestawy nakładek ślizgowych niezależnych lub powiązanych elastycznie.
 \end{itemize}
+
+Rama przegubowa może mieć dwie podstawowe konstrukcje (rys. \ref{fig:pantografy-schemat}). W \textbf{pantografie nożycowym} (dwuramiennym, starszym) dwie pary ramion – dolnych i górnych – tworzą romb, którego wierzchołek niesie ślizgacz. W \textbf{pantografie połówkowym} (jednoramiennym) jest tylko jedno łamane ramię: ramię dolne i ramię górne połączone przegubem, a drążki prowadzące utrzymują ślizgacz w poziomie na każdej wysokości. Pantograf połówkowy jest lżejszy, ma mniejszy opór powietrza i lepiej utrzymuje docisk przy dużych prędkościach, dlatego stosuje się go we współczesnych pojazdach.
+
 \begin{figure}
-	\includegraphics[width=0.45\textwidth]{skryptkierownik-img/kolodbierakschem2.png}
-	\caption{Odbierak o konstrukcji ramy - pantografowej. Źródło: www.transportszynowy.pl}
-	\label{fig:pantograf2}
-\end{figure}	
+	\centering
+	\begin{tikzpicture}[x=1.25cm, y=1.25cm, every node/.style={font=\scriptsize},
+		dach/.style={line width=2pt, black!45},
+		izol/.style={fill=black!25, draw=black!60},
+		rama/.style={line width=1.6pt, black!80},
+		ramie/.style={line width=2.2pt, blue!55!black},
+		ramieg/.style={line width=1.5pt, blue!55!black},
+		drazek/.style={line width=0.8pt, blue!40!black},
+		przegub/.style={circle, fill=white, draw=black, inner sep=1.2pt},
+		nakl/.style={fill=black!75},
+		siec/.style={line width=1pt, orange!80!black},
+		opis/.style={thin, black!60},
+		sprezyna/.pic={\draw[thin] (0,0) -- (0.05,0.04) -- (-0.05,0.09) -- (0.05,0.14) -- (-0.05,0.19) -- (0.05,0.24) -- (0,0.3);}]
+		% ===================== a) pantograf nożycowy =====================
+		\begin{scope}
+			\draw[siec] (-0.3,4.1) -- (4.8,4.1);
+			\node[above right, text=orange!60!black] at (-0.3,4.1) {przewód jezdny};
+			\draw[dach] (-0.3,0) -- (4.8,0);
+			\node[below right, text=black!60] at (-0.3,0) {dach pojazdu};
+			\draw[izol] (0.55,0) rectangle (0.85,0.4);
+			\draw[izol] (3.65,0) rectangle (3.95,0.4);
+			\draw[rama, fill=black!10] (0.4,0.4) rectangle (4.1,0.6);
+			% napęd
+			\draw[fill=green!15, draw=green!40!black] (1.95,0.6) rectangle (2.55,0.95);
+			% ramiona dolne i górne (romb)
+			\draw[ramie] (1.3,0.6) -- (0.5,2.2);
+			\draw[ramie] (3.2,0.6) -- (4.0,2.2);
+			\draw[ramieg] (0.5,2.2) -- (1.9,3.55);
+			\draw[ramieg] (4.0,2.2) -- (2.6,3.55);
+			\draw[ramieg] (1.9,3.55) -- (2.6,3.55);
+			% połączenie ślizgacza (sprężyny) i nakładki
+			\pic at (2.0,3.55) {sprezyna};
+			\pic at (2.5,3.55) {sprezyna};
+			\draw[line width=1pt] (1.75,3.85) -- (2.75,3.85);
+			\fill[nakl] (1.8,3.85) rectangle (2.05,4.08);
+			\fill[nakl] (2.45,3.85) rectangle (2.7,4.08);
+			% przeguby
+			\foreach \p in {(1.3,0.6),(3.2,0.6),(0.5,2.2),(4.0,2.2),(1.9,3.55),(2.6,3.55)} \node[przegub] at \p {};
+			% opisy
+			\draw[opis] (2.25,4.0) -- (3.4,4.6) node[right] {ślizgacz z nakładkami};
+			\draw[opis] (3.3,2.9) -- (4.4,3.3) node[right] {ramię górne};
+			\draw[opis] (3.6,1.4) -- (4.4,1.6) node[right] {ramię dolne};
+			\draw[opis] (4.0,2.2) -- (4.4,2.4) node[right] {przegub};
+			\draw[opis] (2.25,0.8) -- (2.25,1.5) node[above, align=center] {napęd\\(siłownik, sprężyny)};
+			\draw[opis] (4.1,0.5) -- (4.6,0.75) node[right] {podstawa};
+			\draw[opis] (3.95,0.2) -- (4.6,0.25) node[right] {izolator};
+			\node[align=center, font=\footnotesize\bfseries] at (2.25,-0.5) {a) pantograf nożycowy};
+		\end{scope}
+		% ===================== b) pantograf połówkowy =====================
+		\begin{scope}[yshift=-7cm]
+			\draw[siec] (-0.3,4.1) -- (4.8,4.1);
+			\node[above right, text=orange!60!black] at (-0.3,4.1) {przewód jezdny};
+			\draw[dach] (-0.3,0) -- (4.8,0);
+			\node[below right, text=black!60] at (-0.3,0) {dach pojazdu};
+			\draw[izol] (0.45,0) rectangle (0.75,0.4);
+			\draw[izol] (3.45,0) rectangle (3.75,0.4);
+			\draw[rama, fill=black!10] (0.3,0.4) rectangle (3.9,0.6);
+			% napęd (miech/siłownik) i lina do ramienia dolnego
+			\draw[fill=green!15, draw=green!40!black] (1.7,0.6) rectangle (2.6,0.95);
+			\draw[thin, green!40!black] (1.7,0.78) -- (1.0,0.95);
+			% drążek sterujący (pod ramieniem dolnym)
+			\draw[drazek] (1.35,0.6) -- (3.7,1.95);
+			% ramię dolne
+			\draw[ramie] (0.9,0.65) -- (3.45,2.2);
+			% ramię górne (z krótkim przedłużeniem za przegubem)
+			\draw[ramieg] (3.75,1.95) -- (3.45,2.2) -- (1.2,3.6);
+			% drążek prowadzący ślizgacz
+			\draw[drazek] (3.1,2.25) -- (1.35,3.4);
+			% ślizgacz
+			\pic[yscale=0.83] at (1.2,3.6) {sprezyna};
+			\draw[line width=1pt] (0.75,3.85) -- (1.65,3.85);
+			\fill[nakl] (0.8,3.85) rectangle (1.05,4.08);
+			\fill[nakl] (1.35,3.85) rectangle (1.6,4.08);
+			% przeguby
+			\foreach \p in {(0.9,0.65),(1.35,0.6),(3.45,2.2),(3.75,1.95),(1.2,3.6)} \node[przegub] at \p {};
+			% opisy
+			\draw[opis] (1.2,4.0) -- (2.2,4.6) node[right] {ślizgacz z nakładkami};
+			\draw[opis] (2.4,2.85) -- (3.3,3.3) node[right] {ramię górne};
+			\draw[opis] (1.8,2.95) -- (2.3,3.75) node[right] {drążek prowadzący ślizgacz};
+			\draw[opis] (3.45,2.2) -- (4.1,2.6) node[right] {przegub (kolano)};
+			\draw[opis] (2.2,1.55) -- (4.1,1.85) node[right] {ramię dolne};
+			\draw[opis] (2.8,1.4) -- (4.1,1.35) node[right] {drążek sterujący};
+			\draw[opis] (2.15,0.8) -- (2.15,0.85) -- (4.1,0.95) node[right] {napęd pneumatyczny};
+			\draw[opis] (3.9,0.5) -- (4.1,0.55) node[right] {podstawa};
+			\draw[opis] (3.75,0.2) -- (4.1,0.2) node[right] {izolator};
+			\node[align=center, font=\footnotesize\bfseries] at (2.0,-0.5) {b) pantograf połówkowy};
+		\end{scope}
+	\end{tikzpicture}
+	\caption{Budowa pantografu nożycowego (a) i połówkowego (b) – schemat, widok z boku. Obie konstrukcje mają podstawę na izolatorach, napęd podnoszący, ramę przegubową i ślizgacz z nakładkami dociskanymi do przewodu jezdnego}
+	\label{fig:pantografy-schemat}
+\end{figure}
+
 Nakładki ślizgowe to elementy bezpośrednio stykające się z przewodem jezdnym. Wykonane są ze sprasowanego grafitu (węgla metalizowanego, węgla twardego). Parametry nakładek muszą być odporne na nagrzewanie i spełniać wymagania dotyczące obciążalności prądowej. W przypadku stosowania nakładek miedzianych ślizgacz pokrywa się warstwą smaru grafitowego, który zmniejsza rezystancję i tarcie, a jednocześnie jest źródłem bardzo widocznych zabrudzeń pojazdów. 
 Po zewnętrznych stronach ślizgaczy znajdują się nabieżniki, które służą do wprowadzania przewodu jezdnego dochodzącego z boku na część roboczą ślizgacza. 
 
