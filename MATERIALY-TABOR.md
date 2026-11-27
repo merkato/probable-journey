@@ -12,7 +12,7 @@ Ramki wyłącza się przed drukiem: w `skrypt-kierownik.tex` trzeba zmienić `\r
 | 1 | Przesyłki nadzwyczajne (2–26) | 1. Ogólne zasady przewozu przesyłek nadzwyczajnych | **zrobione** |
 | 2 | Przesyłki niebezpieczne (27–43) | 2. Ogólne zasady przewozu przesyłek niebezpiecznych | **zrobione** |
 | 3 | Pojazdy kolejowe i budowa taboru (44–63) | 3. Budowa taboru pasażerskiego | **zrobione** |
-| 4 | Warunki techniczne taboru (64–73) | 3.x Warunki techniczne… → osobny rozdział | do zrobienia |
+| 4 | Warunki techniczne taboru (64–73) | 4. Warunki techniczne, jakim powinien odpowiadać tabor pasażerski (osobny rozdział) | **zrobione** – zostały braki |
 | 5 | Oznakowanie i symbole na taborze (74–91) | nowy rozdział (dziś jest to podrozdział + tabele w „Rodzajach hamulców”) | do zrobienia |
 | 6 | Wyłączanie taboru z eksploatacji (92–98) | 4. Utrzymanie taboru, wyłączanie i przywracanie do eksploatacji (wg K-1 09.2025 i K-5 05.2025) | **zrobione** |
 | 7 | Oględziny techniczne i zestawianie pociągów (99–129) | Oględziny techniczne pociągu pasażerskiego | do zrobienia |
@@ -29,7 +29,7 @@ Ramki wyłącza się przed drukiem: w `skrypt-kierownik.tex` trzeba zmienić `\r
 1. ~~**Hamulec ep**~~ – **rozstrzygnięte**: zespolony, ale niesamoczynny (poprawione w rozdziale „Rodzaje hamulców”).
 2. ~~**Masa ogólna pociągu**~~ – **rozstrzygnięte**: poprawna jest wersja w podręczniku (> 120 km/h, < 200 t, wagon sterowniczy); w prezentacji jest uproszczenie. Bez zmian.
 3. ~~**Próba uproszczona**~~ – **rozstrzygnięte**: K-5 § 11 ust. 7 nie wymienia przypadku „po użyciu hamulca bezpieczeństwa” – bez zmian. **Blok 10 – rozbieżności z K-5 § 11–14 poprawione**: 12 h → 24 h, usunięte 2 przypadki próby uproszczonej spoza K-5 (sieć stała, przewód zasilający „R+Mg”) oraz „stacje wyznaczone w rozkładzie”; dopisane: ważność próby szczegółowej 24 h, kto wykonuje próbę szczegółową (rewident lub kierownik pociągu przy współudziale maszynisty), wartości ciśnień i szczelności (0,48 MPa; 0,05 MPa/5 min; 0,07 MPa/5 min; ep 0,10–0,15 MPa). Pełna przebudowa bloku 10 wg prezentacji – nadal do zrobienia.
-4. ~~**Nalepy i płaskie miejsca**~~ – **rozstrzygnięte**: obie wartości są poprawne – 60 mm wg Ir-1 oraz 35 mm i jazda do stacji ≤ 20 km/h wg K-3 (instrukcja wewnętrzna KŚ). Dopisane w warunkach technicznych.
+4. ~~**Nalepy i płaskie miejsca**~~ – **rozstrzygnięte**: obie wartości są poprawne – 60 mm wg Ir-1 oraz 35 mm wg K-3 (instrukcja wewnętrzna KŚ). Jazda do najbliższej stacji ≤ 20 km/h wynika z Ir-1 § 76 ust. 6 (nie z K-3) – poprawione w rozdziale o warunkach technicznych.
 5. ~~**Jazda po zdarzeniu z prędkością 30 km/h**~~ – **rozstrzygnięte**: podstawą jest K-1 § 18 ust. 2 (awaria bez wykolejenia – do najbliższej stacji ≤ 30 km/h, decyzja rewidenta) oraz K-5 § 23 ust. 2 (po wykolejeniu – do punktu naprawy ≤ 30 km/h).
 6. ~~**Wyłączanie z eksploatacji**~~ – **rozstrzygnięte**: rozdział przepisany wg K-1 (wrzesień 2025) i K-5 (maj 2025): ECM, wyłączenie z użytkowania → dopuszczenie do użytkowania (zał. 3 cz. II) → przywrócenie do eksploatacji (zał. 3 cz. III). „Świadectwo sprawności technicznej” usunięte.
 7. ~~**Płozy hamulcowe**~~ – **rozstrzygnięte**: na taborze KŚ stosuje się płóz uniwersalny PL3; pozostałe typy opisane krótko „dla informacji”. Drobna niejasność: lista szyn dla PL2 (podręcznik „8, 15, 40, S60”, prezentacja „8, 15, S60, R65”) – zostawiona wersja z podręcznika.
@@ -58,12 +58,14 @@ Ramki wyłącza się przed drukiem: w `skrypt-kierownik.tex` trzeba zmienić `\r
 - [ ] Potwierdzenie autorstwa: schematy EZT na wózkach klasycznych / Jakobsa (sl. 56, 58), zdjęcie wózka Jakobsa (sl. 59), model sprzęgu śrubowego (sl. 61).
 - [ ] Opcjonalnie: lepsze zdjęcie pantografu z opisem (zdjęcie ze sl. 63 ma tylko 400 × 180 px).
 
-### 4. Warunki techniczne taboru (sl. 64–73)
+### 4. Warunki techniczne taboru (sl. 64–73) (zrobione – zostały braki)
+- [x] Osobny rozdział: przestrzeń berneńska, blokada drzwi (UIC 560, TSI LOC&PAS, TB0/TB-S, ramka dla kierownika pociągu), zestaw kołowy z ramką Ir-1 § 76 (rytmiczne stuki, ślizganie kół, 20 km/h), łożyska i usprężynowanie, drzwi i gaśnice.
+- [x] Rozstrzygnięcie punktu 4 z listy rozbieżności.
+- [ ] Zdjęcia osi zestawu kołowego z miejscami kontroli oraz płaskiego miejsca, nalepu i wyłupania z miarką (lista ilustracji).
 - [ ] Zdjęcia: zamek skrzydła drzwi, napęd z ryglem, sterownik drzwi nad wejściem (sl. 67–69), z informacją o typie pojazdu.
 - [ ] Rysunek **przestrzeni berneńskiej** (sl. 65) w czytelnej rozdzielczości.
 - [ ] Zdjęcia uszkodzeń zestawu kołowego: nalepy, rowek kontrolny, znaki kontrolne obręczy (sl. 70–73). Część jest w `rr/` i `photo-src/` – trzeba potwierdzić, które wykorzystać.
 - [ ] Wzory nalepek **R1** i **M** (skan lub rysunek).
-- [ ] Rozstrzygnięcie punktu 4 z listy rozbieżności (60 mm czy 35 mm).
 
 ### 5. Oznakowanie i symbole na taborze (sl. 74–91)
 - [ ] Pliki źródłowe grafik `01_uklad_oznaczen` … `12_woda_wc` (PNG/SVG) – rysunki autorskie, nadają się do podręcznika bez zmian.
